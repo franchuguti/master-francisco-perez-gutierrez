@@ -1,0 +1,137 @@
+html{
+  background-color: #f8f8f8;
+}
+header{
+  margin-bottom: 40px;
+}
+p.soy-yo{
+  background-color: aquamarine;
+  padding-left: 40px;
+  margin: 30px;
+}
+#preguntas-frecuentes{
+  background-color: darksalmon;
+  padding-left: 50px;
+  margin: 20px;
+
+} /* La clase soy yo dentro del elemento p*/
+table{
+    width: 80%;
+    text-align: center;
+}
+table th{
+    background-color: aquamarine;
+    font-size: 150%;
+}
+img {
+    opacity: 0.5;
+  } 
+  img:hover {
+    opacity: 1.0;
+  }
+.cm{
+  background-color:bisque;
+  width:10cm;
+  height:10cm;  
+}
+.mm{
+  background-color: green;
+  width:100mm;
+  height:100mm;
+}
+.in{
+  background-color: rgb(152, 199, 240);
+  width: 3.94in;
+  height: 3.94in;
+}
+.px{
+  background-color: brown;
+  width: 378px;
+  height: 378px;
+}
+.pt{
+  background-color: chocolate;
+  width: 288pt;
+  height: 288pt;
+}
+.pc{
+  background-color: cyan;
+  width: 24pc;
+  height: 24pc;
+}
+.Absolutas{
+  display: flex;
+}
+.em{
+  background-color: darkgrey;
+  width: 23em;
+  height: 23em;
+}
+.rem{
+  background-color: darkgreen;
+  width: 23rem;
+  height: 23rem;
+}
+.vh{
+  background-color: crimson;
+  width: 38vh;
+  height: 38vh;
+}
+.vw{
+  background-color: darkgoldenrod;
+  width: 50vw;
+  height: 50vw;
+}
+.porcentaje{
+  background-color: deeppink;
+  width: 50%;
+  height: 50%;
+}/*Porcentaje va determinado / afectado por el elemento padre*/
+
+ul>li{
+  border: 2pt solid rgb(129, 89, 14);
+  padding: 15px 40px;
+}
+nav>ul{
+  background-color: bisque;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 50px;
+  margin: 0px;
+  top: 0;
+  list-style-type: none;
+}
+div#imagenfalsa{
+  height: 400px;
+  width: 400px;
+  background-color: gray;
+  background-image: url(/imagenes/nike.png);
+  background-size: 200px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+div#zapatillafalsa{
+  height: 400px;
+  width: 400px;
+  background-color: gray;
+  background-image: url(/imagenes/zapatilla2.png);
+  margin: auto;
+  background-size: 200px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+[target=_blank]{
+  color: chocolate;
+  background-image: url(/imagenes/external-link.png);
+  background-size: 1em;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  padding-right: 1.5em;
+}
+
