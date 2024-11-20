@@ -1,3 +1,12 @@
+:root{
+  --verde: rgb(165, 182, 141);
+  --cream:rgb(252, 250, 238);
+  --orange:rgb(218, 131, 89);
+  --marginsmall: margin: 20px;
+  --marginmedium: margin: 40px;
+  --fontsizeparraf: font-size: 16px;
+  --fontsizesubheading: font-size: 24px;
+}
 html{
   background-color: #f8f8f8;
 }
@@ -7,17 +16,17 @@ header{
 p.soy-yo{
   background-color: aquamarine;
   padding-left: 40px;
-  margin: 30px;
+  margin: var(--marginsmall);
 }
 #preguntas-frecuentes{
   background-color: darksalmon;
   padding-left: 50px;
   margin: 20px;
-
-} /* La clase soy yo dentro del elemento p*/
+}
 table{
     width: 80%;
     text-align: center;
+    filter: drop-shadow(30px 10px 4px var(--orange));
 }
 table th{
     background-color: aquamarine;
@@ -25,17 +34,18 @@ table th{
 }
 img {
     opacity: 0.5;
+    z-index: 0;
   } 
   img:hover {
     opacity: 1.0;
   }
 .cm{
-  background-color:bisque;
+  background-color: var(cream);
   width:10cm;
   height:10cm;  
 }
 .mm{
-  background-color: green;
+  background-color: var(--verde);
   width:100mm;
   height:100mm;
 }
@@ -45,12 +55,12 @@ img {
   height: 3.94in;
 }
 .px{
-  background-color: brown;
+  background-color: var(cream);
   width: 378px;
   height: 378px;
 }
 .pt{
-  background-color: chocolate;
+  background-color: var(orange);
   width: 288pt;
   height: 288pt;
 }
@@ -68,7 +78,7 @@ img {
   height: 23em;
 }
 .rem{
-  background-color: darkgreen;
+  background-color: darkvar(--verde);
   width: 23rem;
   height: 23rem;
 }
@@ -94,10 +104,12 @@ ul>li{
 }
 nav>ul{
   background-color: bisque;
+  opacity: 100%;
   position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  z-index: 1;
   width: 100%;
   height: 50px;
   margin: 0px;
@@ -127,11 +139,58 @@ div#zapatillafalsa{
   border-radius: 12px;
 }
 [target=_blank]{
-  color: chocolate;
+  color: var(--orange);
   background-image: url(/imagenes/external-link.png);
   background-size: 1em;
   background-position-x: right;
   background-repeat: no-repeat;
   padding-right: 1.5em;
 }
+/*Responsive*/
+p{
+  background-color: bisque;
+  font-size: var(--fontsizeparraf);
+  animation-name: cambiocolor;
+  animation-duration: 5s;
+  background-color: var(--cream);
+}
+@keyframes cambiocolor{
+  from{background-color: var(--cream);}
+  to{background-color:var(--orange);}
+}
+h1{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
 
+h1:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+@media all and (max-width: 700px){
+  p{
+    background-color: var(--verde);
+  }
+  nav>ul{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    position: relative;
+    block-size: fit-content;
+  }
+  nav>ul li{
+    margin: 8px 0px;
+  }
+  img{
+    width: max(100%, 1200px);
+  }
+}
+#bannerhome>h1{
+  width: calc(100% - 40px);
+}
