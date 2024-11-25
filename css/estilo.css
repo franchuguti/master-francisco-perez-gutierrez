@@ -18,6 +18,9 @@ p.soy-yo{
   padding-left: 40px;
   margin: var(--marginsmall);
 }
+.fotillo{
+  background-color: #3e8e41;
+}
 #preguntas-frecuentes{
   background-color: darksalmon;
   padding-left: 50px;

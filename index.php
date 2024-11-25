@@ -1,47 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta lang="es">
-    <meta charset="UTF-8">
-    <link href="/css/fonts.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido a mi Pagina</title>
-    <style>
-        h1{color: brown;
-        }
-        details{
-            width: 10%;
-        }
-        #informacion-principal{
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-        #bannerhome .h1small{
-            background-color: aqua;
-        }
-        div>p{
-            background-color: blueviolet;
-            color: antiquewhite;
-        }
-        .muchotexto .demasiado{
-            background-color: darkseagreen;
-            font-weight: 500;
-        }
-    </style>
-    <link rel="stylesheet" href="/css/estilo.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-               <li title="Inicio"><a href="/">Inicio<a/></li>
-               <li><a href="/sobre-mi.html">Sobre mi<a/></li>
-               <li><a href="/contacto.html">Contacto<a/></li>
-               <li><a href="/carpeta/archivo-carpeta.html">Archivo Carpeta<a/></li>
-               <li><a href="https://www.bbc.com" target="_blank">News<a/></li>
-           </ul>
-       </nav>
-    </header>
-    <br> <!--br para separar -->
+<?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
+?>
+    <h1>Bienvenid@</h1>
+
+    <?php 
+    $_SERVER['DOCUMENT_ROOT'];
+    $franciscoperez = "</p>Master de SEO";
+    $seo = "optiopnA";
+    $oes = "optionB";
+    echo "$franciscoperez tecnico, con la variable " . '$franciscoperez';
+    if ($seo==$oes){
+        echo "$franciscoperez tecnico, con la variable " . '$franciscoperez';
+    }  
+    else if($oes =='optionB') {
+        echo 'La variable $oes es igual a optionB y no es lo misom que la vbariable $seo';
+    }  
+    else{
+        echo 'No se cumple la condicion';
+    }
+    ?>
+    <br>
+    <?php
+    echo(round(1.23));
+    echo(round(0.76));  
+/*La funcion round() sirve para redondear a la cifra mas cecarna*/
+    echo '</p>Hola a todos';    
+?>
     <table style="border: 2px solid black;">
         <tr id="informacion-principal">
             <th>Names</th>
@@ -92,7 +76,7 @@
         </details>
     </section>
     <section>
-        <picture>
+        <picture class="fotillo">
                 <source type="image/avif" srcset="/imagenes/html-cheat.avif">
             <img src="/imagenes/html-cheat.avif" title="html-cheat" loading="lazy" alt="Html cheat" width="600" height="465">
         </picture>
@@ -105,11 +89,6 @@
             *Autoplay con sonido=molesto, pero se puede poner mute *preload almacena en cache para cargarlo antes-->
         </video>
     </section>
-    <footer>
-   <address>
-    (c) <a href="mailto:franchuguti22@gmail.com">Francisco Perez</a>
-    Londres, UK
-   </address>
-  </footer>    
-</body>
-</html> 
+    <?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/footer.php';
+    ?>

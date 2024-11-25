@@ -1,25 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta lang="es">
-    <meta charset="UTF-8">
-    <link href="/css/fonts.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Archivo de Carpeta</title>
-    <link rel="stylesheet" href="/css/estilo.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-               <li title="Inicio"><a href="/">Inicio<a/></li>
-               <li><a href="/sobre-mi.html">Sobre mi<a/></li>
-               <li><a href="/contacto.html">Contacto<a/></li>
-               <li><a href="/carpeta/archivo-carpeta.html">Archivo Carpeta<a/></li>
-               <li><a href="https://www.bbc.com" target="_blank">News<a/></li>
-           </ul>
-       </nav>
-   </header> 
+<?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
+?>
    <section>
     <span><h1>Archivo Carpeta</h1></span>
    <!--Es este span correcto? o sobra?-->
@@ -48,11 +29,7 @@
    <div>
     <div>Div dentro de div</div>
    </div>
- <footer>
-    <address>
-    (c) <a href="mailto:franchuguti22@gmail.com">Francisco Perez</a>
-    Londres, UK
-    </address>
- </footer>    
-</body>
-</html>
+   <?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/footer.php';
+    ?>   
+

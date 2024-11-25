@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta lang="es">
-    <meta charset="UTF-8">
-    <link href="/css/fonts.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilo.css">
-    <title>Sobre Mi</title>
-    <style>
-    .introd{
-        font-size: 30pt;
-        text-align: center;
-    }
-    </style>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-               <li title="Inicio"><a href="/">Inicio<a/></li>
-               <li class="intro"><a href="/sobre-mi.html">Sobre mi<a/></li>
-               <li><a href="/contacto.html">Contacto<a/></li>
-               <li><a href="/carpeta/archivo-carpeta.html">Archivo Carpeta<a/></li>
-               <li><a href="https://www.bbc.com" target="_blank">News<a/></li>
-           </ul>
-       </nav>
-    </header> 
+<?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
+?>
    <h1 class="introd" style="color: brown; margin-top: 50px;">Sobre mi</h1>
    <div>
         <img src="/imagenes/Fran-photo.jpeg" alt="Foto de Fran" width="200" height="auto">
@@ -35,7 +10,7 @@
     <br>
     <div id="zapatillafalsa">
     </div>
-    <div>    
+    <div> 
     <p class="soy-yo">Me llamo Francisco, naci el 22 de Julio del 90 (hace tiempo ya) en la ciudad de Salamanca. <blockquote>Esto de aqui es una cita</blockquote> un <strong>obsesionado</strong> de la escalada y videojuegos.</p>
     </div>
     <section id="Rescue dog">
@@ -47,11 +22,6 @@
    <!--Espacio para comentarios aqui:
         *Por alguna razon, Sobre mi  y Contacto me estan dando guerra. Al abrir una e intentar volver a la otra, me dice que no se encuentra la carpeta.
         -->
-  <footer>
-    <address>
-      (c) <a href="mailto:franchuguti22@gmail.com">Francisco Perez</a>
-      Londres, UK
-    </address>
-   </footer>      
-</body>
-</html>
+    <?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/footer.php';
+    ?>  

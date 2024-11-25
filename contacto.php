@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta lang="es">
-    <meta charset="UTF-8">
-    <link href="/css/fonts.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilo.css">
-    <title>Contacto</title>
-</head>
+<?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
+?>
 <body>
     <header>
         <nav>
@@ -26,11 +19,6 @@
     <p>Para contactar: <a href="mailto:franchuguti22@gmail.com,">Enviar email</a></p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nulla odit alias officiis error, nam exercitationem maiores modi itaque, voluptates labore natus aperiam. Fugiat mollitia facilis placeat accusantium quisquam non?</p>
    </div>
-   <footer>
-    <address>
-    (c) <a href="mailto:franchuguti22@gmail.com">Francisco Perez</a>
-    Londres, UK
-    </address>
-   </footer>     
-</body>
-</html>
+   <?php 
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/footer.php';
+    ?>   
