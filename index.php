@@ -13,12 +13,16 @@
         echo "$franciscoperez tecnico, con la variable " . '$franciscoperez';
     }  
     else if($oes =='optionB') {
-        echo 'La variable $oes es igual a optionB y no es lo misom que la vbariable $seo';
+        echo 'La variable $oes es igual a optionB y no es lo misom que la vbariable $seo ';
     }  
     else{
         echo 'No se cumple la condicion';
+    } 
+    function que_dia_es_hoy(){
+        echo 'Today is ' . date('l');
     }
     ?>
+        <div class="today"> <?php que_dia_es_hoy();?></div>
     <br>
     <?php
     echo(round(1.23));
