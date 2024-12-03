@@ -1,5 +1,9 @@
 <?php 
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
+    define("enlaceinicio", "/index.php");
+    define("enlacecontacto", "/contacto.php");
+    define("enlacesobremi","/sobre-mi.php");
+    define("nuevacarpeta","/carpeta/archivo-carpeta.php");
 ?>
 <body>
     <header>

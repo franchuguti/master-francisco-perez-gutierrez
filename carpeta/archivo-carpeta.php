@@ -1,4 +1,5 @@
 <?php 
+    header("Location: https://carlos.sanchezdonate.com/como-funciona-una-web/");
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 ?>
    <section>

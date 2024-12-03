@@ -10,8 +10,13 @@
 html{
   background-color: #f8f8f8;
 }
+.today{
+  font-weight: 800;
+  font-size: 24px;
+}
 header{
   margin-bottom: 40px;
+  margin-top: 50px;
 }
 p.soy-yo{
   background-color: aquamarine;

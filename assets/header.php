@@ -5,7 +5,32 @@
     <meta charset="UTF-8">
     <link href="/css/fonts.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenido a mi Pagina</title>
+    <title>
+    <?php 
+        if   (empty ($title)){
+            echo "No Hay proyecto";
+        }
+        else {
+            echo "$title";
+        }
+    include_once $_SERVER['DOCUMENT_ROOT'].'/assets/functions.php';
+    ?>    
+    </title>
+<?php
+    switch (constant("page")) {
+        case 'inicio':
+            echo '<!--Esto seria un css-->';
+            break;
+        case 'equipo':
+            echo '<!--Esto otro seria un css-->';
+            break;
+        
+        default:
+            # code...
+            break;
+    }
+?>
+
     <style>
         h1{color: brown;
         }

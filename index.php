@@ -1,8 +1,11 @@
 <?php 
-    include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
-?>
-    <h1>Bienvenid@</h1>
 
+$title = 'Proyecto de master de SEO';
+    define ("page", 'inicio');
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
+    include $_SERVER['DOCUMENT ROOT'].'/assets/tablassql.php';
+?>
+    <br>
     <?php 
     $_SERVER['DOCUMENT_ROOT'];
     $franciscoperez = "</p>Master de SEO";
@@ -21,13 +24,42 @@
     function que_dia_es_hoy(){
         echo 'Today is ' . date('l');
     }
+
+    $n1 = 7;
+    $n2 = 10;
+
+    if ($n1>$n2) {
+            echo "$n1 es mayor a $n2";
+    }
+    elseif ($n1==$n2) {
+            echo "son iguales";
+    }
+    else {
+        echo "$n1 no es mayor a $n2";
+    }
     ?>
         <div class="today"> <?php que_dia_es_hoy();?></div>
     <br>
+    
     <?php
-    echo(round(1.23));
-    echo(round(0.76));  
-/*La funcion round() sirve para redondear a la cifra mas cecarna*/
+    $capital = "Paris"; //Esto seria el switch con variables
+    switch ($capital) {
+        case 'Madrid':
+            echo 'Madrid es la capital de Spain';
+            break;
+        case 'Londres':
+            echo 'Londres es la capital de England';
+            break;
+        case 'Paris':
+            echo 'Paris es la capital de France';
+            break;
+        case 'Rome':
+            echo 'Rome es la capital de Italia';
+            break;
+        default:
+            echo 'No hemos podido encontrar esa capital, prueba otra';
+            break;
+    }
     echo '</p>Hola a todos';    
 ?>
     <table style="border: 2px solid black;">

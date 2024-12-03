@@ -1,4 +1,5 @@
 <?php 
+    define ("page", 'equipo');
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
 ?>
    <h1 class="introd" style="color: brown; margin-top: 50px;">Sobre mi</h1>
