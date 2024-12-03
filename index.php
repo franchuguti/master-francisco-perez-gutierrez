@@ -3,7 +3,7 @@
 $title = 'Proyecto de master de SEO';
     define ("page", 'inicio');
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
-    include $_SERVER['DOCUMENT ROOT'].'/assets/tablassql.php';
+    include $_SERVER['DOCUMENT_ROOT'].'/assets/tablassql.php';
 ?>
     <br>
     <?php 
