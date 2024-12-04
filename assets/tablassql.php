@@ -30,7 +30,7 @@ die("function mysql_connect : not exist in PHP");
 }
 }
 /* Section 4 : SQL Command */
-$sql = "select * from employees";
+$sql = "select * from products";
 $sql_type = 0; /* SQL type */
 if(isset($_GET["t"])) {
 $sql_type = $_GET["t"];

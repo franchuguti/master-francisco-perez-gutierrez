@@ -1,11 +1,26 @@
 <?php 
     define ("page", 'equipo');
+    define ("enlacecta1","/index.php");
+    define ("enlacecta2","/contacto.php");
+    define ("enlacecta3","/sobre-mi.php");
+    //$prueba ="Hola profes!";
+    $prueba;
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
+    cta();
+    if  (isset($prueba)){
+        echo 'Esta variable esta asignada';
+      }
+      else {
+     echo 'La variable $prueba no esta asignada';
+    }
 ?>
    <h1 class="introd" style="color: brown; margin-top: 50px;">Sobre mi</h1>
    <div>
-        <img src="/imagenes/Fran-photo.jpeg" alt="Foto de Fran" width="200" height="auto">
+        <img class="selfie" src="/imagenes/Fran-photo.jpeg" alt="Foto de Fran" width="200" height="auto">
     </div>
+    <?php
+       include $_SERVER['DOCUMENT_ROOT'].'/assets/tablassql.php';
+    ?>
     <div id="imagenfalsa">
     </div>
     <br>
@@ -20,9 +35,6 @@
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <!--Se puede insertar con embed y object (especialmente para recursos) tambien-->
     </section>
-   <!--Espacio para comentarios aqui:
-        *Por alguna razon, Sobre mi  y Contacto me estan dando guerra. Al abrir una e intentar volver a la otra, me dice que no se encuentra la carpeta.
-        -->
     <?php 
     include $_SERVER['DOCUMENT_ROOT'].'/assets/footer.php';
     ?>  

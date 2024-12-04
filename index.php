@@ -1,12 +1,16 @@
 <?php 
 
 $title = 'Proyecto de master de SEO';
-    define ("page", 'inicio');
+    define ("pagina", '/index.php');
+    define ("enlacecta1","/index.php");
+    define ("enlacecta2","/contacto.php");
+    define ("enlacecta3","/sobre-mi.php");
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
     include $_SERVER['DOCUMENT_ROOT'].'/assets/tablassql.php';
+
 ?>
     <br>
-    <?php 
+<?php 
     $_SERVER['DOCUMENT_ROOT'];
     $franciscoperez = "</p>Master de SEO";
     $seo = "optiopnA";
@@ -24,7 +28,28 @@ $title = 'Proyecto de master de SEO';
     function que_dia_es_hoy(){
         echo 'Today is ' . date('l');
     }
+?>
+<div>
+<?php 
+    $name = 'Francisco';
+    $isDev = true;
+    $age= 34;
+    $isOld = $age > 30;
+    $output = "Hola $name, con una edad de $age";
 
+        if ($isOld) {
+            echo "<h2> Eres viejo, lo siento </h2>";
+        }
+        else {
+            echo "<h2> Eres joven, felicidades! </h2>";
+        }
+    $outputAge = $isOld // - ?verdadero :falso
+        ? 'Eres viejo lo siento'
+        : 'Eres joven, felicidades';
+?>
+</div>
+<div><h2><?php $outputAge?></h2></div>
+<?php
     $n1 = 7;
     $n2 = 10;
 
@@ -37,11 +62,12 @@ $title = 'Proyecto de master de SEO';
     else {
         echo "$n1 no es mayor a $n2";
     }
-    ?>
+?>
         <div class="today"> <?php que_dia_es_hoy();?></div>
     <br>
     
-    <?php
+<?php
+    cta();
     $capital = "Paris"; //Esto seria el switch con variables
     switch ($capital) {
         case 'Madrid':
