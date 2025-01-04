@@ -1,5 +1,4 @@
 <?php 
-
 $title = 'Proyecto de master de SEO';
     define ("pagina", '/index.php');
     define ("enlacecta1","/index.php");
@@ -7,12 +6,12 @@ $title = 'Proyecto de master de SEO';
     define ("enlacecta3","/sobre-mi.php");
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
     include $_SERVER['DOCUMENT_ROOT'].'/assets/tablassql.php';
-
 ?>
-    <br>
 <?php 
     $_SERVER['DOCUMENT_ROOT'];
     $franciscoperez = "</p>Master de SEO";
+    $name = "Francisco";
+    $age = "34";
     $seo = "optiopnA";
     $oes = "optionB";
     echo "$franciscoperez tecnico, con la variable " . '$franciscoperez';
@@ -29,7 +28,86 @@ $title = 'Proyecto de master de SEO';
         echo 'Today is ' . date('l');
     }
 ?>
+<h1 class="javatest">
+    Mi nombre es es <?php echo $name .  'y mi edad es' . $age ;?>
+</h1>
 <div>
+ <p id="cambiador" class="camb">Esto cambiará por JS</p>
+</div>
+<div id="cambiante">    
+</div>
+<div class="efectofunciones" onclick="functionfran()">
+ Pulsa para cambiar
+</div>
+<p id="descuento"></p>
+<script>
+    let totalCompra = 120; 
+    let descuento;
+
+    if (totalCompra > 100) {
+  descuento = "Tienes un descuento del 20%";
+    } else if (totalCompra >= 50) {
+  descuento = "Tienes un descuento del 10%";
+    } else {
+  descuento = "No tienes descuento";
+    }
+document.getElementById("descuento").innerText = descuento;
+</script>
+<h2>Elige un color</h2>
+  <select id="colorSelector">
+    <option value="white">Light</option>
+    <option value="black">Dark</option>
+    <option value="skyblue">Azul</option>
+    <option value="lightgreen">Verde</option>
+  </select>
+<script>
+let theme = "dark";
+let backgroundColor;
+
+switch (theme) {
+  case "light":
+    backgroundColor = "#ffffff"; // Blanco Puro
+    break;
+  case "dark":
+    backgroundColor = "#000000"; // Negro puro
+    break;
+  case "blue":
+    backgroundColor = "#87CEEB"; // Azul claro
+    break;
+  case "green":
+    backgroundColor = "#98FB98"; // Verde claro
+    break;
+  default:
+    backgroundColor = "#f0f0f0"; // Gris 18%
+    break;
+}
+     const colorSelector = document.getElementById('colorSelector');
+    // Event listener para detectar cambios en el drop menu
+    colorSelector.addEventListener('change', function () {
+      const selectedColor = colorSelector.value;
+      document.body.style.backgroundColor = selectedColor;
+    });
+</script>
+<script>
+    const activador = document.getElementsByClassNamegetElementsByClassName("efectofunciones");
+activador[0].addEventListener("click", functionfran);
+function functionfran(){
+const collection = document.getElementsByClassName("pruebajs");
+for (let i = 0; i < collection.length; i++) 
+collection[i].classList.add("redjs");
+}
+</script>
+<div id="franciscotest"></div>
+<noscript>Código en noscript cpn php Mi nombre es es <?php echo $name .  'y mi edad es ' . $age ;?> </noscript>
+<p id="firstjs">Mi primer Javascript con onclick</p>
+<button type="button"
+    onclick='document.getElementById("firstjs").innerHTML="Ha funcionado"'>
+    Haz click aquí
+    </button>
+    <button type="button"
+    onclick='document.getElementById("firstjs").innerHTML="Ha funcionado otra vez!"'>
+    Haz click aquí de nuevo
+    </button>
 <?php 
     $name = 'Francisco';
     $isDev = true;
@@ -49,6 +127,74 @@ $title = 'Proyecto de master de SEO';
 ?>
 </div>
 <div><h2><?php $outputAge?></h2></div>
+<div class="pruebajsuno">
+    <h2 id="pruebas" class="pruebajs">Prueba de Javascript número uno</h2>
+</div>
+<div class="pruebajsdos">
+    <h3 class="pruebajs">Prueba de Javascript número dos</h3>
+</div>
+<div class="pruebajstres">
+    <h4 class="pruebajs">Prueba de Javascript número tres</h4>
+</div>
+<div class="pruebajscuatro">
+    <h5 class="pruebajs">Prueba de Javascript número cuatro</h5>
+<p><a href="https://www.google.es">Visita Google></a></p>
+</div>
+<script>
+    //document.getElementsByClassName("pruebajs")[1].innerHTML="Esto ha sido modificado por JS y con una clase y ocupa el 1 o segundo puesto";
+    //document.getElementById("pruebas").innerHTML="Esto ha sido modificado por JS y con un Id";
+   // document.getElementsByTagName("h4")[0].innerHTML="Esto ha sido modificado por JS y con una etiqueta h4";
+/*Código de Carlos - Quitar comentario para que tenga efecto*/
+    /*const collection = document.getElementsByClassName("pruebajs");
+    for (let i = 0; i < collection.length; i++) {
+    collection[i].innerHTML = "ESTO ES UN TEXTO DE JS codigo por la clase Multiplicado";
+    }*/
+</script>
+<!--Esto de aquí es una chuleta para el futuro-->
+<!--
+<script>
+// Seleccionar elemento por ID
+document.getElementById("jsasdrubal").innerHTML = "ESTO ES UN TEXTO DE JS";
+
+// Selecciona elemento por Clase
+document.getElementsByClassName("pruebaclassjs")[i].innerHTML = "ESTO ES UN TEXTO DE JS codigo por la clase";
+
+// Muchas clases
+const collection = document.getElementsByClassName("pruebaclassjs");
+for (let i = 0; i < collection.length; i++) {
+collection[i].innerHTML = "ESTO ES UN TEXTO DE JS codigo por la clase Multiplicado";
+}
+
+// Un solo tag
+document.getElementsByTagName("h2")[0].innerHTML = "Esto es un h2 modificado por js";
+
+const collection = document.getElementsByTagName("h2");
+for (let i = 0; i < collection.length; i++) {
+collection[i].innerHTML = "Esto es son muchos h2 modificado por js";
+}
+
+const collection = document.getElementsByTagName("h1");
+document.getElementById("h1dice").innerHTML = collection[0].innerHTML;
+</script>
+-->
+<script>
+    //document.querySelector(".pruebajstres").innerHTML="Modificado con el query selector y una clase";
+    /*const collection = document.querySelectorAll(".pruebajs");
+    for (let i = 0; i < collection.length; i++) {
+    collection[i].innerHTML = "Modificando todas las clases a través del Query Selector";
+    }*/
+    /*const collection = document.querySelectorAll('a[href^="https:"]');
+    for (let i = 0; i < collection.length; i++) {
+    collection[i].innerHTML = "Modificando atriibuto href específico https a través del Query Selector";
+    }*/
+   const navig = document.querySelectorAll("nav>ul");
+    for (let i = 0; i < navig.length; i++) {
+    navig[i].innerHTML ="La ul dentro del nav ha sido modificada por medio de Javascript, ya no hay nav, lo siento";
+    }
+    //classList.add or .remove va a anadir o quitar una clase nueva a la que ya existe
+    let cafecito = 'Esto se ha definido con let'; //Se recomineda utilizar let generiicamente
+    var cervecita = 'Esto se ha definido con var'; 
+</script>
 <?php
     $n1 = 7;
     $n2 = 10;
@@ -64,8 +210,7 @@ $title = 'Proyecto de master de SEO';
     }
 ?>
         <div class="today"> <?php que_dia_es_hoy();?></div>
-    <br>
-    
+    <br> 
 <?php
     cta();
     $capital = "Paris"; //Esto seria el switch con variables
@@ -123,6 +268,9 @@ $title = 'Proyecto de master de SEO';
                 <p>Esto es un p</p> perodentro de un div<div>con un div dentro</div></div>
         </div>
     </section>
+        <div>
+             <h2 id="javatest"></h2>   
+        </div>
     <section class="muchotexto">
         <p class="demasiado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, architecto eius! Ipsum pariatur doloribus laboriosam sunt ratione amet rerum quae cumque fugiat, exercitationem blanditiis nemo distinctio fuga voluptates dolor aperiam.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, architecto eius! Ipsum pariatur doloribus laboriosam sunt ratione amet rerum quae cumque fugiat, exercitationem blanditiis nemo distinctio fuga voluptates dolor aperiam.</p>
@@ -154,3 +302,4 @@ $title = 'Proyecto de master de SEO';
     <?php 
     include $_SERVER['DOCUMENT_ROOT'].'/assets/footer.php';
     ?>
+<script src="/scripts/pruebas.js"></script>

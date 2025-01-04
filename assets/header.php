@@ -42,14 +42,13 @@
     <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
-
     <header>
         <nav>
             <ul>
                <li title="Inicio"><a href="/">Inicio<a/></li>
-               <li><a href="/sobre-mi.php">Sobre mi<a/></li>
-               <li><a href="/contacto.php">Contacto<a/></li>
-               <li><a href="/carpeta/archivo-carpeta.php">Archivo Carpeta<a/></li>
+               <li><a href="/sobre-mi">Sobre mi<a/></li>
+               <li><a href="/contacto">Contacto<a/></li>
+               <li><a href="/carpeta/archivo-carpeta">Archivo Carpeta<a/></li>
                <li><a href="https://www.bbc.com" target="_blank">News<a/></li>
            </ul>
        </nav>
