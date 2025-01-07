@@ -181,10 +181,6 @@ h1{
   transition: 0.3s;
 }
 
-h1:hover {
-  background-color: #3e8e41;
-  color: white;
-}
 .blocazo{
   display: flex;
   justify-content: space-between;

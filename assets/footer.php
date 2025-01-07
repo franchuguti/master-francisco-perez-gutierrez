@@ -4,10 +4,10 @@
     Londres, UK
    </address>
    <?php
-      if (defined('pagina')) { //Muestra el foot1 si la pagina esta definida pagina existe
+      /*if (defined('pagina')) { //Muestra el foot1 si la pagina esta definida pagina existe
         foot1();
     }
-      /*if (constant("pagina")) {
+      if (constant("pagina")) {
           foot1();}
           else {
           foot2();

@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <link href="/css/fonts.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <?php 
+   <?php
+   define('pagina', 'inicio');
    include_once $_SERVER['DOCUMENT_ROOT'].'/assets/functions.php'; //Archivo de funciones
    ?>
     <title>
@@ -41,6 +42,18 @@
     </style>
     <link rel="stylesheet" href="/css/estilo.css">
 </head>
+<?php
+        switch (constant("pagina")){
+            case 'inicio':
+                break;
+            case 'contacto':
+                echo '<link rel="stylesheet" type="text/css" href="/css/otro.css">';
+                break;
+            case 'basica':
+                echo '<link rel="stylesheet" type="text/css" href="/css/basica.css">';
+                break;
+        }
+?>
 <body>
     <header>
         <nav>
@@ -48,8 +61,8 @@
                <li title="Inicio"><a href="/">Inicio<a/></li>
                <li><a href="/sobre-mi">Sobre mi<a/></li>
                <li><a href="/contacto">Contacto<a/></li>
+               <li><a href="/basica">Web básica<a/></li>
                <li><a href="/carpeta/archivo-carpeta">Archivo Carpeta<a/></li>
-               <li><a href="https://www.bbc.com" target="_blank">News<a/></li>
            </ul>
        </nav>
     </header>
