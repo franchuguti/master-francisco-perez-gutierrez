@@ -1,0 +1,15 @@
+/*
+Theme Name: asdrubal
+Author: Alumno Master SEO Técnico
+Description: Tema personalizado alumno
+Version: 1.3
+*/
+.navbar{
+    display: flex;
+}
+ul{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+}

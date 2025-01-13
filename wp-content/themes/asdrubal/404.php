@@ -1,0 +1,1 @@
+<h1>Sorry, esto es un 404, sigue buscando</h1>
