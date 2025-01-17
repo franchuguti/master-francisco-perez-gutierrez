@@ -1,7 +1,7 @@
 <?php
     //include_once __DIR__ . ()'/../header.php');
     get_header();
-    /* Template Name: dinero*/
+    /* Template Name: dinero */
 ?>
 <div class="generico"> Precios rebajados </div>
 <div>
@@ -15,4 +15,4 @@
 <?php
     //include_once __DIR__ . ()'/../footer.php');
     get_footer();
-?>
+?> 

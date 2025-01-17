@@ -8,6 +8,8 @@
         <?php
             echo the_content();
         ?>
+        
+      
     </section>
 </div>
 

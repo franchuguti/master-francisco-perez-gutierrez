@@ -4,12 +4,40 @@ Author: Alumno Master SEO Técnico
 Description: Tema personalizado alumno
 Version: 1.3
 */
-.navbar{
-    display: flex;
+.flexcenter {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-evenly;
 }
-ul{
+.navbar {
+    display: flex;
+    background-color: red;
+}
+ul {
     display: flex;
     margin: auto;
     text-align: center;
     justify-content: space-between;
 }
+p {background-color: aqua;
+}
+.post-card a {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+    background: lightblue;
+    justify-content: space-around;
+    padding: 0px;
+}
+.post-card a .posts-name {
+    text-decoration: auto;
+    background: green;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+    min-height: 2em;
+}
+
