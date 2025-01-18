@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="'text/css" media="all">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="all">
 <?php
     wp_head();
 ?>
@@ -11,7 +11,10 @@
 <body>
     <header>
         <nav class="navbar">
-            <ul>
+            <ul class="logo">
+            <li class="franblog"><a href="/">Blog de Fran</a></li>
+            </ul>
+            <ul class="nav-links">
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/sobre-mi/">Sobre mi</a></li>
             </ul>

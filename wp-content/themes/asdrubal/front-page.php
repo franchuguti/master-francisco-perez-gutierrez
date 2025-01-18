@@ -1,8 +1,8 @@
 <?php
     get_header();
 ?>
-<h1>FRONT PAGE</h1>
-<div class="generico">
+<div class="imagefrontpage"><img src="/wp-content/themes/asdrubal/images/designer.jpg" alt="Designer"></div>
+<div class="frontpage">
 <h1><?php the_title();?></h1>
     <section id="contenido">
         <?php
