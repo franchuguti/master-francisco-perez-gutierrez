@@ -117,3 +117,31 @@ th {
 .festivalestabla{
     color: blue;
 }
+
+img.aspectfesti{
+    aspect-ratio: 3/2;
+    object-fit: cover;
+}
+.imagenporcss{
+    background-image: url("screenshot.png");
+    background-color: antiquewhite;
+    margin-left: 20%;
+    width: 60%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+ul .categorias  {
+    display: flex;
+  }
+.categorias a {
+    text-decoration: none;
+    color: #121213;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  h1.tituloprincipal {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}

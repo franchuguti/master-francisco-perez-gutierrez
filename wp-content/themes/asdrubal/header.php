@@ -17,7 +17,7 @@ include 'components/metas-seo.php';
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/sobre-mi/">Sobre mi</a></li>
             </ul>
-        </nav>
+        </nav>    
     </header>
 </body>
 </html>

@@ -1,13 +1,24 @@
 <?php
     include_once 'header.php';
 ?>
-
+<nav>
+    <ul>
+        <?php
+        $categories = get_categories();
+        foreach ($categories as $category) {
+            echo '<li class="categorias"><a href="' . get_category_link($category->term_id) . '">' . esc_html($category->name) . '</a></li>';
+        }
+        ?>
+    </ul>
+</nav>
 <div class="postpage">
 <h1><?php the_title();?></h1>
     <div class="descorta"><?php the_field( 'descripcion' ); ?> </div>
     <section id="contenido">
         <?php if (in_category('festivales')){
-           ?>
+           ?>         
+           <div class="infofesti" >
+           <img height="300px" class="aspectfesti" src="<?php the_field( 'imagen_festivales' ); ?>" />
             <table class="festivalestabla">
                 <tr><th></th>
                 <th>Festivales 2025</th>
@@ -41,6 +52,7 @@
                 <td><?php the_field( 'precio' ); ?></td>
             </tr>            
             </table>
+            </div>
         <?php }
          else {;}
 

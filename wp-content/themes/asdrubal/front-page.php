@@ -1,9 +1,12 @@
 <?php
     get_header();
 ?>
-<div class="imagefrontpage"><img src="/wp-content/themes/asdrubal/images/designer.jpg" alt="Designer"></div>
+<div>
+<div class="imagenporss"></div>
+</div>
 <div class="frontpage">
-<h1><?php the_title();?></h1>
+<h1 class="tituloprincipal"><?php the_title();?></h1>
+<div class="imagefrontpage"><img src="/wp-content/themes/asdrubal/images/designer.jpg" alt="Designer"></div>
     <section id="contenido">
         <?php
             echo the_content();
