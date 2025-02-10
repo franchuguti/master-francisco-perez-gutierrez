@@ -18,7 +18,7 @@
         <?php if (in_category('festivales')){
            ?>         
            <div class="infofesti" >
-           <img height="300px" class="aspectfesti" src="<?php the_field( 'imagen_festivales' ); ?>" />
+           <img height="300px" class="aspectfesti" src="<?php the_field( 'imagen_blog' ); ?>" />
             <table class="festivalestabla">
                 <tr><th></th>
                 <th>Festivales 2025</th>
