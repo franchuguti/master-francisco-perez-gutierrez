@@ -13,9 +13,9 @@
  *		## grid variables
  * # CSS RESET
  * # GRID
- *		## extra large devices
- *		## large devices
- *		## medium devices 
+ *		#ces
+ *		## medium # extra large devices
+ *		## large devidevices 
  *		## tablet devices
  *		## mobile devices
  *		## small mobile devices
@@ -108,7 +108,7 @@
 	--color-2: hsla(127, 8%, 22%, 1);
 	--color-3: hsla(39, 93%, 95%, 1);
 
-  /* theme color variations
+  /* color variations
    */
 	--color-1-lightest             : hsla(35, 87%, 96%, 1);
 	--color-1-lighter              : hsla(35, 87%, 69%, 1);
@@ -141,9 +141,7 @@
 	--color-notice-content         : hsla(51, 30%, 30%, 1);
 
   /* shades 
-   * generated using 
    * Tint & Shade Generator 
-   * (https                     ://maketintsandshades.com/)
    */
 	--color-black                  : #000000;
 	--color-gray-19                : #121212;
