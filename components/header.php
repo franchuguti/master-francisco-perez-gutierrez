@@ -63,16 +63,15 @@
                 </div> <!-- end s-header__block -->
 
                 <nav class="s-header__nav">
-    
-                    <ul class="s-header__menu-links">
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="services.php">Services</a></li>
-                        <li class="current"><a href="blog.php">Journal</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                    </ul> <!-- s-header__menu-links -->
-
+                <?php $currentPage = basename($_SERVER['PHP_SELF']); ?>
+                        <ul class="s-header__menu-links">
+                                <li class="<?= ($currentPage == 'sobremi.php') ? 'current' : '' ?>"><a href="sobremi.php">Sobre mi</a></li>
+                                <li class="<?= ($currentPage == 'servicios.php') ? 'current' : '' ?>"><a href="servicios.php">Servicios</a></li>
+                                <li class="<?= ($currentPage == 'blog.php') ? 'current' : '' ?>"><a href="blog.php">Blog</a></li>
+                                <li class="<?= ($currentPage == 'contacto.php') ? 'current' : '' ?>"><a href="contacto.php">Contacto</a></li>
+                        </ul> <!-- s-header__menu-links -->
                     <div class="s-header__contact">
-                        <a href="contact.php" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                        <a href="contacto.php" class="btn btn--primary s-header__contact-btn">Trabajemos Juntos</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
