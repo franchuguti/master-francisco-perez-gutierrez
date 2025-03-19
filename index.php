@@ -49,7 +49,7 @@
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="index.php">
                             <img src="images/logo.svg"  title="Logotipo Francisco Perez" alt="Logotipo de la página web">
                         </a>
                     </div>
@@ -60,14 +60,14 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li><a href="about.html">Sobre mi</a></li>
-                        <li><a href="services.html">Servicios</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="about.php">Sobre mi</a></li>
+                        <li><a href="services.php">Servicios</a></li>
+                        <li><a href="blog.php">Blog</a></li>
+                        <li><a href="contact.php">Contacto</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Trabajemos juntos</a>                        
+                        <a href="contact.php" class="btn btn--primary s-header__contact-btn">Trabajemos juntos</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
@@ -166,7 +166,7 @@
                         </div> <!-- end s-about__content-main -->
 
                         <div class="s-about__content-btn grid-section-split__bottom">
-                            <a href="about.html" class="btn btn--stroke u-fullwidth">More About Me</a>
+                            <a href="about.php" class="btn btn--stroke u-fullwidth">More About Me</a>
 
                             <ul class="s-about__social social-list">
                                 <li>
@@ -275,7 +275,7 @@
                         </div> <!-- end s-expertise__content-main -->
 
                         <div class="s-expertise__content-btn grid-section-split__bottom">
-                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
+                            <a href="services.php" class="btn btn--stroke u-fullwidth">View All Services</a>
                         </div> <!-- end s-about__content-btn -->
 
                     </div> <!-- end grid-block-->
@@ -465,7 +465,7 @@
                         <p class="lead">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
                         </p>
-                        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+                        <a href="contact.php" class="btn btn--primary">Let's Work Together</a>
                     </div>
 
                 </div>
@@ -507,9 +507,9 @@
                         <div class="grid-list-items__item blog-card">
                             <div class="blog-card__header">
                                 <div class="blog-card__cat-links">
-                                    <a href="blog.html">Productivity</a>
+                                    <a href="blog.php">Productivity</a>
                                 </div>
-                                <h3 class="blog-card__title"><a href="single.html">5 Marketing Productivity Apps for Your Team</a></h3>
+                                <h3 class="blog-card__title"><a href="single.php">5 Marketing Productivity Apps for Your Team</a></h3>
                             </div>
                             <div class="blog-card__text">
                                 <p>
@@ -522,9 +522,9 @@
                         <div class="grid-list-items__item blog-card">
                             <div class="blog-card__header">
                                 <div class="blog-card__cat-links">
-                                    <a href="blog.html">SEO</a>
+                                    <a href="blog.php">SEO</a>
                                 </div>
-                                <h3 class="blog-card__title"><a href="single.html">7 SEO Factors to Consider for Better Website Ranking</a></h3>
+                                <h3 class="blog-card__title"><a href="single.php">7 SEO Factors to Consider for Better Website Ranking</a></h3>
                             </div>
                             <div class="blog-card__text">
                                 <p>
@@ -537,9 +537,9 @@
                         <div class="grid-list-items__item blog-card">
                             <div class="blog-card__header">
                                 <div class="blog-card__cat-links">
-                                    <a href="blog.html">Productivity</a>
+                                    <a href="blog.php">Productivity</a>
                                 </div>
-                                <h3 class="blog-card__title"><a href="single.html">5 Effective Web Design Principles</a></h3>
+                                <h3 class="blog-card__title"><a href="single.php">5 Effective Web Design Principles</a></h3>
                             </div>
                             <div class="blog-card__text">
                                 <p>
@@ -563,7 +563,7 @@
         <footer class="s-footer">
             <div class="row s-footer__content">
                 <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
-                    <h3>Sobre mi</h3>
+                    <h3>About Monica</h3>
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum quasi facere libero, 
                     fugiat laboriosam possimus reprehenderit eveniet vero voluptatum fugit ad quis veritatis suscipit beatae 
@@ -574,15 +574,28 @@
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
                     <h3>Site Links</h3>
                     <ul class="link-list">
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="services.html">Servicios</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="about.html">Sobre mi</a></li>
-                        <li><a href="contact.html">Contacto</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="blog.php">Journal</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
                     </ul>
                 </div>
                 <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
-    
+                    <h3>Newsletter</h3>
+
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ratione dignissimos.
+                    </p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="mc-form">
+                            <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                            <input type="submit" name="subscribe" value="Subscribe" class="btn btn--primary btn--small u-fullwidth">
+                            <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                            <div class="mc-status"></div>
+                        </form>
                     </div>
                 </div>
             </div>    
@@ -618,9 +631,11 @@
                 </div>
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
-                        <span>Francisco Perez 2025 </span> 
+                        <span>© Copyright Monica 2022</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
                     </p>
                 </div>
+
                 <div class="ss-go-top">
                     <a class="smoothscroll" title="Back to Top" href="#top">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>

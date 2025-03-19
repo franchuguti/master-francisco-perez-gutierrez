@@ -6,7 +6,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About - Monica</title>
+    <title>Generic - Monica</title>
 
     <script>
         document.documentElement.classList.remove('no-js');
@@ -55,7 +55,7 @@
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="index.php">
                             <img src="images/logo.svg" alt="Homepage">
                         </a>
                     </div>
@@ -66,14 +66,14 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li class="current"><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="blog.php">Journal</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                        <a href="contact.php" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
@@ -91,8 +91,7 @@
                     <div class="row">
                         <div class="column xl-12">
                             <h1 class="page-title">
-                                <span class="page-title__small-type text-pretitle">About</span>
-                                Hi, I'm Monica
+                               A Simple Generic Page
                             </h1>
                             
                         </div>
@@ -103,14 +102,13 @@
 
                     <div class="row pageintro">
                         <div class="column xl-6 lg-12">
-                            <h2 class="text-display-title">Some inspiring words to describe yourself</h2>
+                            <h2 class="text-display-title">A short phrase about whatever you want to say</h2>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eos quas blanditiis, quos sint nostrum fugit aperiam 
                             inventore optio itaque molestias corporis, ipsa tenetur eligendi nihil iste porro, natus culpa consequuntur? Maxime, 
-                            corporis tempore. Sed tenetur veritatis velit recusandae eum, molestiae voluptate ducimus laudantium esse illo 
-                            doloribus atque eligendi deleniti iusto. 
+                            corporis tempore. Sed tenetur veritatis velit recusandae eum, molestiae voluptate ducimus laudantium esse illo. 
                             </p>
                         </div>                       
                     </div> <!-- end pageintro -->   
@@ -118,10 +116,10 @@
                     <div class="row pagemedia">
                         <d class="column xl-12">
                             <figure class="page-media">                                
-                                <img src="images/thumbs/about/about-1200.jpg" 
-                                     srcset="images/thumbs/about/about-2400.jpg 2400w, 
-                                             images/thumbs/about/about-1200.jpg 1200w, 
-                                             images/thumbs/about/about-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="">
+                                <img src="images/sample-1200.jpg" 
+                                     srcset="images/sample-2400.jpg 2400w, 
+                                             images/sample-1200.jpg 1200w, 
+                                             images/sample-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="">
                             </figure>
                         </d>
                     </div> <!-- end pagemedia -->
@@ -129,7 +127,7 @@
                     <div class="row width-narrower pagemain">
                         <div class="column xl-12"> 
 
-                            <h2>How I Got Here</h2>
+                            <h2>Nostrum In Facilis</h2>
                             <p>
                             Eaque temporibus culpa perferendis expedita assumenda mollitia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit
                             facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
@@ -138,50 +136,16 @@
                             Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
                             </p>
 
-                            <h2 class="u-add-bottom">My Values & Beliefs</h2>
+                            <h2>Eaque Temporibus Tulpa</h2>
 
-                            <div class="grid-list-items list-items">
-                                <div class="grid-list-items__item list-items__item u-remove-bottom">
-                                    <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Consectetur</h6>
-                                    </div>
-                                    <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusamus consectetur adipisicing elit excepturi corrupti 
-                                    nam quae exercitationem cupiditate, provident ipsa delectus vero possimus reprehenderit quas ut officiis tempora voluptatum 
-                                    quibusdam consectetur commodi.
-                                    </p>
-                                </div>
-                                <div class="grid-list-items__item list-items__item u-remove-bottom">
-                                    <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Adipisicing</h6>
-                                    </div>
-                                    <p> 
-                                    Molestias, autem impedit culpa dolores excepturi, quidem unde ducimus, rerum commodi deserunt earum, minus voluptatum.
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe doloremque provident quas quae exercitationem laboriosam.
-                                    </p>
-                                </div>
-                                <div class="grid-list-items__item list-items__item u-remove-bottom">
-                                    <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Doloremque</h6>
-                                    </div>
-                                    <p>
-                                    Mollitia accusamus consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisicing elit excepturi corrupti 
-                                    nam quae exercitationem cupiditate, provident ipsa delectus vero possimus reprehenderit quas ut officiis tempora voluptatum 
-                                    quibusdam consectetur commodi!
-                                    </p>
-                                </div>
-                                <div class="grid-list-items__item list-items__item u-remove-bottom">
-                                    <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Assumenda</h6>
-                                    </div>
-                                    <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe doloremque provident quas quae exercitationem laboriosam. 
-                                    Molestias, autem? Impedit culpa dolores excepturi, quidem unde ducimus, rerum commodi deserunt earum, minus voluptatum?
-                                    </p>
-                                </div>
-                            </div> <!--grid-list-items -->
+                            <p>
+                            Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem 
+                            eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit. 
+                            Numquam, corporis accusamus commodi saepe nostrum nesciunt nisi rem necessitatibus unde laboriosam molestias, quam ipsa voluptatum sed 
+                            ex cumque facilis assumenda maiores tempore reiciendis enim accusantium.
+                            </p>
 
-                            <h2>Why Work With Me</h2>
+                            <h2>Blanditiis Voluptate Explicabo</h2>
                             <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus culpa perferendis expedita assumenda mollitia magnam, 
                             facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
@@ -197,7 +161,7 @@
                             ex cumque facilis assumenda maiores tempore reiciendis enim accusantium?
                             </p>                   
 
-                            <h2>A Few More Words About Myself</h2>
+                            <h2>Et Assumenda Debitis Aut Quidem</h2>
                             <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Et assumenda debitis aut quidem ad voluptates quibusdam soluta temporibus, 
                             eveniet nobis tempore sunt, provident sapiente accusamus dignissimos voluptatum fugiat nulla dicta nihil molestiae aspernatur error in. 
@@ -315,7 +279,7 @@
                         <p class="lead">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
                         </p>
-                        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+                        <a href="contact.php" class="btn btn--primary">Let's Work Together</a>
                     </div>
 
                 </div>
@@ -340,11 +304,11 @@
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
                     <h3>Site Links</h3>
                     <ul class="link-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="blog.php">Journal</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                         <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
                     </ul>
                 </div>

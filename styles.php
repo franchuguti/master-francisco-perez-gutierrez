@@ -55,7 +55,7 @@
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="index.php">
                             <img src="images/logo.svg" alt="Homepage">
                         </a>
                     </div>
@@ -66,14 +66,14 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="blog.php">Journal</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                        <a href="contact.php" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
@@ -796,7 +796,7 @@
                         <p class="lead">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
                         </p>
-                        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+                        <a href="contact.php" class="btn btn--primary">Let's Work Together</a>
                     </div>
 
                 </div>
@@ -821,11 +821,11 @@
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
                     <h3>Site Links</h3>
                     <ul class="link-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="blog.php">Journal</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                         <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
                     </ul>
                 </div>

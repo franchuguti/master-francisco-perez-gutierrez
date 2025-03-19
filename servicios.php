@@ -6,7 +6,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Generic - Monica</title>
+    <title>Services - Monica</title>
 
     <script>
         document.documentElement.classList.remove('no-js');
@@ -46,7 +46,6 @@
     ================================================== -->
     <div id="page" class="s-pagewrap">
 
-
         <!-- # site header 
         ================================================== -->
         <header class="s-header">
@@ -55,7 +54,7 @@
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="index.php">
                             <img src="images/logo.svg" alt="Homepage">
                         </a>
                     </div>
@@ -66,14 +65,14 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li class="current"><a href="services.php">Services</a></li>
+                        <li><a href="blog.php">Journal</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul> <!-- s-header__menu-links -->
 
                     <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                        <a href="contact.php" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
                     </div> <!-- s-header__contact -->
     
                 </nav> <!-- end s-header__nav -->
@@ -81,7 +80,6 @@
             </div> <!-- end s-header__inner -->
 
         </header> <!-- end s-header -->
-
 
         <!-- # site main content
         ================================================== -->
@@ -91,87 +89,201 @@
                     <div class="row">
                         <div class="column xl-12">
                             <h1 class="page-title">
-                               A Simple Generic Page
+                                <span class="page-title__small-type text-pretitle">Services</span>
+                                High-Impact Services
                             </h1>
                             
                         </div>
                     </div>
-               </section> <!-- end pageheader --> 
+               </section> <!-- pageheader -->  
 
                <section class="s-pagecontent pagecontent">
 
                     <div class="row pageintro">
                         <div class="column xl-6 lg-12">
-                            <h2 class="text-display-title">A short phrase about whatever you want to say</h2>
+                            <h2 class="text-display-title">High-impact services to help your business</h2>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eos quas blanditiis, quos sint nostrum fugit aperiam 
                             inventore optio itaque molestias corporis, ipsa tenetur eligendi nihil iste porro, natus culpa consequuntur? Maxime, 
-                            corporis tempore. Sed tenetur veritatis velit recusandae eum, molestiae voluptate ducimus laudantium esse illo. 
+                            corporis tempore. Sed tenetur veritatis velit recusandae eum, molestiae voluptate ducimus laudantium esse illo 
+                            doloribus atque eligendi deleniti iusto. 
                             </p>
                         </div>                       
-                    </div> <!-- end pageintro -->   
-                    
-                    <div class="row pagemedia">
-                        <d class="column xl-12">
-                            <figure class="page-media">                                
-                                <img src="images/sample-1200.jpg" 
-                                     srcset="images/sample-2400.jpg 2400w, 
-                                             images/sample-1200.jpg 1200w, 
-                                             images/sample-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="">
-                            </figure>
-                        </d>
-                    </div> <!-- end pagemedia -->
+                    </div>  <!-- pageintro -->       
 
-                    <div class="row width-narrower pagemain">
-                        <div class="column xl-12"> 
+                    <div class="row">
+                        <div class="column xl-12 grid-block">             
+                            
+                            <div class="grid-full grid-list-items list-items show-ctr">
+                                
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Digital Marketing</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
 
-                            <h2>Nostrum In Facilis</h2>
-                            <p>
-                            Eaque temporibus culpa perferendis expedita assumenda mollitia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit
-                            facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
-                            Distinctio obcaecati nesciunt asperiores dolorum tenetur voluptates, nemo alias doloremque. Quos cumque ipsum laudantium odio vero 
-                            aut odit nostrum aliquam? Nostrum in facilis, minus fuga quasi voluptas explicabo possimus incidunt, expedita tempora eius rem nobis sequi. 
-                            Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
-                            </p>
+                                        <ul class="list-services">
+                                            <li>Cumque Ducimus</li>
+                                            <li>Maxime Vel</li>
+                                            <li>Eligendi Et</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Social Media Marketing</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam.
+                                        </p>
 
-                            <h2>Eaque Temporibus Tulpa</h2>
+                                        <ul class="list-services">
+                                            <li>Lorem Ipsum</li>
+                                            <li>voluptatibus Earum</li>
+                                            <li>Cumque Ducimus</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Content Marketing</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam.
+                                        </p>
 
-                            <p>
-                            Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem 
-                            eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit. 
-                            Numquam, corporis accusamus commodi saepe nostrum nesciunt nisi rem necessitatibus unde laboriosam molestias, quam ipsa voluptatum sed 
-                            ex cumque facilis assumenda maiores tempore reiciendis enim accusantium.
-                            </p>
+                                        <ul class="list-services">
+                                            <li>Eaque velit</li>
+                                            <li>Asperiores</li>
+                                            <li>Cumque Ducimus</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Paid Advertising</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Eaque velit eligendi ut magnam.Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. 
+                                        Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
 
-                            <h2>Blanditiis Voluptate Explicabo</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus culpa perferendis expedita assumenda mollitia magnam, 
-                            facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
-                            Distinctio obcaecati nesciunt asperiores dolorum tenetur voluptates, nemo alias doloremque. Quos cumque ipsum laudantium odio vero aut 
-                            odit nostrum aliquam? Nostrum in facilis, minus fuga quasi voluptas explicabo possimus incidunt, expedita tempora eius rem nobis sequi. 
-                            Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
-                            </p>
+                                        <ul class="list-services">
+                                            <li>Cumque Ducimus</li>
+                                            <li>Maxime Vel</li>
+                                            <li>Eligendi Et</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Search Engine Optimization</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
 
-                            <p>
-                            Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem 
-                            eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit. 
-                            Numquam, corporis accusamus commodi saepe nostrum nesciunt nisi rem necessitatibus unde laboriosam molestias, quam ipsa voluptatum sed 
-                            ex cumque facilis assumenda maiores tempore reiciendis enim accusantium?
-                            </p>                   
+                                        <ul class="list-services">
+                                            <li>Cumque Ducimus</li>
+                                            <li>Maxime Vel</li>
+                                            <li>Eligendi Et</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Advance Analytics</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam.
+                                        </p>
 
-                            <h2>Et Assumenda Debitis Aut Quidem</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et assumenda debitis aut quidem ad voluptates quibusdam soluta temporibus, 
-                            eveniet nobis tempore sunt, provident sapiente accusamus dignissimos voluptatum fugiat nulla dicta nihil molestiae aspernatur error in. 
-                            Ut quo porro voluptatum delectus asperiores culpa non cum facere minima nesciunt assumenda, praesentium reprehenderit accusamus, quam 
-                            repellat nobis nemo? Ut magnam unde culpa pariatur possimus sunt fugiat ea maxime praesentium eaque quo odio sed eligendi harum dolor, 
-                            repellendus reprehenderit facere nihil quam. Saepe, magni.
-                            </p>
+                                        <ul class="list-services">
+                                            <li>Lorem Ipsum</li>
+                                            <li>Voluptatibus Earum</li>
+                                            <li>Cumque Ducimus</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Email Marketing</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
+
+                                        <ul class="list-services">
+                                            <li>Doloribus</li>
+                                            <li>Mollitia</li>
+                                            <li>Eligendi Et</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Conversion Rate Optimization</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam.
+                                        </p>
+
+                                        <ul class="list-services">
+                                            <li>Cumque Ducimus</li>
+                                            <li>Maxime Vel</li>
+                                            <li>Eligendi Et</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Web Design</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        </p>
+
+                                        <ul class="list-services">
+                                            <li>Suscipit</li>
+                                            <li>Voluptatem</li>
+                                            <li>Eligendi Et</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+    
+                            </div> <!-- grid-list-items -->
+                           
 
                         </div> <!-- end grid-block-->
-                    </div> <!-- end pagemain -->
+                    </div> <!-- end row -->
 
                </section> <!-- pagecontent -->
 
@@ -279,7 +391,7 @@
                         <p class="lead">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
                         </p>
-                        <a href="contact.html" class="btn btn--primary">Let's Work Together</a>
+                        <a href="contact.php" class="btn btn--primary">Let's Work Together</a>
                     </div>
 
                 </div>
@@ -304,11 +416,11 @@
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
                     <h3>Site Links</h3>
                     <ul class="link-list">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="blog.html">Journal</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="blog.php">Journal</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                         <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
                     </ul>
                 </div>
