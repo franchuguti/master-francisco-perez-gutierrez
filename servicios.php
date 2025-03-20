@@ -8,8 +8,8 @@
                     <div class="row">
                         <div class="column xl-12">
                             <h1 class="page-title">
-                                <span class="page-title__small-type text-pretitle">Services</span>
-                                High-Impact Services
+                                <span class="page-title__small-type text-pretitle">Servicios</span>
+                                SEO, UX, UI, tú eliges
                             </h1>
                             
                         </div>
@@ -20,14 +20,15 @@
 
                     <div class="row pageintro">
                         <div class="column xl-6 lg-12">
-                            <h2 class="text-display-title">High-impact services to help your business</h2>
+                            <h2 class="text-display-title">Auditorías SEO, UX y UI para un Rendimiento Óptimo</h2>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias eos quas blanditiis, quos sint nostrum fugit aperiam 
-                            inventore optio itaque molestias corporis, ipsa tenetur eligendi nihil iste porro, natus culpa consequuntur? Maxime, 
-                            corporis tempore. Sed tenetur veritatis velit recusandae eum, molestiae voluptate ducimus laudantium esse illo 
-                            doloribus atque eligendi deleniti iusto. 
+                            El <Strong>SEO</Strong> ya no es solo posicionamiento en buscadores, 
+                            sino una combinación de estrategia técnica, experiencia de usuario y optimización de contenido. 
+                            Como especialista en <Strong>SEO técnico</Strong> con formación en <Strong>UX</Strong> y <Strong>UI</Strong>, 
+                            ayudo a empresas y negocios online a mejorar su visibilidad,
+                            optimizar la experiencia de sus usuarios y aumentar conversiones.
                             </p>
                         </div>                       
                     </div>  <!-- pageintro -->       
@@ -39,25 +40,23 @@
                                 
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Digital Marketing</h3>
+                                        <h3 class="list-items__item-title">SEO Técnico Avanzado</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Optimizo la arquitectura y el rendimiento técnico de tu sitio web para mejorar su visibilidad en buscadores.
                                         </p>
 
                                         <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
+                                            <li>Auditorías SEO detalladas (crawling, indexación, Core Web Vitals)</li>
+                                            <li>Optimización de estructuras de URL, enlazado interno y schema markup</li>
+                                            <li>Implementación de estrategias de SEO para JavaScript y sitios SPA</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Social Media Marketing</h3>
+                                        <h3 class="list-items__item-title">Interfaces de Usuario</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
@@ -75,7 +74,7 @@
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Content Marketing</h3>
+                                        <h3 class="list-items__item-title">Experiencia de Usuario</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
@@ -93,7 +92,7 @@
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Paid Advertising</h3>
+                                        <h3 class="list-items__item-title">Diseño Web</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
@@ -206,116 +205,11 @@
 
                </section> <!-- pagecontent -->
 
-               <section class="s-testimonials">
-
-                    <div class="s-testimonials__header row row-x-center text-center">
-                        <div class="column xl-8 lg-12">
-        
-                            <p class="text-pretitle">
-                            Testimonials
-                            </p>
-                            <h3>
-                            Reviews From Real Clients
-                            </h3>                        
-        
-                        </div>
-                    </div> <!--end s-testimonials__header -->
-
-                    <div class="row s-testimonials__content">
-                        <div class="column xl-12 testimonials">
-
-                            <div class="swiper-container testimonials__slider page-slider">
-
-                                <div class="swiper-wrapper">
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>John Rockefeller</strong>
-                                                <span>Standard Oil Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Voluptas tempore rem. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>Andrew Carnegie</strong>
-                                                <span>Carnegie Steel Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Nisi dolores quaerat fuga rem nihil nostrum. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                        Voluptas tempore rem. Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. 
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>Henry Ford</strong>
-                                                <span>Ford Motor Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div>
-                                    <div class="testimonials__slide swiper-slide">
-                                        <p>
-                                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                        Laudantium quia consequatur molestias.
-                                        </p>
-                                        <div class="testimonials__author">
-                                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                                            <cite class="testimonials__cite">
-                                                <strong>John Morgan</strong>
-                                                <span>JP Morgan & Co.</span>
-                                            </cite>
-                                        </div>
-                                    </div> 
-                                </div> <!-- end swiper-wrapper --> 
-
-                                <div class="swiper-pagination"></div>
-
-                            </div> <!--end testimonials__slider --> 
-
-                        </div> <!-- testimonials -->
-                    </div> <!--end s-testimonials__content -->
-
-               </section> <!-- end s-testimonials -->
-
         </section> <!-- s-content-->
-
         <!-- # cta
         ================================================== -->
         <section id="cta" class="s-cta">
-
-            <div class="row row-x-center text-center">
-                <div class="column xl-8 lg-12">
-
-                    <div class="s-cta__content">
-                        <h2 class="text-display-title">
-                        Get started with a consultation today.
-                        </h2>
-                        <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
-                        </p>
-                        <a href="contact.php" class="btn btn--primary">Let's Work Together</a>
-                    </div>
-
-                </div>
-            </div>
-
+              <?php include_once __DIR__ . '/components/cta.php'; ?>       
         </section> <!-- end s-cta -->
 
 <?php include_once __DIR__ . '/components/footer.php'; ?>

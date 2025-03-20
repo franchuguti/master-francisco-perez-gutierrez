@@ -54,7 +54,7 @@
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.php">
+                        <a class="logo" href="/">
                             <img src="images/francisco-perez-logo.svg" alt="Homepage">
                         </a>
                     </div>
@@ -64,10 +64,10 @@
 
                 <nav class="s-header__nav">
                 <?php $currentPage = basename($_SERVER['PHP_SELF']); ?>
-                        <ul class="s-header__menu-links">
-                                <li class="<?= ($currentPage == 'sobremi.php') ? 'current' : '' ?>"><a href="sobremi.php">Sobre mi</a></li>
+                        <ul class="s-header__menu-links">                            
                                 <li class="<?= ($currentPage == 'servicios.php') ? 'current' : '' ?>"><a href="servicios.php">Servicios</a></li>
                                 <li class="<?= ($currentPage == 'blog.php') ? 'current' : '' ?>"><a href="blog.php">Blog</a></li>
+                                <li class="<?= ($currentPage == 'sobremi.php') ? 'current' : '' ?>"><a href="sobremi.php">Sobre mi</a></li>
                                 <li class="<?= ($currentPage == 'contacto.php') ? 'current' : '' ?>"><a href="contacto.php">Contacto</a></li>
                         </ul> <!-- s-header__menu-links -->
                     <div class="s-header__contact">

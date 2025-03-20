@@ -3,7 +3,6 @@
         <!-- # site main content
         ================================================== -->
         <section id="content" class="s-content">
-
             <!-- intro
             ----------------------------------------------- -->
             <section id="intro" class="s-intro">
@@ -120,13 +119,17 @@
                     <div class="column xl-12 grid-block grid-section-split">
 
                         <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Expertise</div>                           
+                            <div class="text-pretitle">Especialización</div>                           
                             <h2 class="text-display-title">
-                            My key areas of expertise.
+                            Mis principales áreas de especialización.
                             </h2>     
                             
                             <p class="lead">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
+                            El <Strong>SEO</Strong> ya no es solo posicionamiento en buscadores, 
+                            sino una combinación de estrategia técnica, experiencia de usuario y optimización de contenido. 
+                            Como especialista en <Strong>SEO técnico</Strong> con formación en <Strong>UX</Strong> y <Strong>UI</Strong>, 
+                            ayudo a empresas y negocios online a mejorar su visibilidad,
+                            optimizar la experiencia de sus usuarios y aumentar conversiones.
                             </p>
                         </div> <!-- end section-header -->
 
@@ -135,49 +138,48 @@
                             <div class="grid-list-items list-items show-ctr">
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Digital Marketing</h3>
+                                        <h3 class="list-items__item-title">🚀 Optimización profunda para un sitio web rápido, rastreable y bien posicionado.</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        El SEO técnico es la base de cualquier estrategia de posicionamiento. 
+                                        Analizo y optimizo la estructura de tu sitio para mejorar la indexación, 
+                                        la velocidad de carga y la experiencia del usuario. Haz que tu web sea más visible y eficiente desde la base.
                                         </p>
                                     </div>
                                 </div> <!-- list-item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Project Management</h3>
+                                        <h3 class="list-items__item-title">🎨 Cuando SEO y UX trabajan juntos, los resultados se multiplican.</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        El posicionamiento web no solo depende del contenido y los enlaces, sino también de una experiencia 
+                                        de usuario fluida y una interfaz optimizada para la conversión. Te ayudo a mejorar la estructura, 
+                                        navegación y usabilidad de tu sitio para atraer y retener tráfico de calidad.
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Content Marketing</h3>
+                                        <h3 class="list-items__item-title">🛍️ Más tráfico, más conversiones, más ventas.</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Eaque velit eligend. iQuibusdam quis autem voluptatibus earum vel ex error ea magni. 
-                                        Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. 
-                                        Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Si tienes un eCommerce o un sitio basado en contenido, necesitas
+                                         algo más que palabras clave: una estrategia SEO enfocada en resultados. 
+                                         Optimizo tu tienda online o blog para mejorar su visibilidad en buscadores y maximizar conversiones.
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Research & Discovery</h3>
+                                        <h3 class="list-items__item-title">📈 Estrategia SEO personalizada para empresas y equipos.</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Ya sea que necesites una hoja de ruta para mejorar tu SEO o formación para tu equipo, 
+                                        te ayudo a implementar estrategias efectivas y sostenibles.
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
@@ -194,194 +196,12 @@
 
             </section> <!-- end s-expertise -->
 
-            <!-- clients
-            ----------------------------------------------- -->
-            <section id="clients" class="s-clients">          
-
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12 grid-block grid-section-split">
-                    
-                        <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Clients</div>                           
-                            <h2 class="text-display-title">
-                            I have had the privilege of working with these incredible brands.
-                            </h2>       
-                        </div> <!-- end section-header -->
-                    
-                        <div class="grid-section-split__primary">
-                            <p class="lead">
-                            Quibusdam quis autem voluptatibus earum vel ex error ea. Lorem ipsum dolor sit amet consectetur 
-                            adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam 
-                            obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
-                            </p>   
-
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, numquam molestiae vel quaerat quas 
-                            facilis voluptates rerum aspernatur quam voluptatem ea, vitae illo, omnis minus vero minima maiores 
-                            quia nihil incidunt provident debitis ab qui quasi. Iure unde numquam in nulla praesentium nesciunt 
-                            dolore exercitationem, odit expedita minima quisquam ullam ex. Aut perferendis vel consectetur modi esse.
-                            Temporibus reprehenderit alias magni atque repellat aspernatur voluptates, accusantium pariatur libero ad 
-                            nesciunt illum labore facere. Earum iure consequatur cumque omnis maiores optio.
-                            </p>
-                        </div> <!-- end grid-section-split__primary -->
-                    
-                    </div> <!-- end column -->
-                </div> <!-- end row -->
-
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12">
-                    
-                        <div class="clients-list">                            
-                            <div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/flash.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/rise.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/cactus.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/pinpoint.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/proline.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/vision.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="column clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/volume.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="column clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/hitech.svg" alt="">
-                                </a>
-                            </div><div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/terra.svg" alt="">
-                                </a>
-                            </div>
-                            <div class="clients-list__item">
-                                <a href="#0">
-                                    <img src="images/clients/chain.svg" alt="">
-                                </a>
-                            </div>
-                        </div> <!-- end clients-list -->
-
-                    </div> <!-- end column -->
-                </div> <!-- end row -->
-                                
-                <div class="row s-clients__content-block width-sixteen-col">
-                    <div class="column xl-12 testimonials">
-                    
-                        <div class="swiper-container testimonials__slider home-slider">
-
-                            <div class="swiper-wrapper">
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>John Rockefeller</strong>
-                                            <span>Standard Oil Co.</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Nisi dolores quaerat fuga rem nihil nostrum. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. 
-                                    Voluptas tempore rem. Laudantium quia consequatur molestias.
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>Andrew Carnegie</strong>
-                                            <span>Carnegie Steel Co.</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Voluptas tempore rem. Molestiae incidunt consequatur quis ipsa autem nam sit enim magni.  
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. 
-                                    Nisi dolores quaerat fuga rem nihil nostrum. Laudantium quia consequatur molestias.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>Henry Ford</strong>
-                                            <span>Ford Motor Co.</span>
-                                        </cite>
-                                    </div>
-                                </div>
-                                <div class="testimonials__slide swiper-slide">
-                                    <p>
-                                    Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                                    Explicabo a quaerat sint autem dolore ducimus ut consequatur neque. Nisi dolores quaerat fuga rem nihil nostrum.
-                                    Laudantium quia consequatur molestias.
-                                    </p>
-                                    <div class="testimonials__author">
-                                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
-                                        <cite class="testimonials__cite">
-                                            <strong>John Morgan</strong>
-                                            <span>JP Morgan & Co.</span>
-                                        </cite>
-                                    </div>
-                                </div> 
-                            </div> <!-- end swiper-wrapper --> 
-
-                            <div class="swiper-pagination"></div>
-
-                        </div> <!--end testimonials__slider -->                    
-                    
-                    </div> <!-- end column -->
-                </div> <!-- end row -->
-
-
-            </section> <!-- end s-clients -->            
-
         </section> <!-- s-content-->
 
         <!-- # cta
         ================================================== -->
         <section id="cta" class="s-cta">
-
-            <div class="row row-x-center text-center">
-                <div class="column xl-8 lg-12">
-
-                    <div class="s-cta__content">
-                        <h2 class="text-display-title">
-                        Get started with a consultation today.
-                        </h2>
-                        <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
-                        </p>
-                        <a href="contact.php" class="btn btn--primary">Let's Work Together</a>
-                    </div>
-
-                </div>
-            </div>
-
+             <?php include_once __DIR__ . '/components/cta.php'; ?>       
         </section> <!-- end s-cta -->
 
         <!-- # journal

@@ -220,7 +220,7 @@
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.707 17.293L8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"/></svg>
                                         </a>
                                     </li>
-                                    <li><a class="pgn__num" href="#0">1</a></li>
+                                    <li><a class="pgn__num" href="#2">1</a></li>
                                     <li><span class="pgn__num current">2</span></li>
                                     <li><a class="pgn__num" href="#0">3</a></li>
                                     <li><a class="pgn__num" href="#0">4</a></li>
@@ -236,31 +236,11 @@
                             </nav>
                         </div> <!-- end column -->
                     </div> <!-- end pagination -->
-
                </section>
-
-        </section> <!-- s-content-->
-
+        </section> 
         <!-- # cta
         ================================================== -->
         <section id="cta" class="s-cta">
-
-            <div class="row row-x-center text-center">
-                <div class="column xl-8 lg-12">
-
-                    <div class="s-cta__content">
-                        <h2 class="text-display-title">
-                        Transforma tu presencia online
-                        </h2>
-                        <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
-                        </p>
-                        <a href="contacto.php" class="btn btn--primary">Reserva tu consulta SEO</a>
-                    </div>
-
-                </div>
-            </div>
-
+            <?php include_once __DIR__ . '/components/cta.php'; ?>                                 
         </section> <!-- end s-cta -->
-
 <?php include_once __DIR__ . '/components/footer.php'; ?>

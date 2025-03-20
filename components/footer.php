@@ -3,7 +3,7 @@
         <footer class="s-footer">
             <div class="row s-footer__content">
                 <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
-                    <h3>About Monica</h3>
+                    <h3>Mantente informado</h3>
                     <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas illum quasi facere libero, 
                     fugiat laboriosam possimus reprehenderit eveniet vero voluptatum fugit ad quis veritatis suscipit beatae 
@@ -12,14 +12,11 @@
                     </p>               
                 </div>                
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
-                    <h3>Site Links</h3>
+                    <h3>Categorias del Blog</h3>
                     <ul class="link-list">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="blog.php">Journal</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="contact.php">Contact</a></li>
-                        <li><a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a></li>
+                        <li><a href="index.php">SEO</a></li>
+                        <li><a href="services.php">Diseño de Interfaces de Usuario (UI)</a></li>
+                        <li><a href="blog.php">Diseñ de Experiencia de Usuario (UX)</a></li>
                     </ul>
                 </div>
                 <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
@@ -57,8 +54,8 @@
                 </div>
                 <div class="column xl-6 lg-12">
                     <p class="ss-copyright">
-                        <span>© Copyright Monica 2022</span> 
-                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                        <span>© Francisco Perez</span> 
+                        <span>2025</a></span>
                     </p>
                 </div>
 
