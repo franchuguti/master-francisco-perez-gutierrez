@@ -5,8 +5,19 @@ $title = 'Proyecto de master de SEO';
     define ("enlacecta2","/contacto.php");
     define ("enlacecta3","/sobre-mi.php");
     include $_SERVER['DOCUMENT_ROOT'].'/assets/header.php';
-    include $_SERVER['DOCUMENT_ROOT'].'/assets/tablassql.php';
 ?>
+
+<h2>Ejercicio de enlaces</h2>
+<div>
+    <a href="http://ejemplo.test/sobre-mi">URL Absoluta hacia Sobre mi</a>
+</div>
+
+<div>
+    <a href="basica">URL Relativa a Básica (misma carpeta)</a>
+    <a href="/basica">URL Relativa a Básica 2 (desde la carpeta root)</a>
+    <a href="/test/ejemplo2/test2">URL Relativa a Test (dentro de la carpeta ejemplo)</a>
+</div>
+
 <?php 
     $_SERVER['DOCUMENT_ROOT'];
     $franciscoperez = "</p>Master de SEO";
@@ -28,8 +39,9 @@ $title = 'Proyecto de master de SEO';
         echo 'Today is ' . date('l');
     }
 ?>
+
 <h1 class="javatest">
-    Mi nombre es es <?php echo $name .  'y mi edad es' . $age ;?>
+    Mi nombre es es <?php echo $name .  'y mi edad es ' .  $age ;?>
 </h1>
 <div>
  <p id="cambiador" class="camb">Esto cambiará por JS</p>
@@ -177,24 +189,7 @@ const collection = document.getElementsByTagName("h1");
 document.getElementById("h1dice").innerHTML = collection[0].innerHTML;
 </script>
 -->
-<script>
-    //document.querySelector(".pruebajstres").innerHTML="Modificado con el query selector y una clase";
-    /*const collection = document.querySelectorAll(".pruebajs");
-    for (let i = 0; i < collection.length; i++) {
-    collection[i].innerHTML = "Modificando todas las clases a través del Query Selector";
-    }*/
-    /*const collection = document.querySelectorAll('a[href^="https:"]');
-    for (let i = 0; i < collection.length; i++) {
-    collection[i].innerHTML = "Modificando atriibuto href específico https a través del Query Selector";
-    }*/
-   const navig = document.querySelectorAll("nav>ul");
-    for (let i = 0; i < navig.length; i++) {
-    navig[i].innerHTML ="La ul dentro del nav ha sido modificada por medio de Javascript, ya no hay nav, lo siento";
-    }
-    //classList.add or .remove va a anadir o quitar una clase nueva a la que ya existe
-    let cafecito = 'Esto se ha definido con let'; //Se recomineda utilizar let generiicamente
-    var cervecita = 'Esto se ha definido con var'; 
-</script>
+
 <?php
     $n1 = 7;
     $n2 = 10;
