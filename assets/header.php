@@ -40,7 +40,8 @@
             font-weight: 500;
         }
     </style>
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link href="/css/fonts.css?20325" rel="stylesheet">
+    <link rel="stylesheet" href="https://<?php echo $_SERVER['HTTP_HOST'];?>/css/estilo.css?21325">
 </head>
 <?php
         switch (constant("pagina")){

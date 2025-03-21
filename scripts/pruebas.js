@@ -7,4 +7,5 @@ element.addEventListener("click", myFunction);
 
 function myFunction() {
     location.href = "https://carlos.sanchezdonate.com";
-} 
+}
+
