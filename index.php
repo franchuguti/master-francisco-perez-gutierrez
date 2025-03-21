@@ -107,10 +107,8 @@
                         </div> <!-- end s-about__content-btn -->
                     
                     </div> <!-- content-inner -->
-                </div>
-                
+                </div>              
             </section> <!-- end s-about -->
-
             <!-- expertise
             ----------------------------------------------- -->
             <section id="expertise" class="s-expertise">

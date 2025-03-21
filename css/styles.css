@@ -395,25 +395,6 @@ table {
 	border-spacing : 0;
 }
 
-
-/* ===================================================================
- * # GRID v5.0.0
- *
- *
- * -------------------------------------------------------------------
- * - Grid system based on the flex display property.
- *
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
- *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- *
- * - Grid columns without a specified width will automatically layout 
- *   as equal width columns.
- *
- * - On viewports 400px and below, all grid columns will stacked 
- *   vertically
- *
- * ------------------------------------------------------------------- */
-
 /* row 
  */
 .row {
@@ -1888,12 +1869,12 @@ img,
 .ss-loaded #preloader {
 	opacity   : 0;
 	visibility: hidden;
-	transition: all 0.6s 0.9s ease-in-out;
+	transition: all 0.2s 0.2s ease-in-out;
 }
 
 .ss-loaded #preloader #loader {
 	opacity   : 0;
-	transition: opacity 0.6s ease-in-out;
+	transition: opacity 0.2s ease-in-out;
 }
 
 
@@ -3663,13 +3644,13 @@ td:last-child {
 .s-intro__content-pretitle,
 .s-intro__scroll-down {
 	transition-timing-function: cubic-bezier(0.28, 0.12, 0.22, 1);
-	transition-duration       : 0.9s;
+	transition-duration       : 0.8s;
 	transition-delay          : 0s;
 	opacity                   : 0;
 }
 
 .ss-home .s-header__inner {
-	transition-duration: 0.6s;
+	transition-duration: 0.9s;
 }
 
 .ss-home .s-header__inner,
@@ -3732,17 +3713,17 @@ td:last-child {
 
 .no-js .s-intro__content-pretitle,
 .ss-show .s-intro__content-pretitle {
-	transition-delay: 1.2s;
+	transition-delay: 0.8s;
 }
 
 .no-js .s-intro__content-title,
 .ss-show .s-intro__content-title {
-	transition-delay: 1.5s;
+	transition-delay: 0.8s;
 }
 
 .no-js .s-intro__scroll-down,
 .ss-show .s-intro__scroll-down {
-	transition-delay: 1.8s;
+	transition-delay: 0.8s;
 	bottom          : 0;
 }
 
