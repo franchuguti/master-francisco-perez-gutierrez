@@ -48,7 +48,12 @@ img {
     z-index: 0;
     align-items: center;
     display: flex;
-  } 
+}
+#ofc{
+  cursor: pointer;
+  text-decoration: underline;
+  color: brown;
+}
   img:hover {
     opacity: 1.0;
   }

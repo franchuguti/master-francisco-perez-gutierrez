@@ -40,6 +40,8 @@ $title = 'Proyecto de master de SEO';
     }
 ?>
 
+<h3>Esto es un h3 y <span id="ofc">con un enlace ofuscado for medio de advent listener</span> que el navegador no lo va a detectar</h3>
+
 <h1 class="javatest">
     Mi nombre es es <?php echo $name .  'y mi edad es ' .  $age ;?>
 </h1>
