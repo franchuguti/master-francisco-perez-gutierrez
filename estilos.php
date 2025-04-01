@@ -1,4 +1,6 @@
-<?php include_once 'components/header.php'; ?>
+<?php include_once 'components/header.php'; 
+/* Template Name: estilos */
+?>
 
         <!-- # site main content
         ================================================== -->

@@ -1,5 +1,8 @@
-<?php include_once 'components/header.php'; ?>
 
+
+<?php include_once 'components/header.php'; 
+        /* Template Name: Generica */
+?>
         <!-- # site main content
         ================================================== -->
         <section id="content" class="s-content">
