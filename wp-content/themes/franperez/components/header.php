@@ -6,7 +6,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><?php the_title();?></title>
+
 
     <script>
         document.documentElement.classList.remove('no-js');
@@ -36,7 +36,7 @@
 
                 <div class="s-header__block">
                     <div class="s-header__logo">
-                        <a class="logo" href="index.html">
+                        <a class="logo" href="/">
                             <img src="/wp-content/themes/franperez/images/francisco-perez-logo.svg" alt="Logotipo Francisco Perez SEO">
                         </a>
                     </div>
@@ -47,9 +47,9 @@
                 <nav class="s-header__nav">
     
                     <ul class="s-header__menu-links">
-                        <li><a href="/sobre-mi">Sobre mi</a></li>
                         <li><a href="/servicios">Servicios</a></li>
                         <li><a href="/blog">Blog</a></li>
+                        <li><a href="/sobre-mi">Sobre mi</a></li>
                         <li><a href="/contacto">Contacto</a></li>
                     </ul> <!-- s-header__menu-links -->
 

@@ -226,7 +226,7 @@
 
         </section> <!-- s-content-->
 
-
+        <?php include_once __DIR__ . '/components/articulos.php'; ?>    
         <!-- # cta
         ================================================== -->
         <section id="cta" class="s-cta">
