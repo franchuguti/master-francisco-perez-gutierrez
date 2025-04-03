@@ -1,4 +1,90 @@
 @charset "UTF-8";
+/* =================================================================== 
+ * Monica Main Stylesheet
+ * Template Ver. 1.0.0
+ * 12-13-2022
+ * ------------------------------------------------------------------
+ *
+ * TOC:
+ * # SETTINGS
+ *		## fonts
+ *    	## colors
+ *	  	## spacing and typescale
+ *		## grid variables
+ * # CSS RESET
+ * # GRID
+ *		## extra large devices
+ *		## large devices
+ *		## medium devices 
+ *		## tablet devices
+ *		## mobile devices
+ *		## small mobile devices
+ *		## additional column stackpoints 
+ * # BASE SETUP
+ * # UTILITY CLASSES
+ * # TYPOGRAPHY 
+ *		## additional typography & helper classes
+ *		## lists
+ *		## media 
+ *		## spacing
+ * # PRELOADER
+ *		## page loaded
+ * # FORM 
+ *		## style placeholder text
+ *		## change autocomplete styles in Chrome
+ * # BUTTONS
+ * # TABLE
+ * # COMPONENTS
+ *		## pagination 
+ *		## alert box 
+ *		## skillbars
+ *		## stats tabs
+ * # PROJECT-WIDE SHARED STYLES
+ *		## list items
+ *		## social list
+ *		## blog card
+ *		## testimonials
+ *		## swiper overrides
+ * # GRID-BASED LAYOUTS
+ *		## grid block
+ *		## list grid
+ * # PAGE WRAP
+ * # SITE HEADER
+ *		## logo
+ *		## main navigation
+ *		## mobile menu toggle
+ * # PAGEHEADER & PAGECONTENT
+ * # INTRO
+ *		## intro content
+ *		## intro scroll down
+ *		## intro transitions
+ * # ABOUT
+ * # EXPERTISE
+ * # CLIENTS
+ *		## clients list
+ * # CTA
+ * # JOURNAL
+ * # FOOTER
+ *		## newsletter
+ *		## copyright
+ *		## go top
+ * # BLOG STYLES 
+ * # PAGE STYLES 
+ *		## services page
+ *		## contact page
+ *
+ * ------------------------------------------------------------------ */
+
+
+/* ===================================================================
+ * # SETTINGS
+ *
+ *
+ * ------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------- 
+ * ## fonts 
+ * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap");
 
 :root {
@@ -22,7 +108,7 @@
 	--color-2: hsla(127, 8%, 22%, 1);
 	--color-3: hsla(39, 93%, 95%, 1);
 
-  /* color variations
+  /* theme color variations
    */
 	--color-1-lightest             : hsla(35, 87%, 96%, 1);
 	--color-1-lighter              : hsla(35, 87%, 69%, 1);
@@ -55,7 +141,9 @@
 	--color-notice-content         : hsla(51, 30%, 30%, 1);
 
   /* shades 
+   * generated using 
    * Tint & Shade Generator 
+   * (https                     ://maketintsandshades.com/)
    */
 	--color-black                  : #000000;
 	--color-gray-19                : #121212;
@@ -394,6 +482,25 @@ table {
 	border-collapse: collapse;
 	border-spacing : 0;
 }
+
+
+/* ===================================================================
+ * # GRID v5.0.0
+ *
+ *
+ * -------------------------------------------------------------------
+ * - Grid system based on the flex display property.
+ *
+ * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
+ *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
+ *
+ * - Grid columns without a specified width will automatically layout 
+ *   as equal width columns.
+ *
+ * - On viewports 400px and below, all grid columns will stacked 
+ *   vertically
+ *
+ * ------------------------------------------------------------------- */
 
 /* row 
  */
@@ -1869,12 +1976,12 @@ img,
 .ss-loaded #preloader {
 	opacity   : 0;
 	visibility: hidden;
-	transition: all 0.2s 0.2s ease-in-out;
+	transition: all 0.6s 0.9s ease-in-out;
 }
 
 .ss-loaded #preloader #loader {
 	opacity   : 0;
-	transition: opacity 0.2s ease-in-out;
+	transition: opacity 0.6s ease-in-out;
 }
 
 
@@ -3644,13 +3751,13 @@ td:last-child {
 .s-intro__content-pretitle,
 .s-intro__scroll-down {
 	transition-timing-function: cubic-bezier(0.28, 0.12, 0.22, 1);
-	transition-duration       : 0.8s;
+	transition-duration       : 0.9s;
 	transition-delay          : 0s;
 	opacity                   : 0;
 }
 
 .ss-home .s-header__inner {
-	transition-duration: 0.9s;
+	transition-duration: 0.6s;
 }
 
 .ss-home .s-header__inner,
@@ -3713,17 +3820,17 @@ td:last-child {
 
 .no-js .s-intro__content-pretitle,
 .ss-show .s-intro__content-pretitle {
-	transition-delay: 0.8s;
+	transition-delay: 1.2s;
 }
 
 .no-js .s-intro__content-title,
 .ss-show .s-intro__content-title {
-	transition-delay: 0.8s;
+	transition-delay: 1.5s;
 }
 
 .no-js .s-intro__scroll-down,
 .ss-show .s-intro__scroll-down {
-	transition-delay: 0.8s;
+	transition-delay: 1.8s;
 	bottom          : 0;
 }
 

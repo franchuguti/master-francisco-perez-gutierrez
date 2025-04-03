@@ -1,8 +1,77 @@
-<?php include_once 'components/header.php'; 
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<?php
 /*
 Template Name: Servicios
 */
 ?>
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Servicios - Fran Perez SEO Técnico</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/wp-content/themes/franperez/css/vendor.css">
+    <link rel="stylesheet" href="/wp-content/themes/franperez/css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+        <!-- # site main content
+        ================================================== -->
+        <body id="top">
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <!-- # site header 
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="row s-header__inner width-sixteen-col">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="/">
+                            <img src="/wp-content/themes/franperez/images/francisco-perez-logo.svg" title="Logotipo de Fran Perez SEO Técnico" alt="Logotipo de Fran Perez SEO Técnico">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                            <li class="<?= ($currentPage == 'servicios.php') ? 'current' : '' ?>"><a href="/servicios">Servicios</a></li>
+                            <li class="<?= ($currentPage == 'blog.php') ? 'current' : '' ?>"><a href="/blog">Blog</a></li>
+                            <li class="<?= ($currentPage == 'sobremi.php') ? 'current' : '' ?>"><a href="/sobre-mi">Sobre mi</a></li>
+                            <li class="<?= ($currentPage == 'contacto.php') ? 'current' : '' ?>"><a href="/contacto">Contacto</a></li>
+                    </ul> <!-- s-header__menu-links -->
+
+                    <div class="s-header__contact">
+                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Let's Work Together</a>                        
+                    </div> <!-- s-header__contact -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
         <!-- # site main content
         ================================================== -->
         <section id="content" class="s-content">
@@ -27,11 +96,8 @@ Template Name: Servicios
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
-                            El <Strong>SEO</Strong> ya no es solo posicionamiento en buscadores, 
-                            sino una combinación de estrategia técnica, experiencia de usuario y optimización de contenido. 
-                            Como especialista en <Strong>SEO técnico</Strong> con formación en <Strong>UX</Strong> y <Strong>UI</Strong>, 
-                            ayudo a empresas y negocios online a mejorar su visibilidad,
-                            optimizar la experiencia de sus usuarios y aumentar conversiones.
+                                El SEO ya no es solo posicionamiento en buscadores, sino una combinación de estrategia técnica, experiencia de usuario y optimización de contenido. Como especialista en SEO técnico con formación en UX y UI, 
+                                ayudo a empresas y negocios online a mejorar su visibilidad, optimizar la experiencia de sus usuarios y aumentar conversiones.
                             </p>
                         </div>                       
                     </div>  <!-- pageintro -->       
@@ -43,23 +109,25 @@ Template Name: Servicios
                                 
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">SEO Técnico Avanzado</h3>
+                                        <h3 class="list-items__item-title">Digital Marketing</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Optimizo la arquitectura y el rendimiento técnico de tu sitio web para mejorar su visibilidad en buscadores.
+                                        Rerum quam quos. Aut asperiores 
+                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
+                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
                                         </p>
 
                                         <ul class="list-services">
-                                            <li>Auditorías SEO detalladas (crawling, indexación, Core Web Vitals)</li>
-                                            <li>Optimización de estructuras de URL, enlazado interno y schema markup</li>
-                                            <li>Implementación de estrategias de SEO para JavaScript y sitios SPA</li>
+                                            <li>Cumque Ducimus</li>
+                                            <li>Maxime Vel</li>
+                                            <li>Eligendi Et</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Interfaces de Usuario</h3>
+                                        <h3 class="list-items__item-title">Social Media Marketing</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
@@ -77,7 +145,7 @@ Template Name: Servicios
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Experiencia de Usuario</h3>
+                                        <h3 class="list-items__item-title">Content Marketing</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
@@ -95,7 +163,7 @@ Template Name: Servicios
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Diseño Web</h3>
+                                        <h3 class="list-items__item-title">Paid Advertising</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
@@ -209,8 +277,7 @@ Template Name: Servicios
                </section> <!-- pagecontent -->
 
         </section> <!-- s-content-->
-        <!-- # cta
-        ================================================== -->
+
         <section id="cta" class="s-cta">
               <?php include_once __DIR__ . '/components/cta.php'; ?>       
         </section> <!-- end s-cta -->
