@@ -46,7 +46,7 @@
                 <?php $currentPage = basename($_SERVER['PHP_SELF']); ?>
                         <ul class="s-header__menu-links">                            
                                 <li class="<?= ($currentPage == 'servicios.php') ? 'current' : '' ?>"><a href="/servicios">Servicios</a></li>
-                                <li class="<?= ($currentPage == 'blog.php') ? 'current' : '' ?>"><a href="/home">Blog</a></li>
+                                <li class="<?= ($currentPage == 'blog.php') ? 'current' : '' ?>"><a href="/blog">Blog</a></li>
                                 <li class="<?= ($currentPage == 'sobremi.php') ? 'current' : '' ?>"><a href="/sobre-mi">Sobre mi</a></li>
                                 <li class="<?= ($currentPage == 'contacto.php') ? 'current' : '' ?>"><a href="/contacto">Contacto</a></li>
                         </ul> <!-- s-header__menu-links -->
