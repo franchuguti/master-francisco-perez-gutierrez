@@ -3,10 +3,7 @@
 /* Template Name: Home */  
 ?>
 <body id="top">
-
-    
-    <!-- preloader
-    ================================================== -->
+    <!-- preloader================================================== -->
     <div id="preloader">
         <div id="loader" class="dots-fade">
             <div></div>
@@ -14,23 +11,14 @@
             <div></div>
         </div>
     </div>
-
-
-    <!-- page wrap
-    ================================================== -->
+    <!-- page wrap================================================== -->
     <div id="page" class="s-pagewrap ss-home">
-        <!-- # site main content
-        ================================================== -->
+        <!-- # Contenido Principal ================================================== -->
         <section id="content" class="s-content">
-
-            <!-- intro
-            ----------------------------------------------- -->
+            <!-- intro----------------------------------------------- -->
             <section id="intro" class="s-intro">
-
                 <div class="row s-intro__content width-sixteen-col">
-
-                    <div class="column lg-12 s-intro__content-inner grid-block">
-                        
+                    <div class="column lg-12 s-intro__content-inner grid-block">                       
                         <div class="s-intro__content-text">
                             <div class="s-intro__content-pretitle text-pretitle">Hola, soy Francisco</div>
                             <h1 class="s-intro__content-title">
@@ -39,7 +27,6 @@
                             en UI/UX.  <br>
                             </h1>
                         </div> <!-- s-intro__content-text -->
-
                         <div class="s-intro__content-media"> 
                             <div class="s-intro__content-media-inner">                               
                                 <img src="/wp-content/themes/franperez/images/Francisco-perez-portrait.webp" alt="Retrato ed Francisco Perez">
@@ -48,7 +35,6 @@
                                 </div>
                             </div>
                         </div> <!-- s-intro__content-media -->                      
-
                         <div class="s-intro__scroll-down">
                             <a href="#about" class="smoothscroll">
                                 <div class="scroll-icon">
@@ -56,30 +42,21 @@
                                 </div>
                                 <span>Scroll for more</span>
                             </a>
-                        </div> <!-- s-intro__scroll-down -->
-                        
+                        </div> <!-- s-intro__scroll-down -->                    
                     </div> <!-- s-intro__content-inner -->
-
                 </div> <!-- s-intro__content -->
-
             </section> <!-- end s-intro -->
-
-            <!-- about
-            ----------------------------------------------- -->
+            <!-- Sobre mi----------------------------------------------- -->
             <section id="about" class="s-about target-section">
-
                 <div class="row s-about__content width-sixteen-col">
                     <div class="column grid-block grid-section-split">
-
                         <img src="/wp-content/themes/franperez/images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
-
                         <div class="section-header grid-section-split__header">
                             <div class="text-pretitle">Sobre mi</div>                           
                             <h2 class="text-display-title">
                             Conectando buscadores y negocios.
                             </h2>                           
                         </div> <!-- end section-header -->
-
                         <div class="s-about__content-main grid-section-split__primary">
                             <p class="attention-getter">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -105,7 +82,6 @@
                             iure, eos consequatur est deleniti cum id aliquid neque.
                             </p>
                         </div> <!-- end s-about__content-main -->
-
                         <div class="s-about__content-btn grid-section-split__bottom">
                             <a href="about.html" class="btn btn--stroke u-fullwidth">Descubre más sobre mi</a>
 
@@ -135,20 +111,14 @@
                                     </a>
                                 </li>
                             </ul> <!-- end s-footer__social -->
-                        </div> <!-- end s-about__content-btn -->
-                    
+                        </div> <!-- end s-about__content-btn -->               
                     </div> <!-- content-inner -->
-                </div>
-                
+                </div>      
             </section> <!-- end s-about -->
-
-            <!-- expertise
-            ----------------------------------------------- -->
+            <!-- servicios----------------------------------------------- -->
             <section id="expertise" class="s-expertise">
-
                 <div class="row s-expertise__content width-sixteen-col">
                     <div class="column xl-12 grid-block grid-section-split">
-
                         <div class="section-header grid-section-split__header">
                             <div class="text-pretitle">Expertise</div>                           
                             <h2 class="text-display-title">
@@ -159,7 +129,6 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
                             </p>
                         </div> <!-- end section-header -->
-
                         <div class="s-expertise__content-main grid-section-split__primary">
 
                             <div class="grid-list-items list-items show-ctr">
@@ -211,24 +180,17 @@
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
-
                             </div> <!-- grid-list-items -->
                         </div> <!-- end s-expertise__content-main -->
-
                         <div class="s-expertise__content-btn grid-section-split__bottom">
                             <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
                         </div> <!-- end s-about__content-btn -->
-
                     </div> <!-- end grid-block-->
                 </div> <!-- end s-expertise__content -->
-
             </section> <!-- end s-expertise -->         
-
         </section> <!-- s-content-->
-
         <?php include_once __DIR__ . '/components/articulos.php'; ?>    
-        <!-- # cta
-        ================================================== -->
+        <!-- # cta================================================== -->
         <section id="cta" class="s-cta">
              <?php include_once __DIR__ . '/components/cta.php'; ?>       
         </section> <!-- end s-cta -->

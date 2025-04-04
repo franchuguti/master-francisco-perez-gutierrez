@@ -3,7 +3,6 @@ $protocol = isset($_SERVER["HTTPS"]) ? 'https' : 'http';
 $url_sin_string = $protocol . '://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER["REQUEST_URI"], '?');
 $imagenbranding = '/wp-content/themes/asdrubal/images/branding.jpg"';
 ?>
-<!-- Meta tags, $term se usa para también usarlo en categorias y demás -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -72,4 +71,3 @@ if (get_field('og_image' , $term)){
 <meta name="twitter:site" content="@blog_UI/UX">
 <meta name="twitter:creator" content="@blog_UI/UX">
 
-<!--<meta name="rating" content="adult"> -->
