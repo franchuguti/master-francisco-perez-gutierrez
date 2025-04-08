@@ -8,11 +8,9 @@
             <div class="s-pageheader entry__header">
                 <div class="row">
                     <div class="column xl-12">
-
                         <h1 class="entry__title">
                             <?php the_title(); ?>
                         </h1> <!-- end entry__title -->
-
                         <div class="entry__meta">
                             <div class="entry__meta-date">
                                 <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -39,11 +37,13 @@
                 </div>
             </div> <!-- end entry__header --> 
             <div class="s-pagecontent entry__content">
-
                 <div class="row entry__media">
                     <div class="column xl-12">
                         <figure class="featured-image">
-                            <img src="<?php the_field('imagenuno'); ?>">
+                            <?php $imagenuno = get_field( 'imagenuno' ); ?>
+                            <?php if ( $imagenuno ) : ?>
+                                <img src="<?php echo esc_url( $imagenuno['url'] ); ?>" alt="<?php echo esc_attr( $imagenuno['alt'] ); ?>" />
+                            <?php endif; ?>
                         </figure>
                     </div>
                 </div> <!-- end entry__media -->
@@ -58,16 +58,32 @@
                             <?php the_field( 'drop-cap' ); ?>
                             </p>
 
-                            <figure class="alignwide">
-                            
-                            </figure>
+                            <div class="row entry__media">
+                                <div class="column xl-12">
+                                    <figure class="featured-image">
+                                        <?php $imagendos = get_field( 'imagendos' ); ?>
+                                        <?php if ( $imagendos ) : ?>
+                                            <img src="<?php echo esc_url( $imagendos['url'] ); ?>" alt="<?php echo esc_attr( $imagendos['alt'] ); ?>" />
+                                        <?php endif; ?>
+                                    </figure>
+                                </div>
+                            </div>
     
                             <p>
                             <?php the_field( 'drop-cap-dos' ); ?>
                             </p>
     
                             <h2><?php the_field( 'headingdos' ); ?></h2>
-        
+                            <div class="row entry__media">
+                                <div class="column xl-12">
+                                    <figure class="featured-image">
+                                        <?php $imagentres = get_field( 'imagentres' ); ?>
+                                        <?php if ( $imagentres ) : ?>
+                                            <img src="<?php echo esc_url( $imagentres['url'] ); ?>" alt="<?php echo esc_attr( $imagentres['alt'] ); ?>" />
+                                        <?php endif; ?>
+                                    </figure>
+                                </div>
+                            </div>        
                             <p>
                             <?php the_field( 'p-uno' ); ?></p>
     

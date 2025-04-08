@@ -10,17 +10,30 @@
         document.documentElement.classList.add('js');
     </script>
 
-    <!-- CSS
-    ================================================== -->
+    <!-- CSS ================================================== -->
     <link rel="stylesheet" href="wp-content/themes/franperez/css/vendor.css">
     <link rel="stylesheet" href="wp-content/themes/franperez/css/styles.css">
 
-    <!-- favicons
-    ================================================== -->
+    <!-- favicons ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="wp-content/themes/franperez/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="wp-content/themes/franperez/favicon-16x16.png">
     <link rel="manifest" href="/wp-content/themes/franperez/site.webmanifest">
+
+
+    <!-- DATOS ENRIQUECIDOS SOBRE MI ================================================== -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Francisco Perez",
+    "jobTitle": "SEO Specialist",
+    "url": "https://franperezg.com",
+    "sameAs": [
+      "https://www.linkedin.com/in/francisco-perez-seo-tecnico/"
+    ]
+  }
+  </script>
 
     <?php wp_head(); ?>
 </head>

@@ -35,6 +35,22 @@ function mostrar_ultimos_posts() {
 
         while ($query->have_posts()) : $query->the_post(); ?>
             <div class="grid-list-items__item blog-card">
+                <?php 
+                // Mostrar imagen destacada o fallback de ACF
+                if (has_post_thumbnail()) {
+                    echo '<div class="blog-card__thumbnail">';
+                    the_post_thumbnail('medium');
+                    echo '</div>';
+                } else {
+                    $thumbnail = get_field('thumbnail');
+                    if ($thumbnail) {
+                        echo '<div class="blog-card__thumbnail">';
+                        echo '<img src="' . esc_url($thumbnail['url']) . '" alt="' . esc_attr($thumbnail['alt']) . '" />';
+                        echo '</div>';
+                    }
+                }
+                ?>
+
                 <div class="blog-card__header">
                     <div class="blog-card__cat-links">
                         <?php 
@@ -49,7 +65,7 @@ function mostrar_ultimos_posts() {
                     </h3>
                 </div>
                 <div class="blog-card__text">
-                    <p><?php echo the_field( 'lead' ); ?></p>
+                    <p><?php the_field('lead'); ?></p>
                 </div>
             </div> <!-- end blog-card -->
         <?php endwhile;

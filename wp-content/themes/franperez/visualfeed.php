@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="column xl-12">
                             <h1 class="page-title">
-                            UI/UX Design – Proyectos destacados
+                            UI/UX Design – <br> Proyectos destacados
                             </h1>           
                         </div>
                     </div>
