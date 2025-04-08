@@ -130,9 +130,12 @@
                             <div class="grid-list-items__item blog-card">
                                 <div class="blog-card__header">
                                     <h3 class="blog-card__title"><?php $post_uno_similar = get_field( 'post-uno-similar' ); ?>
-                                            <?php if ( $post_uno_similar ) : ?>
-	                                        <a href="<?php echo esc_url( $post_uno_similar); ?>"><?php echo esc_html( $post_uno_similar ); ?></a>
-                                    <?php endif; ?></h3>
+                                        <?php if ( $post_uno_similar ) : ?>
+                                            <?php $post = $post_uno_similar; ?>
+                                            <?php setup_postdata( $post ); ?> 
+                                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                            <?php wp_reset_postdata(); ?>
+                                        <?php endif; ?></h3>
                                 </div>
                                 <div class="blog-card__text">
                                     <p>
@@ -143,9 +146,12 @@
                             <div class="grid-list-items__item blog-card">
                                 <div class="blog-card__header">
                                     <h3 class="blog-card__title"><?php $post_dos_similar = get_field( 'post-dos-similar' ); ?>
-                                            <?php if ( $post_dos_similar ) : ?>
-                                            <a href="<?php echo esc_url( $post_dos_similar); ?>"><?php echo esc_html( $post_dos_similar ); ?></a>
-                                    <?php endif; ?></h3>
+                                        <?php if ( $post_dos_similar ) : ?>
+                                            <?php $post = $post_dos_similar; ?>
+                                            <?php setup_postdata( $post ); ?> 
+                                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                            <?php wp_reset_postdata(); ?>
+                                        <?php endif; ?></h3>
                                 </div>
                                 <div class="blog-card__text">
                                     <p>
@@ -156,9 +162,12 @@
                             <div class="grid-list-items__item blog-card">
                                 <div class="blog-card__header">
                                     <h3 class="blog-card__title"><?php $post_tres_similar = get_field( 'post-tres-similar' ); ?>
-                                            <?php if ( $post_tres_similar ) : ?>
-                                            <a href="<?php echo esc_url( $post_tres_similar); ?>"><?php echo esc_html( $post_tres_similar ); ?></a>
-                                    <?php endif; ?></h3>
+                                        <?php if ( $post_tres_similar ) : ?>
+                                            <?php $post = $post_tres_similar; ?>
+                                            <?php setup_postdata( $post ); ?> 
+                                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                            <?php wp_reset_postdata(); ?>
+                                        <?php endif; ?></h3>
                                 </div>
                                 <div class="blog-card__text">
                                     <p>

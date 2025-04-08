@@ -8,7 +8,7 @@
                     <div class="grid-full section-header text-center">
                         <div class="text-pretitle">Artículos recientes</div>                           
                         <h2 class="text-display-title">
-                        Últimos artículos de mi blog.
+                        Últimos artículos del blog
                         </h2>  
                     </div> <!-- end section-header --> 
 

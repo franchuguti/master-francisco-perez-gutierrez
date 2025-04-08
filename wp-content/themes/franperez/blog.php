@@ -9,7 +9,7 @@
                         <div class="column xl-12">
                             <h1 class="page-title">
                                 <span class="page-title__small-type text-pretitle">My Blog</span>
-                                Recent Writings
+                                Artículos Recientes
                             </h1>
                         </div>
                     </div>
