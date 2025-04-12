@@ -1,5 +1,4 @@
-<?php include_once 'components/header.php'; 
-?>
+<?php include_once __DIR__ . '/components/header.php'; ?>
         <!-- # site main content================================================== -->
         <section id="content" class="s-content">
 

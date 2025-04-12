@@ -10,13 +10,6 @@ function remove_default_wp_styles() {
     wp_dequeue_style('global-styles');
     wp_deregister_style('global-styles');
 
-    // Elimina el CSS de WooCommerce (si lo usas)
-    wp_dequeue_style('woocommerce-inline');
-    wp_deregister_style('woocommerce-inline');
-
-    wp_dequeue_style('wc-blocks-style');
-    wp_deregister_style('wc-blocks-style');
-
     // Elimina los emojis
     remove_action('wp_print_styles', 'print_emoji_styles');
 }
