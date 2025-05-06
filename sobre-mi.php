@@ -16,7 +16,7 @@
 ?>
    <h1 class="introd" style="color: brown; margin-top: 50px;">Sobre mi</h1>
    <div>
-        <img class="selfie" src="/imagenes/Fran-photo.jpeg" alt="Foto de Fran" width="200" height="auto">
+        <img class="selfie" src="/imagenes/fran-photo.jpeg" alt="Foto de Fran" width="200" height="auto">
     </div>
     <?php
        include $_SERVER['DOCUMENT_ROOT'].'/assets/tablassql.php';
