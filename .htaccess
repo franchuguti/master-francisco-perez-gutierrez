@@ -1,9 +1,9 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
-    # Redirigir desde IP a dominio
-    RewriteCond %{HTTP_HOST} ^198\.16\.100\.0$
-    RewriteRule ^(.*)$ https://ejemplo.test/$1 [R=301,L]
+ # Redirigir de HTTP a HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
     # Reescribir URLs limpias a .php
     RewriteRule ^([^.]+)$ $1.php [L]
