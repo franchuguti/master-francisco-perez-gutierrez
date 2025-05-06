@@ -83,11 +83,11 @@
                             </p>
                         </div> <!-- end s-about__content-main -->
                         <div class="s-about__content-btn grid-section-split__bottom">
-                            <a href="about.html" class="btn btn--stroke u-fullwidth">Descubre más sobre mi</a>
+                            <a href="sobre-mi" class="btn btn--stroke u-fullwidth">Descubre más sobre mi</a>
 
                             <ul class="s-about__social social-list">
                                 <li>
-                                    <a href="#0">
+                                    <a href="Facebook">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);"><path d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z"></path></svg>
                                         <span class="u-screen-reader-text">Facebook</span>
                                     </a>
@@ -120,11 +120,10 @@
                 <div class="row s-expertise__content width-sixteen-col">
                     <div class="column xl-12 grid-block grid-section-split">
                         <div class="section-header grid-section-split__header">
-                            <div class="text-pretitle">Expertise</div>                           
+                            <div class="text-pretitle">Servicios</div>                           
                             <h2 class="text-display-title">
-                            My key areas of expertise.
+                            SEO, UX, UI, tú eliges
                             </h2>     
-                            
                             <p class="lead">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
                             </p>
@@ -134,56 +133,55 @@
                             <div class="grid-list-items list-items show-ctr">
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Digital Marketing</h3>
+                                        <h3 class="list-items__item-title">Auditoría SEO Técnica</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Detecto de forma minuciosa los cuellos de botella técnicos que impiden que tu web rinda al máximo en Google. 
+                                        Mediante herramientas especializadas y mi experiencia en arquitectura web, realizo un análisis profundo de la 
+                                        salud técnica de tu sitio para establecer un plan de acción claro y eficaz.
                                         </p>
                                     </div>
                                 </div> <!-- list-item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Project Management</h3>
+                                        <h3 class="list-items__item-title">Optimización de Velocidad y Core Web Vitals</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        La velocidad de carga y la experiencia del usuario son factores clave tanto para SEO como para la conversión. 
+                                        Me encargo de optimizar tu sitio para que cumpla con los estándares de Google en cuanto a rendimiento, 
+                                        asegurando una navegación fluida, rápida y efectiva.
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Content Marketing</h3>
+                                        <h3 class="list-items__item-title">Arquitectura Web y Estructura de URLs</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Eaque velit eligend. iQuibusdam quis autem voluptatibus earum vel ex error ea magni. 
-                                        Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. 
-                                        Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Diseñar una arquitectura sólida y escalable es clave para que tu sitio crezca sin perder el control SEO. 
+                                        Trabajo contigo para organizar la estructura de tu web con una lógica jerárquica, orientada tanto al 
+                                        usuario como a los motores de búsqueda.
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="grid-list-items__title list-items__item-header">
-                                        <h3 class="list-items__item-title">Research & Discovery</h3>
+                                        <h3 class="list-items__item-title">Diseño UX/UI Centrado en SEO</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
                                         <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Combino diseño y posicionamiento para maximizar la usabilidad y 
+                                        conversión sin perder visibilidad en buscadores. Diseño web intuitivas y visualmente atractivas, como por ejemplo esta.
                                         </p>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                             </div> <!-- grid-list-items -->
                         </div> <!-- end s-expertise__content-main -->
                         <div class="s-expertise__content-btn grid-section-split__bottom">
-                            <a href="services.html" class="btn btn--stroke u-fullwidth">View All Services</a>
+                            <a href="servicios" class="btn btn--stroke u-fullwidth">Descubre todos mis servicios</a>
                         </div> <!-- end s-about__content-btn -->
                     </div> <!-- end grid-block-->
                 </div> <!-- end s-expertise__content -->

@@ -9,8 +9,7 @@
                             <h1 class="page-title">
                                 <span class="page-title__small-type text-pretitle">Servicios</span>
                                 SEO, UX, UI, tú eliges
-                            </h1>
-                            
+                            </h1>                            
                         </div>
                     </div>
                </section> <!-- pageheader -->  
@@ -28,7 +27,6 @@
                             </p>
                         </div>                       
                     </div>  <!-- pageintro -->       
-
                     <div class="row">
                         <div class="column xl-12 grid-block">             
                             
@@ -36,114 +34,99 @@
                                 
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Digital Marketing</h3>
+                                        <h3 class="list-items__item-title">SEO Técnico Avanzado</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Mejoro la salud técnica de tu sitio para que los buscadores lo entiendan, indexen y posicionen sin obstáculos.
                                         </p>
 
                                         <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
+                                            <li>Resolución de problemas de indexación, canibalizaciones y errores de rastreo</li>
+                                            <li>Configuración avanzada de sitemaps, taxonomías, canonical tags y robots.txt</li>
+                                            <li>Optimización de estructuras de URL, enlazado interno y schema markup</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Social Media Marketing</h3>
+                                        <h3 class="list-items__item-title">Estrategia de Keyword Research</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
+                                        Encuentro las mejores oportunidades de palabras clave para atraer tráfico cualificado y convertir visitantes en clientes.
                                         </p>
-
                                         <ul class="list-services">
-                                            <li>Lorem Ipsum</li>
-                                            <li>voluptatibus Earum</li>
-                                            <li>Cumque Ducimus</li>
+                                            <li>Análisis de intención de búsqueda y clusters de contenido</li>
+                                            <li>Uso de herramientas avanzadas para detectar tendencias y oportunidades</li>
+                                            <li>Creación de estrategias de contenido basadas en datos</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Content Marketing</h3>
+                                        <h3 class="list-items__item-title">Diseño UX/UI Centrado en SEO</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Rerum quam quos. Quibusdam quis autem voluptatibus earum vel ex error ea magni. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
+                                        Combino diseño y posicionamiento para maximizar la usabilidad y conversión sin perder visibilidad en buscadores.
                                         </p>
-
                                         <ul class="list-services">
-                                            <li>Eaque velit</li>
-                                            <li>Asperiores</li>
-                                            <li>Cumque Ducimus</li>
+                                            <li>Optimización de la experiencia del usuario (UX) para retención y engagement</li>
+                                            <li>Diseño de interfaces intuitivas y accesibles sin afectar el SEO</li>
+                                            <li>Aplicación de principios CRO (Conversion Rate Optimization)</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Paid Advertising</h3>
+                                        <h3 class="list-items__item-title">Web Performance & Core Web Vitals</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Eaque velit eligendi ut magnam.Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. 
-                                        Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Aumento la velocidad y estabilidad de tu web para mejorar rankings y la experiencia del usuario.
                                         </p>
-
                                         <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
+                                            <li>Optimización de carga (lazy loading, imágenes WebP/AVIF, código minificado)</li>
+                                            <li>Mejora de LCP, FID e INP para cumplir con Core Web Vitals</li>
+                                            <li>Estrategias para reducir el tiempo de respuesta del servidor (TTFB)</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Search Engine Optimization</h3>
+                                        <h3 class="list-items__item-title">SEO para Webs Multilingües y Expansión Internacional</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
+                                        Implemento estrategias avanzadas para sitios con múltiples idiomas o mercados globales.
+                                        SEO para Webs Multilingües y Expansión Internacional
                                         </p>
-
                                         <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
+                                            <li>Configuración correcta de hreflang y estructuras de URL para SEO internacional</li>
+                                            <li>Análisis y optimización de la geolocalización en buscadores</li>
+                                            <li>Estrategias para evitar contenido duplicado en diferentes versiones del sitio</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Advance Analytics</h3>
+                                        <h3 class="list-items__item-title">Consultoría Técnica y Soporte para Equipos</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
+                                        Trabajo junto a desarrolladores, product managers y equipos de contenido como partner estratégico de SEO.
                                         </p>
-
                                         <ul class="list-services">
-                                            <li>Lorem Ipsum</li>
-                                            <li>Voluptatibus Earum</li>
-                                            <li>Cumque Ducimus</li>
+                                            <li>Integración en equipos Agile y flujos de trabajo técnicos.</li>
+                                            <li>Acompañamiento en sprints, QA y PRs desde la perspectiva SEO.</li>
+                                            <li>Formación interna para equipos no SEO.</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Email Marketing</h3>
+                                        <h3 class="list-items__item-title">CMS</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
