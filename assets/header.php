@@ -63,6 +63,7 @@
                <li><a href="/sobre-mi">Sobre mi<a/></li>
                <li><a href="/contacto">Contacto<a/></li>
                <li><a href="/basica">Web básica<a/></li>
+                <li><a href="/noticias">Noticia<a/></li>
                <li><a href="/carpeta/archivo-carpeta">Archivo Carpeta<a/></li>
            </ul>
        </nav>

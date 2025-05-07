@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset 
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+    xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+>
 
     <url>
         <loc>https://ejemplo.test/</loc>
@@ -43,6 +48,18 @@
     <url>
         <loc>https://ejemplo.test/basica</loc>
         <lastmod>2025-05-06</lastmod>
+    </url>
+
+    <url> <!--Se debería automatizar-->
+        <loc>http://www.example.org/business/article55.html</loc>
+        <news:news>
+            <news:publication>
+            <news:name>Noticia creada para el sitemap de news</news:name> <!--Nombre sería el h1, tal cual es-->
+            <news:language>es</news:language>
+            </news:publication>
+            <news:publication_date>2025-05-07</news:publication_date>
+            <news:title>Menuda noticia</news:title> <!--Sería como el title-->
+        </news:news>
     </url>
 
 </urlset>
