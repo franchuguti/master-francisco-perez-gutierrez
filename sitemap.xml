@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 
     <url>
         <loc>https://ejemplo.test/</loc>
@@ -14,6 +14,24 @@
         <image:image>
             <image:loc>https://ejemplo.test/imagenes/fran-photo.jpeg</image:loc>
         </image:image>
+        <video:video>
+            <video:thumbnail_loc>https://i.ytimg.com/vi/1B1dnSf6rPk/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGFcgZShjMA8=&rs=AOn4CLAG63NpWv9ZwxBsLZ3rg8ieCUiMMA</video:thumbnail_loc>
+            <video:title>Coast Guard rescues man and dog during Hurricane Helene</video:title>
+            <video:description>A Coast Guard Air Station Clearwater helicopter crew rescued a man and dog from a disabled and taking-on-water 36-foot sailing vessel 25 miles off Sanibel Island, Florida, on Sept. 26, 2024. The man and his dog were reportedly in good health and taken to Southwest Florida International Airport to meet with EMS. (U.S. Coast Guard video by Air Station Clearwater)</video:description>
+            <video:player_loc>https://www.youtube.com/embed/1B1dnSf6rPk?si=RaIVhGKtRX80inpj</video:player_loc>
+            <!--Etiquetas opcionales del sitemap de video-->
+            <video:duration>41</video:duration>
+            <video:rating>4.2</video:rating><!--Habría que automatizarlo-->
+            <video:view_count>540175</video:view_count> <!--Habría que automatizarlo-->
+            <video:publication_date>2024-09-24</video:publication_date>
+            <video:family_friendly>yes<video:family_friendly>
+            <video:restriction relationship="allow">ES MX US</video:restriction>
+            <video:platform relationship="deny">tv</video:platform>
+            <video:requires_subscription>yes</video:requires_subscription>
+            <video:uploader>U.S. Coast Guard</video:uploader>
+            <video:live>no</video:live>
+            <video:tag>rescue, dog, huricane, helene, sea, boat</video:tag>
+        </video:video>
         <lastmod>2025-05-06</lastmod>
     </url>
 
@@ -28,3 +46,4 @@
     </url>
 
 </urlset>
+
