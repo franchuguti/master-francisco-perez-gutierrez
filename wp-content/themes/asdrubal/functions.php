@@ -7,4 +7,5 @@ function tresposts (){
     include $plantillas .'trespost.php';
 }
 add_shortcode('latest_post' , 'tresposts');
+require_once get_template_directory() . '/cookies-handler.php';
 ?>
