@@ -11,8 +11,8 @@
     </script>
 
     <!-- CSS ================================================== -->
-    <link rel="stylesheet" href="wp-content/themes/franperez/css/vendor.css">
-    <link rel="stylesheet" href="wp-content/themes/franperez/css/styles.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/vendor.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css">
 
     <!-- favicons ================================================== -->
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">

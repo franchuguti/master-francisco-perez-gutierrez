@@ -1,19 +1,4 @@
 <?php
-function remove_default_wp_styles() {
-    // Elimina el CSS de bloques de Gutenberg
-    wp_dequeue_style('wp-block-library');
-    wp_deregister_style('wp-block-library');
-
-    wp_dequeue_style('wp-block-library-theme');
-    wp_deregister_style('wp-block-library-theme');
-
-    wp_dequeue_style('global-styles');
-    wp_deregister_style('global-styles');
-
-    // Elimina los emojis
-    remove_action('wp_print_styles', 'print_emoji_styles');
-}
-add_action('wp_enqueue_scripts', 'remove_default_wp_styles', 999);
 
 function mostrar_ultimos_posts() {
     ob_start(); // Captura la salida para devolverla correctamente

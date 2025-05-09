@@ -1,0 +1,15 @@
+
+
+
+User-agent: *
+Allow: /
+
+
+
+#Sitemap de los Sitemaps
+
+Sitemap:
+Sitemap:
+Sitemap:
+Sitemap:
+Sitemap:
