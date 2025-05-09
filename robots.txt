@@ -8,8 +8,10 @@ Allow: /
 
 #Sitemap de los Sitemaps
 
-Sitemap:
-Sitemap:
-Sitemap:
+Sitemap: https://www.franperezg.com/sitemap.xml
+Sitemap: https://www.franperezg.com/sitemap.xml
+Sitemap: https://www.franperezg.com/sitemap.xml
+Sitemap: 
+Sitemap: 
 Sitemap:
 Sitemap:
