@@ -1,4 +1,5 @@
 <?php include_once 'components/header.php'; 
+/* Template Name: Blog */  
 ?>
         <!-- # site main content
         ================================================== -->
@@ -8,7 +9,7 @@
                     <div class="row">
                         <div class="column xl-12">
                             <h1 class="page-title">
-                                <span class="page-title__small-type text-pretitle">My Blog</span>
+                                <span class="page-title__small-type text-pretitle">Blog</span>
                                 Artículos Recientes
                             </h1>
                         </div>
