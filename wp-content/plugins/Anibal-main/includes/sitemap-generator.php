@@ -21,7 +21,6 @@ $canonical = get_field( 'canonical' );
   <?php
 
 // Blog
-
 echo "<h2>Blog</h2>";
 $domblog = new DOMDocument('1.0','UTF-8');
 $domblog->formatOutput = true;
@@ -70,8 +69,11 @@ $domblog->save('sitemap-posts.xml') or die('XML Create Error');
   ?>
   <div style="height:88px;"> </div>
 
+
+  
   <?php
-  echo "<hr><h2>Páginas</h2>";
+  // Page
+  echo "<hr><h2>Page</h2>";
   $dom = new DOMDocument('1.0','UTF-8');
   $dom->formatOutput = true;
 

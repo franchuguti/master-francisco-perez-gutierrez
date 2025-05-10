@@ -37,7 +37,7 @@
 
     <?php wp_head(); ?>
 </head>
-        <header class="s-header">
+        <header class="s-header" id="top">
             <div class="row s-header__inner width-sixteen-col">
                 <div class="s-header__block">
                     <div class="s-header__logo">

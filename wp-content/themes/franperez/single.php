@@ -32,7 +32,6 @@
                                 </span>
                             </div>
                         </div> <!-- end entry__meta -->
-
                     </div>
                 </div>
             </div> <!-- end entry__header --> 
@@ -47,17 +46,13 @@
                         </figure>
                     </div>
                 </div> <!-- end entry__media -->
-
                 <div class="row entry__primary width-narrower">
                     <div class="column xl-12"> 
-
                             <p class="lead">
                             <?php the_field( 'lead' ); ?></p> 
-
                             <p class="drop-cap">
                             <?php the_field( 'drop-cap' ); ?>
                             </p>
-
                             <div class="row entry__media">
                                 <div class="column xl-12">
                                     <figure class="featured-image">
@@ -68,11 +63,9 @@
                                     </figure>
                                 </div>
                             </div>
-    
                             <p>
                             <?php the_field( 'drop-cap-dos' ); ?>
-                            </p>
-    
+                            </p>   
                             <h2><?php the_field( 'headingdos' ); ?></h2>
                             <div class="row entry__media">
                                 <div class="column xl-12">
@@ -85,48 +78,24 @@
                                 </div>
                             </div>        
                             <p>
-                            <?php the_field( 'p-uno' ); ?></p>
-    
+                            <?php the_field( 'p-uno' ); ?></p>   
                             <blockquote>
                                 <p>
                                 <?php the_field( 'blockquote' ); ?>
                                 </p>
                                 <cite><?php the_field( 'cita' ); ?></cite>
-                            </blockquote>
-    
-                            <p><?php the_field( 'p-dos' ); ?></p>
-    
-                            <h3><?php the_field( 'headingtres' ); ?></h3>
-    
+                            </blockquote>   
+                            <p><?php the_field( 'p-dos' ); ?></p>   
+                            <h3><?php the_field( 'headingtres' ); ?></h3> 
                             <p>
                             <?php the_field( 'p-tres' ); ?>
                             </p>
-                            
-                            <div class="post-nav">
-                                <div class="post-nav__prev">
-                                    <a href="single-standard.php" rel="prev">
-                                        <span>Prev</span>
-                                        5 Effective Web Design Principles. 
-                                    </a>
-                                </div>
-                                <div class="post-nav__next">
-                                <a href="single-standard.php" rel="prev">
-                                        <span>Next</span>
-                                        5 Effective Web Design Principles. 
-                                    </a>
-                                </div>
-                            </div> <!-- end post-nav -->                                                   
-                   
                     </div> <!-- end column-->
-                </div> <!-- end entry__primary -->    
-                
+                </div> <!-- end entry__primary -->                   
                 <div class="row related-posts">
                     <div class="column xl-12">
-
                         <h4 class="text-center">Similar Posts</h4>
-
                         <div class="grid-list-items">
-                
                             <div class="grid-list-items__item blog-card">
                                 <div class="blog-card__header">
                                     <h3 class="blog-card__title"><?php $post_uno_similar = get_field( 'post-uno-similar' ); ?>
@@ -174,22 +143,15 @@
                                     <?php the_field( 'similar-tres-texto' ); ?>
                                     </p>
                                 </div>
-                            </div> <!-- end blog card -->
-                        
-                        </div> <!-- end grid-list-items -->
-                          
+                            </div> <!-- end blog card -->                  
+                        </div> <!-- end grid-list-items -->                      
                     </div> <!-- end column -->
                 </div> <!-- end related-posts --> 
-
             </div> <!-- end entry__content -->
-
         </article> <!-- s-content entry-->
-        
-
         <!-- # cta
         ================================================== -->
         <section id="cta" class="s-cta">
              <?php include_once __DIR__ . '/components/cta.php'; ?>       
         </section> <!-- end s-cta -->
-
 <?php include_once __DIR__ . '/components/footer.php'; ?>

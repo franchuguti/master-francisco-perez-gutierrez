@@ -2,11 +2,11 @@
 <?xml-stylesheet type="text/xsl" href="/wp-content/plugins/Anibal-main/css/sitemap/stylesheet.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://ejemplo.test/articulo/category/seo/</loc>
-    <lastmod>2025-05-09</lastmod>
+    <loc>https://ejemplo.test/articulo/category/seo/</loc>
+    <lastmod>2025-05-10</lastmod>
   </url>
   <url>
-    <loc>http://ejemplo.test/articulo/category/ui-design/</loc>
-    <lastmod>2025-05-09</lastmod>
+    <loc>https://ejemplo.test/articulo/category/ui-design/</loc>
+    <lastmod>2025-05-10</lastmod>
   </url>
 </urlset>

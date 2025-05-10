@@ -14,12 +14,15 @@ License: GPLv2
 // Funcionalidades a ordernar
 // include 'includes/del-coments.php';
 
+//Minimizar CSS y JS
+//include 'includes/minify-html.php';
+
 // Generador de Sitemaps por medio de template
 include 'includes/template-generator.php';
 // Permitir scripts en acf
 include 'includes/acf-ajuste.php';
 // Generador de metaetiquetas
-include 'includes/metas-seo.php';
+//include 'includes/metas-seo.php';
 // Quitar mierdas varias de Wordpress
 include 'includes/temp.php';
 // Creación de Custom post tipes
@@ -35,15 +38,15 @@ include 'includes/duplicate.php';
 // Eliminar wp-json
 // include 'includes/del-wpjson.php';
 // Eliminar title
-include 'includes/del-title.php';
+//include 'includes/del-title.php';
 // Eliminar Sitemap nativo de Wordpress
 include 'includes/del-sitemap.php';
 // Eliminar css plugins y wordpress
-// include 'includes/del-css.php';
+include 'includes/del-css.php';
 // Editar canonical
- include 'includes/del-canonical.php';
+include 'includes/del-canonical.php';
 // Eliminar problema category. Evita el 404 con los /./
-// include 'includes/del-category.php';
+//include 'includes/del-category.php';
 // Generar Shortcodes
 // include 'includes/shortcodes.php';
 // Permitir SVG con movimiento y otros archivos

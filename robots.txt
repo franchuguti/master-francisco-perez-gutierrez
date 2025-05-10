@@ -6,12 +6,8 @@ Allow: /
 
 
 
-#Sitemap de los Sitemaps
-
+#Sitemap de Sitemaps
+Sitemap: https://www.franperezg.com/sitemap-index.xml
 Sitemap: https://www.franperezg.com/sitemap.xml
-Sitemap: https://www.franperezg.com/sitemap.xml
-Sitemap: https://www.franperezg.com/sitemap.xml
-Sitemap: 
-Sitemap: 
-Sitemap:
-Sitemap:
+Sitemap: https://www.franperezg.com/sitemap-categorias.xml
+Sitemap: https://www.franperezg.com/sitemap-posts.xml

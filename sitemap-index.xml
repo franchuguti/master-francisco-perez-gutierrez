@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/wp-content/plugins/Anibal-main/css/sitemap/stylesheet.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://ejemplo.test/sitemap.xml</loc>
+    <lastmod>2025-05-10</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://ejemplo.test/sitemap-posts.xml</loc>
+    <lastmod>2025-05-10</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://ejemplo.test/sitemap-categorias.xml</loc>
+    <lastmod>2025-05-10</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://ejemplo.test/sitemap-posts.xml</loc>
+    <lastmod>2025-05-10</lastmod>
+  </sitemap>
+
+</sitemapindex>
