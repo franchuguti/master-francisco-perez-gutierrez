@@ -4,7 +4,6 @@
         <!-- # site main content
         ================================================== -->
         <section id="content" class="s-content">
-
                <section class="s-pageheader pageheader">
                     <div class="row">
                         <div class="column xl-12">

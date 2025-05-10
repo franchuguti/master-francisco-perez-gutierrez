@@ -3,7 +3,7 @@
 Plugin Name: Anibal
 Plugin URI:
 Description: Multiplugin.
-Author: Francisco Pérez
+Author: Francisco Perez
 Author URI: https://franperezg.com
 Version: 2.0.6.5
 License: GPLv2
@@ -28,7 +28,7 @@ include 'includes/temp.php';
 // Creación de Custom post tipes
 // include 'includes/custom-post-type.php';
 // Poder duplicar post
-include 'includes/duplicate.php';
+//include 'includes/duplicate.php';
 // Editar wysiwyg
 // include 'includes/wysiwyg.php';
 // Editar woocommerce
@@ -44,17 +44,17 @@ include 'includes/del-sitemap.php';
 // Eliminar css plugins y wordpress
 include 'includes/del-css.php';
 // Editar canonical
-include 'includes/del-canonical.php';
+//include 'includes/del-canonical.php';
 // Eliminar problema category. Evita el 404 con los /./
 //include 'includes/del-category.php';
 // Generar Shortcodes
 // include 'includes/shortcodes.php';
 // Permitir SVG con movimiento y otros archivos
-include 'includes/files.php';
+//include 'includes/files.php';
 // Force Downloads
 // include 'includes/force.php';
 // Cambiar Heartbeat
-include 'includes/heartbeat.php';
+//include 'includes/heartbeat.php';
 // Imperdir la actualización de plugins
 // include 'includes/unupdate-plugins.php';
 // Tabla de contenidos lwptoc

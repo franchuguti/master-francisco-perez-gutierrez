@@ -2,10 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="https://ejemplo.test/wp-content/plugins/Anibal-main/css/sitemap/stylesheet.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ejemplo.test/visual-feed/</loc>
-    <lastmod>2025-05-09</lastmod>
-  </url>
-  <url>
     <loc>https://ejemplo.test/sobre-mi/</loc>
     <lastmod>2025-05-09</lastmod>
   </url>

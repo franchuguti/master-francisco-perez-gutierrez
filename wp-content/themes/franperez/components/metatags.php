@@ -1,7 +1,7 @@
 <?php $term = get_queried_object();
 $protocol = isset($_SERVER["HTTPS"]) ? 'https' : 'http';
 $url_sin_string = $protocol . '://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER["REQUEST_URI"], '?');
-$imagenbranding = '/wp-content/themes/asdrubal/images/branding.jpg"';
+$imagenbranding = '/wp-content/themes/franperez/images/francisco-perez-logo.svg"';
 ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

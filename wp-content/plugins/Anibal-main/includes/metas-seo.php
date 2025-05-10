@@ -1,157 +1,73 @@
-<?php
-function wp_seohead() {
-//Esto se llama desde header.php
+<?php $term = get_queried_object();
 $protocol = isset($_SERVER["HTTPS"]) ? 'https' : 'http';
-//$protocol = 'https://';
 $url_sin_string = $protocol . '://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER["REQUEST_URI"], '?');
-$term = get_queried_object();
-$marcaweb = 'EMPRESANOMBRE';
-
+$imagenbranding = '/wp-content/themes/franperez/images/francisco-perez-logo.svg"';
 ?>
-<link rel="alternate" hreflang="<?php echo $lang=get_bloginfo("language"); ?>" href="https:<?php echo $current_url="//".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; ?>" />
-<link rel="alternate" hreflang="x-default" href="<?php echo $url_sin_string ;/*echo $protocol. $current_url="//".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; */?>" />
-<meta name="author" content="<?php echo $marcaweb ;?>">
-<link type="text/plain" rel="author" href="<?php echo plugin_dir_url( __DIR__ );?>author/humans.txt" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Custom Metatags by Asdrubal SEO SL -->
-<title>
-<?php if ( get_field( 'title', $term ) ){the_field( 'title', $term );
-} else{ wp_title(''); }
- ?>
- | <?php echo $marcaweb ;?>
-</title>
+        <?php $metarobots_checked_values = get_field( 'metarobots' , $term ); 
+        if ( $metarobots_checked_values ) : ?>
+        <meta name="robots" content="<?php the_field( 'metarobots' , $term ); ?>">
+        <?php endif; ?>
 
+    <?php the_field('custom_meta' , $term); ?>
 
-<?php the_field( 'custom_meta', $term ); ?>
+<title><?php the_field( 'title' , $term ); ?></title>
+<meta name="og:title" content="<?php 
+if (get_field('og_title' , $term)){
+    the_field('og_title' , $term);
+} else {the_field( 'title' , $term);} ?>">
 
-<?php $metarobots_checked_values = get_field( 'metarobots', $term );
-if ( $metarobots_checked_values ) : ?>
-<?php // foreach ( $metarobots_checked_values as $metarobots_value ): <?php echo esc_html( $metarobots_value ); ?>
-<meta name="robots" content="<?php the_field( 'metarobots', $term )?>"/>
-<?php // endforeach; ?>
-<?php endif; ?>
-<meta property="og:title" content="<?php if ( get_field( 'og_title', $term ) ){the_field( 'og_title', $term );} else{the_field( 'title', $term );}?>"/>
-<meta property="twitter:title" content="<?php if ( get_field('twitter_title', $term)){the_field( 'twitter_title', $term );} elseif(get_field( 'og_title', $term)){the_field( 'og_title', $term );} else{the_field( 'title', $term);}?>">
+<meta name="twitter:title" content="<?php 
+if (get_field('twitter_title' , $term)){
+    the_field('twitter_title' , $term);} 
+elseif (get_field('og_title' , $term)) {the_field( 'og_title' , $term);}
+else{the_field('title' , $term);}?>">
+
+<meta name="desciption" content="<?php the_field( 'metadesciption' ,$term ); ?>">
+
+<meta name="og:desciption" content="<?php 
+if (get_field('og_description' , $term)){
+    the_field( 'og_description' , $term );
+} else {the_field( 'metadesciption' , $term);} ?>">
+
+<meta name="twitter:desciption" content="<?php 
+if (get_field('twitter_description' , $term)){
+    the_field('twitter_description' , $term);} 
+elseif (get_field('og_description' , $term)) {the_field( 'og_description' , $term);}
+else{the_field('metadesciption' , $term);}?>">
 
 <link rel="canonical" href="<?php if ( get_field( 'canonical', $term ) ){the_field( 'canonical', $term);} else{echo $url_sin_string;}?>"/>
-<meta property="og:url" content="<?php if ( get_field( 'canonical', $term ) ){the_field( 'canonical', $term);} else{echo $url_sin_string;}?>"/>
-<meta property="twitter:url" content="<?php if ( get_field( 'canonical', $term ) ){the_field( 'canonical', $term);} else{echo $url_sin_string;}?>">
 
-<meta name="description" content="<?php the_field( 'metadescription', $term ); ?>"/>
-<meta property="og:description" content="<?php if ( get_field( 'og_description', $term ) ){the_field( 'og_description', $term );} else{the_field( 'metadescription', $term );}?>"/>
-<meta property="twitter:description" content="<?php if ( get_field('twitter_description', $term)){the_field( 'twitter_description', $term );} elseif(get_field( 'og_description', $term)){the_field( 'og_description', $term );} else{the_field( 'metadescription', $term );}?>">
+<meta name="og:url" content="<?php
+ if ( get_field( 'canonical', $term ) ){the_field( 'canonical', $term);} 
+ else{echo $url_sin_string;}?>">
 
-<?php /* #Cambio Poner un if con la imagen generica de la web y otro if genérico para el image alt de twitter*/ ?>
-<meta property="og:image" content="<?php if ( get_field( 'open_graph', $term ) ){the_field( 'open_graph', $term );} else{echo plugin_dir_url( __DIR__ ) . 'img/og.jpg';}?>"/>
-<meta property="og:image:secure_url" content="<?php if ( get_field( 'open_graph', $term ) ){the_field( 'open_graph', $term );} else{echo plugin_dir_url( __DIR__ ) . 'img/og.jpg';}?>"/>
-<meta property="og:image:alt" content="<?php if ( get_field( 'og_image_alt', $term ) ){the_field( 'og_image_alt', $term );} else{echo $marcaweb ;}?>"/>
-<meta property="twitter:image" content="<?php if ( get_field( 'twitter_card', $term ) ){the_field( 'twitter_card', $term );}elseif(get_field( 'open_graph', $term)){the_field( 'open_graph', $term);}else{echo plugin_dir_url( __DIR__ ) . 'img/og.jpg';}?>">
+<meta name="twitter:url" content="<?php
+ if ( get_field( 'canonical', $term ) ){the_field( 'canonical', $term);} 
+ else{echo $url_sin_string;}?>">
 
+<meta name="og:image" content="<?php 
+if (get_field('og_image' , $term)){
+    the_field( 'og_image' , $term );
+} else {echo $imagenbranding;}?>">
 
-<meta property="twitter:card" content="summary_large_image">
-<meta property="og:type" content="website"/>
-<!-- Ajustar a <?php echo $marcaweb ;?> -->
-<meta name="twitter:site" content="">
-<meta name="twitter:creator" content="">
+<meta name="og:image:source_url" content="<?php 
+if (get_field('og_image' , $term)){
+    the_field( 'og_image' , $term );
+} else {echo $imagenbranding;}?>">
 
-<?php
+<meta name="twitter:image" content="<?php 
+if (get_field('og_image' , $term)){
+    the_field( 'og_image' , $term );
+} else {echo $imagenbranding;}?>">
 
+<meta name="og:image:alt" content="<?php the_field( 'title' , $term ); ?>">
 
-}
+<meta name="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 
-    if (isset($_GET['hash'])) {
-?>
-   <script type="text/javascript">
-// Obtener la URL actual
-let currentUrl = window.location.href;
-// Buscar la posición del parámetro "?hash="
-let hashIndex = currentUrl.indexOf("?hash=");
-// Verificar si el parámetro "?hash=" existe en la URL
-if (hashIndex !== -1) {
-    // Obtener el valor del hash
-    let hashValue = currentUrl.substring(hashIndex + 6);
-    // Construir la nueva URL reemplazando "?hash=" por "#"
-    let newUrl = currentUrl.substring(0, hashIndex) + "#" + hashValue;
-    // Redirigir a la nueva URL
-    window.location.href = newUrl;
-}
-    </script>
-    <?php
-    }
-    
+<meta name="twitter:site" content="@blog_UI/UX">
+<meta name="twitter:creator" content="@blog_UI/UX">
 
-//do something just on a category archive page }
-add_action('wp_head', 'wp_seohead'); //hook que lanza la funcion y carga el contenido en el head
-
-
-
-
-
-
-
-// Cosas SEO del Footer
-function wp_seofooter() {
-    //Esto se llama desde header.php
-$protocol = isset($_SERVER["HTTPS"]) ? 'https' : 'http';
-//$protocol = 'https://';
-$url_sin_string = $protocol . '://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER["REQUEST_URI"], '?');
-$term = get_queried_object();
-$proyectoname = "EMPRESANOMBRE";
-
-echo get_field( 'custom_meta_footer', $term );
-
-
-?>
-  <?php
-if ( is_home() || ( is_front_page() && is_page() ) ) {
-    // hacer algo si es la página principal
-    // No funciona por algún motivo extraño
-
-?>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "EMPRESANOMBRE",
-  "url": "<?php echo $url_sin_string;?>",
-  "logo": "<?php echo get_template_directory_uri(); ?>/images/logo.png"
-
-}
-</script>
-<?php
- ; }
- elseif ( is_singular() || is_category() ){
-    // hacer algo si es una publicación o categoría
-?>
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "<?php echo $url_sin_string;?>"
-    },
-    "headline": "<?php the_title(); ?>",
-    "image": [
-        "<?php the_field('open_graph', $term ); ?>"
-    ],
-    "datePublished": "<?php echo get_the_date('c'); ?>",
-    "dateModified": "<?php echo get_the_modified_date('c'); ?>",
-    "description": "<?php the_field("metadescription", $term ); ?>"
-}
-</script>
-<?php
-;}
-
- else {
-    // hacer otra cosa si no es una publicación, categoría o la página principal
-
-  }
-
-}
-//do something just on a category archive page }
-add_action('wp_footer', 'wp_seofooter'); //hook que lanza la funcion y carga el contenido en el head
-
-?>

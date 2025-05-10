@@ -14,9 +14,9 @@
                 <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
                     <h3>Categorias del Blog</h3>
                     <ul class="link-list">
-                        <li><a href="index.php">SEO</a></li>
-                        <li><a href="services.php">Diseño de Interfaces de Usuario (UI)</a></li>
-                        <li><a href="blog.php">Diseñ de Experiencia de Usuario (UX)</a></li>
+                        <li><a href="/articulo/category/seo/">SEO</a></li>
+                        <li><a href="/articulo/category/ui-design/">Diseño de Interfaces de Usuario (UI)</a></li>
+                        <li><a href="/articulo/category/ux-design/">Diseñ de Experiencia de Usuario (UX)</a></li>
                     </ul>
                 </div>
                 <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">

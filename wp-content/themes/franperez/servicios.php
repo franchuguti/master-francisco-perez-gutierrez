@@ -1,4 +1,5 @@
 <?php include_once 'components/header.php'; 
+/* Template Name: Servicios */  
 ?>
         <!-- Contenido Principal================================================== -->
         <section id="content" class="s-content">
@@ -6,10 +7,10 @@
                <section class="s-pageheader pageheader">
                     <div class="row">
                         <div class="column xl-12">
-                            <h1 class="page-title">
+                            <h2 class="page-title">
                                 <span class="page-title__small-type text-pretitle">Servicios</span>
                                 SEO, UX, UI, tú eliges
-                            </h1>                            
+                            </h2>                            
                         </div>
                     </div>
                </section> <!-- pageheader -->  
@@ -18,7 +19,7 @@
 
                     <div class="row pageintro">
                         <div class="column xl-6 lg-12">
-                            <h2 class="text-display-title">Auditorías SEO, UX y UI para un Rendimiento Óptimo</h2>
+                            <h1 class="text-display-title">Auditorías SEO, UX y UI para un Rendimiento Óptimo</h1>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">

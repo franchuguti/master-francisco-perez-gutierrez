@@ -85,7 +85,7 @@ $domblog->save('sitemap-posts.xml') or die('XML Create Error');
 /*
   $stylesheet = $dom->createElement('xml-stylesheet');
   $dom->appendChild($stylesheet);
-  $stylesheet ->setAttribute('href', 'wp-content/themes/sanchezdonate/core/css/stylesheet.xsl');
+  $stylesheet ->setAttribute('href', 'wp-content/plugins/Anibal-main/css/sitemap/stylesheet.xsl');
   $dom->appendChild($stylesheet);
   $stylesheet ->setAttribute('type', 'text/xsl');*/
 

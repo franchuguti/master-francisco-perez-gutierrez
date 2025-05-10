@@ -5,7 +5,7 @@
                         Transforma tu presencia online
                         </h2>
                         <p class="lead">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis rem, esse doloribus sint eaque at debitis enim vitae minus expedita ratione dignissimos sit nostrum optio sequi. Ipsa at beatae quam.
+                        Optimiza tu sitio web para buscadores y usuarios.<br> Mejora la velocidad, la experiencia y la visibilidad de tu proyecto digital con un enfoque SEO y UX profesional.
                         </p>
                         <a data-nosnippet href="/contacto" class="btn btn--primary">Reserva tu consulta SEO</a>
                     </div>
