@@ -20,32 +20,29 @@
     <link rel="icon" type="image/png" sizes="16x16" href="wp-content/themes/franperez/favicon-16x16.png">
     <link rel="manifest" href="/wp-content/themes/franperez/site.webmanifest">
 
-
-
-
     <?php wp_head(); ?>
 </head>
-        <header class="s-header" id="top">
-            <div class="row s-header__inner width-sixteen-col">
-                <div class="s-header__block">
-                    <div class="s-header__logo">
-                        <a class="logo" href="/">
-                            <img src="/wp-content/themes/franperez/images/francisco-perez-logo.svg" alt="Logotipo Francisco Perez SEO">
-                        </a>
-                    </div>
-                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
-                </div> <!-- end s-header__block -->
-                <nav class="s-header__nav">
-                    <ul class="s-header__menu-links">
-                        <li><a href="/servicios">Servicios</a></li>
-                        <li><a href="/blog">Blog</a></li>
-                        <li><a href="/visual-feed">Visual Feed</a></li>
-                        <li><a href="/sobre-mi">Sobre mi</a></li>
-                        <li><a href="/contacto">Contacto</a></li>
-                    </ul> <!-- s-header__menu-links -->
-                    <div class="s-header__contact">
-                        <a href="contact.html" class="btn btn--primary s-header__contact-btn">Trabajemos juntos</a>                        
-                    </div> 
-                </nav> 
-            </div> 
-        </header> 
+    <header class="s-header" id="top">
+        <div class="row s-header__inner width-sixteen-col">
+            <div class="s-header__block">
+                <div class="s-header__logo">
+                     <a class="logo" href="/">
+                        <img src="/wp-content/themes/franperez/images/francisco-perez-logo.svg" alt="Logotipo Francisco Perez SEO">
+                    </a>
+                </div>
+                <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+            </div> <!-- end s-header__block -->
+            <nav class="s-header__nav">
+                <ul class="s-header__menu-links">
+                    <li><a href="/servicios">Servicios</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/visual-feed">Visual Feed</a></li>
+                    <li><a href="/sobre-mi">Sobre mi</a></li>
+                    <li><a href="/contacto">Contacto</a></li>
+                </ul> <!-- s-header__menu-links -->
+                <div class="s-header__contact">
+                    <a href="contact.html" class="btn btn--primary s-header__contact-btn">Trabajemos juntos</a>                        
+                </div> 
+            </nav> 
+        </div> 
+    </header> 
