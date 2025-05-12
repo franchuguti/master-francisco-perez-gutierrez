@@ -174,10 +174,10 @@ add_shortcode('ultimos_posts_categoria', 'mostrar_ultimos_posts_categoria');
 ?>
 <?php
 // ==============================
-// Schema Personalizado para www.franperezg.com
+// Schema Personalizados
 // ==============================
 
-// Schema para la front page
+// Schema para la Front page
 function agregar_schema_general() {
     if (is_front_page()) { 
         ?>
@@ -203,9 +203,9 @@ function agregar_schema_general() {
         <?php
     }
 }
-add_action('wp_head', 'agregar_schema_general');
+add_action('wp_footer', 'agregar_schema_general');
 
-// Schema específico para el Blog y sus listados
+// Schema específico para el Blog
 function agregar_schema_blog() {
     if (is_page('blog')) { 
         ?>
@@ -227,11 +227,11 @@ function agregar_schema_blog() {
         <?php
     }
 }
-add_action('wp_head', 'agregar_schema_blog');
+add_action('wp_footer', 'agregar_schema_blog');
 
 // Schema específico para la página de Servicios
 function agregar_schema_servicios() {
-    if (is_page('servicios')) {  // Cambia 'servicios' si tu slug es diferente
+    if (is_page('servicios')) {  
         ?>
         <script type="application/ld+json">
         {
@@ -250,7 +250,7 @@ function agregar_schema_servicios() {
         <?php
     }
 }
-add_action('wp_head', 'agregar_schema_servicios');
+add_action('wp_footer', 'agregar_schema_servicios');
 
 function agregar_schema_post_individual_acf() {
     if (is_single() && get_post_type() === 'post') {
@@ -258,7 +258,6 @@ function agregar_schema_post_individual_acf() {
 
         // Obtener campos personalizados de ACF
         $schema_titulo = get_field('schema_titulo', $post->ID);
-        $schema_descripcion = get_field('schema_descripcion', $post->ID);
 
         // Si no hay campos personalizados, usa los datos por defecto
         if (empty($schema_titulo)) {
@@ -273,7 +272,7 @@ function agregar_schema_post_individual_acf() {
         {
           "@context": "https://schema.org",
           "@type": "BlogPosting",
-          "headline": "<?php echo esc_js($schema_titulo); ?>",
+          "headline": "<?php the_field( 'title' ); ?>",
           "url": "<?php echo esc_url(get_permalink($post->ID)); ?>",
           "description": "<?php the_field( 'metadesciption' ); ?>",
           "author": {
@@ -299,4 +298,4 @@ function agregar_schema_post_individual_acf() {
         <?php
     }
 }
-add_action('wp_head', 'agregar_schema_post_individual_acf');
+add_action('wp_footer', 'agregar_schema_post_individual_acf');
