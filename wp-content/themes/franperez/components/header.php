@@ -21,19 +21,7 @@
     <link rel="manifest" href="/wp-content/themes/franperez/site.webmanifest">
 
 
-    <!-- DATOS ENRIQUECIDOS SOBRE MI ================================================== -->
-    <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Francisco Perez",
-    "jobTitle": "SEO Specialist",
-    "url": "https://franperezg.com",
-    "sameAs": [
-      "https://www.linkedin.com/in/francisco-perez-seo-tecnico/"
-    ]
-  }
-  </script>
+
 
     <?php wp_head(); ?>
 </head>

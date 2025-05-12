@@ -20,7 +20,7 @@ License: GPLv2
 // Generador de Sitemaps por medio de template
 include 'includes/template-generator.php';
 // Permitir scripts en acf
-include 'includes/acf-ajuste.php';
+//include 'includes/acf-ajuste.php';
 // Generador de metaetiquetas
 //include 'includes/metas-seo.php';
 // Quitar mierdas varias de Wordpress
@@ -34,7 +34,7 @@ include 'includes/temp.php';
 // Editar woocommerce
 //include 'includes/woocommerce.php';
 // Eliminar metarobots
- include 'includes/del-metarobots.php';
+//include 'includes/del-metarobots.php';
 // Eliminar wp-json
 // include 'includes/del-wpjson.php';
 // Eliminar title
