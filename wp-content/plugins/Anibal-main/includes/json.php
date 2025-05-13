@@ -81,18 +81,7 @@ add_action('wp_footer', 'agregar_schema_servicios');
 function agregar_schema_post_individual_acf() {
     if (is_single() && get_post_type() === 'post') {
         global $post;
-
-        // Obtener campos personalizados de ACF
-        $schema_titulo = get_field('schema_titulo', $post->ID);
-
-        // Si no hay campos personalizados, usa los datos por defecto
-        if (empty($schema_titulo)) {
-            $schema_titulo = get_the_title($post->ID);
-        }
-        if (empty($schema_descripcion)) {
-            $schema_descripcion = wp_strip_all_tags(get_the_excerpt($post->ID));
-        }
-
+        
         ?>
         <script type="application/ld+json">
         {
