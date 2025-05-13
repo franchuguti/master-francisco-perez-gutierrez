@@ -17,6 +17,9 @@ License: GPLv2
 //Minimizar CSS y JS
 //include 'includes/minify-html.php';
 
+//Incluir Datos estructurados
+include 'includes/json.php';
+
 // Generador de Sitemaps por medio de template
 include 'includes/template-generator.php';
 // Permitir scripts en acf

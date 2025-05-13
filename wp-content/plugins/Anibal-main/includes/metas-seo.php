@@ -70,4 +70,3 @@ if (get_field('og_image' , $term)){
 
 <meta name="twitter:site" content="@blog_UI/UX">
 <meta name="twitter:creator" content="@blog_UI/UX">
-
