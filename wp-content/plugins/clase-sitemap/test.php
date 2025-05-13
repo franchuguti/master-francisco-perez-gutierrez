@@ -14,4 +14,8 @@ License: GPLv2
    include 'includes/del-sitemap.php';
    //Generar plantilla de Sitemap
    include 'includes/template-generator.php';
+
+    //Datos estructurados
+    include 'includes/json.php';
+
 ?>
