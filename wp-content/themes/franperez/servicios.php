@@ -23,7 +23,7 @@
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
-                                El SEO ya no es solo posicionamiento en buscadores, sino una combinación de estrategia técnica, experiencia de usuario y optimización de contenido. Como especialista en SEO técnico con formación en UX y UI, 
+                                SEO ya no es solo posicionamiento en buscadores, sino una combinación de estrategia técnica, experiencia de usuario y optimización de contenido. Como <strong>especialista en SEO técnico con formación en UX y UI</strong>, 
                                 ayudo a empresas y negocios online a mejorar su visibilidad, optimizar la experiencia de sus usuarios y aumentar conversiones.
                             </p>
                         </div>                       
@@ -70,12 +70,12 @@
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
-                                        Combino diseño y posicionamiento para maximizar la usabilidad y conversión sin perder visibilidad en buscadores.
+                                       Combino mi experiencia en UX/UI Design con el SEO Técnico para crear sitios que no solo se ven bien, sino que también posicionan y convierten. Diseños limpios, intuitivos y optimizados para buscadores desde la base.
                                         </p>
                                         <ul class="list-services">
-                                            <li>Optimización de la experiencia del usuario (UX) para retención y engagement</li>
-                                            <li>Diseño de interfaces intuitivas y accesibles sin afectar el SEO</li>
-                                            <li>Aplicación de principios CRO (Conversion Rate Optimization)</li>
+                                            <li>Creación de interfaces atractivas, minimalistas y centradas en el usuario.</li>
+                                            <li>Estructura visual y de navegación optimizada para SEO y experiencia de uso.</li>
+                                            <li>Implementación de buenas prácticas de accesibilidad, mobile first y velocidad web.</li>
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
@@ -112,12 +112,45 @@
                                 </div> <!-- end list-items__item -->
                                 <div class="grid-list-items__item list-items__item">
                                     <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Mejora y Optimización Avanzada de WordPress con PHP</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>Llevo WordPress al siguiente nivel gracias a mi experiencia en desarrollo PHP, optimizando el funcionamiento de tu web más allá de lo que permiten los plugins estándar. 
+                                            Desarrollo soluciones a medida para mejorar el SEO, la velocidad y la gestión de tu contenido.Trabajo junto a desarrolladores, product managers y equipos de contenido como partner estratégico de SEO.
+                                        </p>
+                                        <ul class="list-services">
+                                            <li>Desarrollo de funciones PHP personalizadas para optimizar URLs, meta datos y estructuras.</li>
+                                            <li>Eliminación de recursos innecesarios que ralentizan tu web (CSS, JS, feeds, emojis...).</li>
+                                            <li>Integración avanzada de Schema, campos personalizados y automatizaciones SEO en tu tema o plantilla.</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
+                                        <h3 class="list-items__item-title">Migraciones Web y Recuperación SEO</h3>
+                                    </div>
+                                    <div class="list-items__item-text">
+                                        <p>
+                                        Migra tu web sin perder el trabajo SEO que ya has conseguido. 
+                                        Te acompaño en todo el proceso para garantizar una transición segura que proteja tu tráfico, tu posicionamiento y tu negocio.
+                                        </p>
+
+                                        <ul class="list-services">
+                                            <li>Planificación estratégica de migraciones entre plataformas (Magento, WordPress, Shopify…).</li>
+                                            <li>Mapeo completo de redirecciones 301, revisión de URLs y enlaces internos.</li>
+                                            <li>Auditoría pre y post-lanzamiento para garantizar que el sitio siga siendo indexable, rápido y optimizado para SEO.</li>
+                                        </ul>
+                                    </div>
+                                </div> <!-- end list-items__item -->
+                                <div class="grid-list-items__item list-items__item">
+                                    <div class="list-items__item-header">
                                         <h3 class="list-items__item-title">Consultoría Técnica y Soporte para Equipos</h3>
                                     </div>
                                     <div class="list-items__item-text">
                                         <p>
                                         Trabajo junto a desarrolladores, product managers y equipos de contenido como partner estratégico de SEO.
                                         </p>
+
                                         <ul class="list-services">
                                             <li>Integración en equipos Agile y flujos de trabajo técnicos.</li>
                                             <li>Acompañamiento en sprints, QA y PRs desde la perspectiva SEO.</li>
@@ -125,72 +158,12 @@
                                         </ul>
                                     </div>
                                 </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">CMS</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Doloribus</li>
-                                            <li>Mollitia</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Conversion Rate Optimization</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores 
-                                        sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Cumque Ducimus</li>
-                                            <li>Maxime Vel</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-                                <div class="grid-list-items__item list-items__item">
-                                    <div class="list-items__item-header">
-                                        <h3 class="list-items__item-title">Web Design</h3>
-                                    </div>
-                                    <div class="list-items__item-text">
-                                        <p>
-                                        Aut asperiores sit mollitia. Rem neque et voluptatem eos quia sed eligendi et. Eaque velit eligendi ut 
-                                        magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit.
-                                        </p>
-
-                                        <ul class="list-services">
-                                            <li>Suscipit</li>
-                                            <li>Voluptatem</li>
-                                            <li>Eligendi Et</li>
-                                        </ul>
-                                    </div>
-                                </div> <!-- end list-items__item -->
-    
                             </div> <!-- grid-list-items -->
-                           
-
                         </div> <!-- end grid-block-->
                     </div> <!-- end row -->
-
                </section> <!-- pagecontent -->
-
         </section> <!-- s-content-->
-
         <section id="cta" class="s-cta">
               <?php include_once __DIR__ . '/components/cta.php'; ?>       
         </section> <!-- end s-cta -->
-
 <?php include_once __DIR__ . '/components/footer.php'; ?>

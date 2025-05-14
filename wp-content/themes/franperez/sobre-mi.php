@@ -8,10 +8,10 @@
                <section class="s-pageheader pageheader">
                     <div class="row">
                         <div class="column xl-12">
-                            <h1 class="page-title">
+                            <h2 class="page-title">
                                 <span class="page-title__small-type text-pretitle">Sobre mi</span>
                                 Hola, Soy Francisco
-                            </h1>
+                            </h2>
                             
                         </div>
                     </div>
@@ -21,7 +21,7 @@
 
                     <div class="row pageintro">
                         <div class="column xl-6 lg-12">
-                            <h2 class="text-display-title">Some inspiring words to describe yourself</h2>
+                            <h1 class="text-display-title">Transformo visitas en experiencias reales</h1>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
                             <p class="lead">
@@ -47,7 +47,7 @@
                     <div class="row width-narrower pagemain">
                         <div class="column xl-12"> 
 
-                            <h2>How I Got Here</h2>
+                            <h2>Cómo he llegado hasta aquí</h2>
                             <p>
                             Eaque temporibus culpa perferendis expedita assumenda mollitia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit
                             facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
@@ -56,7 +56,7 @@
                             Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
                             </p>
 
-                            <h2 class="u-add-bottom">My Values & Beliefs</h2>
+                            <h2 class="u-add-bottom">Mis principios y mi forma de trabajar</h2>
 
                             <div class="grid-list-items list-items">
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">

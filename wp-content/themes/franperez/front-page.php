@@ -59,27 +59,20 @@
                         </div> <!-- end section-header -->
                         <div class="s-about__content-main grid-section-split__primary">
                             <p class="attention-getter">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam 
-                            ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam 
-                            fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos 
-                            iure, eos consequatur est deleniti cum id aliquid neque.
+                            Ayudo a negocios y profesionales a conectar con sus clientes a través de estrategias que combinan SEO Técnico, 
+                            arquitectura web y diseño de experiencias digitales. Analizo cada proyecto desde la base para asegurar que las webs no solo se vean bien, 
+                            sino que también sean rápidas, accesibles y visibles en Google.
                             </p>
 
                             <p class="attention-getter">
-                            Autem tenetur commodi maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit.  
-                            Est eligendi fugit, facilis velit reiciendis iure laudantium. Praesentium repellat 
-                            corrupti dolor sit sint obcaecati. Modi aut quo molestiae a explicabo maiores necessitatibus 
-                            nemo repellendus architecto? Corrupti numquam ullam nostrum, eveniet at doloribus blanditiis 
-                            aliquid a est porro aspernatur pariatur culpa soluta nesciunt odio quasi maxime debitis illum.
+                            Trabajo junto a equipos de desarrollo, producto y contenido para que cada cambio, migración o rediseño se haga de forma segura, 
+                            sin perder tráfico ni posicionamiento. Desde la optimización avanzada de CMS como WordPress hasta el diseño de interfaces centradas en el usuario, 
+                            mi objetivo es que tu sitio sea competitivo y rentable.
                             </p>
 
                             <p class="attention-getter">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Repellendus iste ipsam quod repellat. Hic tempora ullam aperiam 
-                            ipsum optio magni vel inventore voluptatibus nisi maiores laboriosam 
-                            fuga iure, velit eligendi ab vero minima? Quae ducimus ab dignissimos 
-                            iure, eos consequatur est deleniti cum id aliquid neque.
+                            Si buscas llevar tu proyecto al siguiente nivel, optimizar tu web o mejorar tu presencia en buscadores, 
+                            aquí empieza el camino. Porque una web bonita que no se encuentra, no sirve.
                             </p>
                         </div> <!-- end s-about__content-main -->
                         <div class="s-about__content-btn grid-section-split__bottom">
@@ -106,7 +99,8 @@
                             SEO, UX, UI, tú eliges
                             </h2>     
                             <p class="lead">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit debitis quam dignissimos veritatis atque pariatur magnam obcaecati fugit reprehenderit vel numquam facere esse est deserunt, perferendis commodi voluptatem similique.
+                            SEO ya no es solo posicionamiento en buscadores, sino una combinación de estrategia técnica, experiencia de usuario y optimización de contenido. Como especialista en SEO técnico con formación en UX y UI, 
+                            ayudo a empresas y negocios online a mejorar su visibilidad, optimizar la experiencia de sus usuarios y aumentar conversiones.
                             </p>
                         </div> <!-- end section-header -->
                         <div class="s-expertise__content-main grid-section-split__primary">
