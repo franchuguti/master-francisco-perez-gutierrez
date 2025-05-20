@@ -4,11 +4,6 @@
 
     <!--- Meta Tags ================================================== -->
     <?php include_once get_template_directory() . '/components/metatags.php'; ?>
-    <!--- JS ================================================== -->
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
 
     <!-- CSS================================================== -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/vendor.css">
@@ -20,53 +15,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="wp-content/themes/franperez/favicon-16x16.png">
     <link rel="manifest" href="/wp-content/themes/franperez/site.webmanifest">
 
-        <!-- DATOS ESTRUCTURADOS================================================== -->
-        <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "WebSite",
-      "name": "Francisco Perez - SEO Specialist",
-      "url": "https://franperezg.com",
-      "description": "Sitio web de Francisco Perez, especialista en SEO técnico con enfoque en UX y rendimiento web.",
-      "inLanguage": "es",
-      "publisher": {
-        "@type": "Person",
-        "name": "Francisco Perez"
-      }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "CV Visual de Francisco Perez",
-      "description": "Este video muestra algunos de mis proyectos de UI/UX Design, con foco en procesos centrados en el usuario, prototipado y diseño visual. Una recopilación de casos reales que reflejan mi enfoque funcional y estético en experiencias digitales.",
-      "thumbnailUrl": [
-        "https://example.com/photos/1x1/photo.jpg",
-        "https://example.com/photos/4x3/photo.jpg",
-        "https://example.com/photos/16x9/photo.jpg"
-      ],
-      "uploadDate": "2024-03-31T08:00:00+08:00",
-      "duration": "PT1M54S",
-      "contentUrl": "https://vimeo.com/123456789",
-      "embedUrl": "https://player.vimeo.com/video/123456789",
-      "interactionStatistic": {
-        "@type": "InteractionCounter",
-        "interactionType": { "@type": "WatchAction" },
-        "userInteractionCount": 5647018
-      }
-    },
-    {
-      "@type": "Person",
-      "name": "Francisco Perez",
-      "jobTitle": "SEO Specialist",
-      "url": "https://franperezg.com",
-      "sameAs": [
-        "https://www.linkedin.com/in/francisco-perez-seo-tecnico/"
-      ]
-    }
-  ]
-}
-</script>
     <?php wp_head(); ?>
 </head>
         <header class="s-header">

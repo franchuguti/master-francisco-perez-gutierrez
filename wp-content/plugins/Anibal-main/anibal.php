@@ -15,7 +15,7 @@ License: GPLv2
 // include 'includes/del-coments.php';
 
 //Minimizar CSS y JS
-//include 'includes/minify-html.php';
+include 'includes/minify-html.php';
 
 //Incluir Datos estructurados
 include 'includes/json.php';

@@ -57,7 +57,6 @@
     </div> <!-- end page-wrap -->
     <!-- Java Script
     ================================================== -->
-    <script src="/wp-content/themes/franperez/js/plugins.js"></script>
     <script src="/wp-content/themes/franperez/js/main.js"></script>
 </body>
 <?php wp_footer(); ?>

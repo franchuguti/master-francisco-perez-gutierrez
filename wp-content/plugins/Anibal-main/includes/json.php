@@ -1,31 +1,27 @@
 <?php
-// ==============================
 // Schema Personalizados
-// ==============================
-
 // Schema para la Front page
 function agregar_schema_general() {
     if (is_front_page()) { 
         ?>
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          "name": "Fran Perez - SEO Técnico & UX/UI Design",
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Fran Perez - SEO Técnico & UX/UI Design",
+        "url": "https://www.franperezg.com",
+        "description": "Francisco Perez, especialista en SEO Técnico y UX/UI Design.",
+        "author": {
+          "@type": "Person",
+          "name": "Francisco Perez",
           "url": "https://www.franperezg.com",
-          "description": "Francisco Perez, especialista en SEO Técnico y UX/UI Design.",
-          "author": {
-            "@type": "Person",
-            "name": "Francisco Perez",
-            "url": "https://www.franperezg.com",
-            "sameAs": [
-              "https://www.linkedin.com/in/tuusuario",
-              "https://twitter.com/tuusuario"
-            ],
-            "jobTitle": "Especialista en SEO Técnico y UX/UI Design"
-          }
+          "sameAs": [
+            "https://www.linkedin.com/in/francisco-perez-seo-tecnico/"
+          ],
+          "jobTitle": "Especialista en SEO Técnico y UX/UI Design"
         }
-        </script>
+      }
+      </script>
         <?php
     }
 }
@@ -87,17 +83,18 @@ function agregar_schema_post_individual_acf() {
         {
           "@context": "https://schema.org",
           "@type": "BlogPosting",
-          "headline": "<?php the_field( 'title' ); ?>",
+          "headline": "<?php the_field('title'); ?>",
           "url": "<?php echo esc_url(get_permalink($post->ID)); ?>",
-          "description": "<?php the_field( 'metadesciption' ); ?>",
+          "description": "<?php the_field('metadesciption'); ?>",
+          "datePublished": "<?php echo get_the_date('c', $post->ID); ?>",
+          "dateModified": "<?php echo get_the_modified_date('c', $post->ID); ?>",
           "author": {
             "@type": "Person",
             "name": "Francisco Perez",
-            "url": "https://www.franperezg.com"
+            "url": "https://www.franperezg.com",
             "sameAs": [
-            "https://www.linkedin.com/in/tuusuario",
-            "https://twitter.com/tuusuario"
-        ],
+              "https://www.linkedin.com/in/francisco-perez-seo-tecnico/"
+            ]
           },
           "publisher": {
             "@type": "Person",
@@ -115,3 +112,33 @@ function agregar_schema_post_individual_acf() {
 }
 add_action('wp_footer', 'agregar_schema_post_individual_acf');
 ?>
+
+<?php
+// Schema específico para la página Sobre Mí
+
+function agregar_schema_sobre_mi() {
+    if (is_page('sobre-mi')) {  
+        ?>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Fran Perez - SEO Técnico & UX/UI Design",
+          "url": "https://www.franperezg.com",
+          "logo": "https://www.franperezg.com/path-to-your-logo.png",
+          "description": "Especialista en SEO Técnico, UX y UI que ayuda a negocios a mejorar su presencia digital.",
+          "sameAs": [
+            "https://www.linkedin.com/in/francisco-perez-seo-tecnico/"
+          ],
+          "founder": {
+            "@type": "Person",
+            "name": "Francisco Perez",
+            "jobTitle": "Especialista en SEO Técnico y UX/UI Design",
+            "url": "https://www.franperezg.com"
+          }
+        }
+        </script>
+        <?php
+    }
+}
+add_action('wp_footer', 'agregar_schema_sobre_mi');

@@ -30,7 +30,7 @@
                             <div class="row">
                                 <div class="column xl-6 md-12 contact-cta">     
                                     <p>
-                                    Estoy aquí para ayudarte a optimizar tu presencia online. Si buscas mejorar el rendimiento SEO de tu sitio web, 
+                                    Estoy aquí para ayudarte a optimizar tu presencia online.<br> Si buscas mejorar el rendimiento SEO de tu sitio web, 
                                     resolver problemas técnicos o simplemente necesitas asesoramiento profesional, no dudes en ponerte en contacto. 
                                     Cuéntame qué necesitas y te responderé lo antes posible para que juntos llevemos tu proyecto al siguiente nivel.
                                     </p>
