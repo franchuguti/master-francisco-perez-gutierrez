@@ -75,70 +75,6 @@
 
     }; // end ssMobileMenu
 
-
-   /* swiper
-    * ------------------------------------------------------ */ 
-    const ssSwiper = function() {
-
-        const homeSliderSwiper = new Swiper('.home-slider', {
-
-            slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                // when window width is > 400px
-                401: {
-                    slidesPerView: 1,
-                    spaceBetween: 20
-                },
-                // when window width is > 800px
-                801: {
-                    slidesPerView: 2,
-                    spaceBetween: 40
-                },
-                // when window width is > 1330px
-                1331: {
-                    slidesPerView: 3,
-                    spaceBetween: 48
-                },
-                // when window width is > 1773px
-                1774: {
-                    slidesPerView: 4,
-                    spaceBetween: 48
-                }
-            }
-        });
-
-        const pageSliderSwiper = new Swiper('.page-slider', {
-
-            slidesPerView: 1,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            breakpoints: {
-                // when window width is > 400px
-                401: {
-                    slidesPerView: 1,
-                    spaceBetween: 20
-                },
-                // when window width is > 800px
-                801: {
-                    slidesPerView: 2,
-                    spaceBetween: 40
-                },
-                // when window width is > 1240px
-                1241: {
-                    slidesPerView: 3,
-                    spaceBetween: 48
-                }
-            }
-        });
-
-    }; // end ssSwiper
-
     /* Back to Top
     * ------------------------------------------------------ */
     const ssBackToTop = function() {
@@ -210,7 +146,6 @@
 
         ssPreloader();
         ssMobileMenu();
-        ssSwiper();
         ssMoveTo();
 
     })();
