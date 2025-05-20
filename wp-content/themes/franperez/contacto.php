@@ -21,7 +21,7 @@
                             <h2 class="text-display-title">Llevemos tu negocio al siguiente nivel.</h2>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
-                            <img src="/wp-content/themes/franperez/images/thumbs/contact/seo-contacto.png" alt="Imagen de una ilustracion de SEO">
+                            <img src="/wp-content/themes/franperez/images/thumbs/contact/contacto-fran-perez.webp" alt="Imagen de una ilustracion de SEO">
                         </div>                       
                     </div> <!-- pageintro -->                      <!-- pagemedia --> 
                     <div class="row width-narrower pagemain">
@@ -31,7 +31,7 @@
                                 <div class="column xl-6 md-12 contact-cta">     
                                     <p>
                                     Estoy aquí para ayudarte a optimizar tu presencia online.<br> Si buscas mejorar el rendimiento SEO de tu sitio web, 
-                                    resolver problemas técnicos o simplemente necesitas asesoramiento profesional, no dudes en ponerte en contacto. 
+                                    resolver problemas técnicos o simplemente necesitas asesoramiento profesional, no dudes en ponerte en contacto. <br><br>
                                     Cuéntame qué necesitas y te responderé lo antes posible para que juntos llevemos tu proyecto al siguiente nivel.
                                     </p>
                                     <a href="mailto:hola@franperezg.com" class="btn btn--primary u-fullwidth contact-btn">

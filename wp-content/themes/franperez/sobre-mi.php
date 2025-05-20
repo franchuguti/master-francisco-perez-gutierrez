@@ -41,68 +41,65 @@
                             <div class="grid-list-items list-items">
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Consectetur</h6>
+                                        <h5 class="list-items__item-small-title">SEO con propósito, no por costumbre</h5>
                                     </div>
                                     <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusamus consectetur adipisicing elit excepturi corrupti 
-                                    nam quae exercitationem cupiditate, provident ipsa delectus vero possimus reprehenderit quas ut officiis tempora voluptatum 
-                                    quibusdam consectetur commodi.
+                                    No optimizo por inercia, sino con intención. Cada decisión técnica que tomo está respaldada por datos, 
+                                    lógica y una visión a largo plazo. Desde una auditoría hasta una migración, mi trabajo busca resultados medibles, no solo ticks en una checklist.
                                     </p>
                                 </div>
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Adipisicing</h6>
+                                        <h5 class="list-items__item-small-title">Transparencia en cada paso del proceso</h5>
                                     </div>
                                     <p> 
-                                    Molestias, autem impedit culpa dolores excepturi, quidem unde ducimus, rerum commodi deserunt earum, minus voluptatum.
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe doloremque provident quas quae exercitationem laboriosam.
+                                    Trabajo de forma cercana y clara. 
+                                    Desde el primer diagnóstico hasta la entrega final, sabrás qué hago, por qué lo hago y cómo impacta en tu web. Sin tecnicismos vacíos ni promesas infladas.
                                     </p>
                                 </div>
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Doloremque</h6>
+                                        <h5 class="list-items__item-small-title">Diseño orientado a usuarios reales</h5>
                                     </div>
                                     <p>
-                                    Mollitia accusamus consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisicing elit excepturi corrupti 
-                                    nam quae exercitationem cupiditate, provident ipsa delectus vero possimus reprehenderit quas ut officiis tempora voluptatum 
-                                    quibusdam consectetur commodi!
+                                    No diseño para máquinas, ni para clientes ideales imaginarios. 
+                                    Diseño para personas que navegan, buscan y deciden. Mi enfoque UI/UX parte de la empatía y se traduce en experiencias simples, claras y efectivas.
                                     </p>
                                 </div>
                                 <div class="grid-list-items__item list-items__item u-remove-bottom">
                                     <div class="list-items__item-header">
-                                        <h6 class="list-items__item-small-title">Assumenda</h6>
+                                        <h5 class="list-items__item-small-title">Eficiencia sin complicaciones</h5>
                                     </div>
                                     <p>
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe doloremque provident quas quae exercitationem laboriosam. 
-                                    Molestias, autem? Impedit culpa dolores excepturi, quidem unde ducimus, rerum commodi deserunt earum, minus voluptatum?
+                                    Creo en soluciones limpias, escalables y sostenibles. 
+                                    No sobrecargar el código, no depender de plugins innecesarios, no maquillar problemas. Una web debe ser rápida, estable y fácil de mantener.
                                     </p>
                                 </div>
                             </div> <!--grid-list-items -->
 
-                            <h2>Why Work With Me</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque temporibus culpa perferendis expedita assumenda mollitia magnam, 
-                            facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
-                            Distinctio obcaecati nesciunt asperiores dolorum tenetur voluptates, nemo alias doloremque. Quos cumque ipsum laudantium odio vero aut 
-                            odit nostrum aliquam? Nostrum in facilis, minus fuga quasi voluptas explicabo possimus incidunt, expedita tempora eius rem nobis sequi. 
-                            Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
-                            </p>
-
-                            <p>
-                            Quibusdam quis autem voluptatibus earum vel ex error ea magni. Rerum quam quos. Aut asperiores sit mollitia. Rem neque et voluptatem 
-                            eos quia sed eligendi et. Eaque velit eligendi ut magnam. Cumque ducimus laborum doloribus facere maxime vel earum quidem enim suscipit. 
-                            Numquam, corporis accusamus commodi saepe nostrum nesciunt nisi rem necessitatibus unde laboriosam molestias, quam ipsa voluptatum sed 
-                            ex cumque facilis assumenda maiores tempore reiciendis enim accusantium?
-                            </p>                   
-
-                            <h2>A Few More Words About Myself</h2>
-                            <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et assumenda debitis aut quidem ad voluptates quibusdam soluta temporibus, 
-                            eveniet nobis tempore sunt, provident sapiente accusamus dignissimos voluptatum fugiat nulla dicta nihil molestiae aspernatur error in. 
-                            Ut quo porro voluptatum delectus asperiores culpa non cum facere minima nesciunt assumenda, praesentium reprehenderit accusamus, quam 
-                            repellat nobis nemo? Ut magnam unde culpa pariatur possimus sunt fugiat ea maxime praesentium eaque quo odio sed eligendi harum dolor, 
-                            repellendus reprehenderit facere nihil quam. Saepe, magni.
-                            </p>
+                            <h2>¿Por qué trabajar conmigo?</h2>
+                                    <div class="list-items__item-header">
+                                    <h5 class="list-items__item-small-title">Visión técnica y creativa en equilibrio</h5>
+                                    </div>
+                                    <p>
+                                    No diseño para máquinas, ni para clientes ideales imaginarios. <br>
+                                    Diseño para personas que navegan, buscan y deciden. Mi enfoque UI/UX parte de la empatía y se traduce en experiencias simples, claras y efectivas.
+                                    </p>
+                                    <div class="list-items__item-header">
+                                    <h5 class="list-items__item-small-title">Comunicación clara y sin rodeos</h5>
+                                    </div>
+                                    <p>
+                                    No me gusta esconderme detrás de términos complejos ni informes confusos. <br>
+                                    Trabajo con total transparencia, explicando cada decisión y manteniéndote al tanto de los avances de forma sencilla y directa.
+                                    </p>     
+                                    <div class="list-items__item-header">
+                                    <h5 class="list-items__item-small-title">Experiencia demostrada en CMS y rendimiento web</h5>
+                                    </div>
+                                    <p>
+                                    He trabajado con WordPress, Shopify y sitios a medida. <br>
+                                    Conozco sus puntos débiles y cómo optimizarlos. 
+                                    Si tu web necesita velocidad, orden técnico o una arquitectura que funcione, estás en buenas manos.
+                                    </p>                 
 
                         </div> <!-- end grid-block-->
                     </div> <!-- end pagemain -->

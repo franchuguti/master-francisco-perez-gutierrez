@@ -42,6 +42,3 @@
             </nav> 
         </div> 
     </header> 
-
-
-    <link rel="preload" href="https://cdn-carlos.sanchezdonate.com/wp-content/themes/sanchezdonate/core/fonts/o-0IIpQoyXQa2RxT7-5r5TRA.woff2" as="font" type="font/woff2" crossorigin="">
