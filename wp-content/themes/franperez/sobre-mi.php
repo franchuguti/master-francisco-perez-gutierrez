@@ -24,23 +24,9 @@
                             <h1 class="text-display-title">Transformo visitas en experiencias reales</h1>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
-                            <p class="lead">
-                            AQUI VA UNA FOTO MIA 
-                            </p>
+                            <img src="/wp-content/themes/franperez/images/sobre-mi.webp" alt="Retrato ed Francisco Perez">
                         </div>                       
                     </div> <!-- end pageintro -->   
-                    
-                    <div class="row pagemedia">
-                        <d class="column xl-12">
-                            <figure class="page-media">                                
-                                <img src="images/thumbs/about/about-1200.jpg" 
-                                     srcset="images/thumbs/about/about-2400.jpg 2400w, 
-                                             images/thumbs/about/about-1200.jpg 1200w, 
-                                             images/thumbs/about/about-600.jpg 600w" sizes="(max-width: 2400px) 100vw, 2400px" alt="">
-                            </figure>
-                        </d>
-                    </div> <!-- end pagemedia -->
-
                     <div class="row width-narrower pagemain">
                         <div class="column xl-12"> 
 
