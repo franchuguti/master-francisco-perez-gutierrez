@@ -1,87 +1,4 @@
 @charset "UTF-8";
-/* =================================================================== 
- * Monica Main Stylesheet
- * Template Ver. 1.0.0
- * 12-13-2022
- * ------------------------------------------------------------------
- *
- * TOC:
- * # SETTINGS
- *		## fonts
- *    	## colors
- *	  	## spacing and typescale
- *		## grid variables
- * # CSS RESET
- * # GRID
- *		## extra large devices
- *		## large devices
- *		## medium devices 
- *		## tablet devices
- *		## mobile devices
- *		## small mobile devices
- *		## additional column stackpoints 
- * # BASE SETUP
- * # UTILITY CLASSES
- * # TYPOGRAPHY 
- *		## additional typography & helper classes
- *		## lists
- *		## media 
- *		## spacing
- * # PRELOADER
- *		## page loaded
- * # FORM 
- *		## style placeholder text
- *		## change autocomplete styles in Chrome
- * # BUTTONS
- * # TABLE
- * # COMPONENTS
- *		## pagination 
- *		## alert box 
- *		## skillbars
- *		## stats tabs
- * # PROJECT-WIDE SHARED STYLES
- *		## list items
- *		## social list
- *		## blog card
- *		## testimonials
- *		## swiper overrides
- * # GRID-BASED LAYOUTS
- *		## grid block
- *		## list grid
- * # PAGE WRAP
- * # SITE HEADER
- *		## logo
- *		## main navigation
- *		## mobile menu toggle
- * # PAGEHEADER & PAGECONTENT
- * # INTRO
- *		## intro content
- *		## intro scroll down
- *		## intro transitions
- * # ABOUT
- * # EXPERTISE
- * # CLIENTS
- *		## clients list
- * # CTA
- * # JOURNAL
- * # FOOTER
- *		## newsletter
- *		## copyright
- *		## go top
- * # BLOG STYLES 
- * # PAGE STYLES 
- *		## services page
- *		## contact page
- *
- * ------------------------------------------------------------------ */
-
-
-/* ===================================================================
- * # SETTINGS
- *
- *
- * ------------------------------------------------------------------- */
-
 /* ------------------------------------------------------------------- 
  * ## fonts 
  * ------------------------------------------------------------------- */
@@ -91,8 +8,7 @@
 	--font-1: "Roboto Flex", sans-serif;
 	--font-2: "DM Serif Display", Serif;
 
-  /* monospace
-   */
+  /* monospace */
 	--font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
 
@@ -194,12 +110,6 @@
 	--color-btn-stroke-text        : var(--color-text-dark);
 	--color-btn-stroke-hover       : var(--color-text-dark);
 	--color-btn-stroke-hover-text  : var(--color-white);
-
-  /* preloader
-   */
-	--color-preloader-bg           : var(--color-2-dark);
-	--color-loader                 : var(--color-white);
-	--color-loader-light           : var(--color-2-light);
 
   /* others
    */

@@ -19,7 +19,7 @@
                             <h2 class="text-display-title">👾 Game over. La página que buscas ha sido eliminada por un boss final.</h2>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
-                        <img lass="lead" src="/images/icons/final-boss.webp" width="240" alt="jefe final de Mario Bross">
+                        <img lass="lead" src="/wp-content/themes/franperez/images/icons/final-boss.webp" width="240" alt="jefe final de Mario Bross">
                         </div>                       
                     </div> <!-- end pageintro -->   
     <!-- Java Script

@@ -4,6 +4,9 @@
     <!--- Meta Tags ================================================== -->
     <?php include_once get_template_directory() . '/components/metatags.php'; ?>
 
+    <!-- Preload de la fuente -->
+    <link rel="preload" href="/fonts/roboto-flex.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="/fonts/dm-serif-display.woff" as="font" type="font/woff" crossorigin="anonymous">
     <!-- CSS ================================================== -->
      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css">
     
@@ -39,3 +42,6 @@
             </nav> 
         </div> 
     </header> 
+
+
+    <link rel="preload" href="https://cdn-carlos.sanchezdonate.com/wp-content/themes/sanchezdonate/core/fonts/o-0IIpQoyXQa2RxT7-5r5TRA.woff2" as="font" type="font/woff2" crossorigin="">
