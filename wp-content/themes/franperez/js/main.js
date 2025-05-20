@@ -3,14 +3,6 @@
 
     'use strict';
 
-    const cfg = {
-
-        // MailChimp URL
-        mailChimpURL : 'https://facebook.us1.list-manage.com/subscribe/post?u=1abf75f6981256963a47d197a&amp;id=37c6d8f4d6' 
-
-    };
-
-
    /* preloader
     * -------------------------------------------------- */
     const ssPreloader = function() {
