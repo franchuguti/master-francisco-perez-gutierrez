@@ -172,3 +172,11 @@ function mostrar_ultimos_posts_categoria() {
 add_shortcode('ultimos_posts_categoria', 'mostrar_ultimos_posts_categoria');
 
 ?>
+<?php
+function cargar_preload_fuentes() {
+    ?>
+    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/fonts/roboto-flex.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="<?php echo get_template_directory_uri(); ?>/fonts/dm-serif-display.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <?php
+}
+add_action('wp_head', 'cargar_preload_fuentes', 1); // Prioridad 1 = antes que estilos

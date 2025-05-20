@@ -4,9 +4,25 @@
  * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap");
 
+@font-face {
+  font-family: 'Roboto Flex';
+  src: url('/wp-content/themes/franperez/fonts/roboto-flex.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block; /* Evita el salto de fuente */
+}
+
+@font-face {
+  font-family: 'DM Serif Display';
+  src: url('/wp-content/themes/franperez/fonts/dm-serif-display.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
 :root {
-	--font-1: "Roboto Flex", sans-serif;
-	--font-2: "DM Serif Display", Serif;
+  --font-1: 'Roboto Flex', sans-serif;
+  --font-2: 'DM Serif Display', serif;
 
   /* monospace */
 	--font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;

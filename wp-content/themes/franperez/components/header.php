@@ -5,8 +5,8 @@
     <?php include_once get_template_directory() . '/components/metatags.php'; ?>
 
     <!-- Preload de la fuente -->
-    <link rel="preload" href="/fonts/roboto-flex.woff" as="font" type="font/woff" crossorigin="anonymous">
-    <link rel="preload" href="/fonts/dm-serif-display.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="/wp-content/themes/franperez/fonts/roboto-flex.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="/wp-content/themes/franperez/fonts/dm-serif-display.woff" as="font" type="font/woff" crossorigin="anonymous">
     <!-- CSS ================================================== -->
      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css">
     
