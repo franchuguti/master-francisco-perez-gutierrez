@@ -4,19 +4,16 @@
         <!-- # site main content
         ================================================== -->
         <section id="content" class="s-content">
-
                <section class="s-pageheader pageheader">
                     <div class="row">
                         <div class="column xl-12">
                             <h2 class="page-title">
                                 <span class="page-title__small-type text-pretitle">Sobre mi</span>
                                 Hola, Soy Francisco
-                            </h2>
-                            
+                            </h2>                            
                         </div>
                     </div>
                </section> <!-- end pageheader --> 
-
                <section class="s-pagecontent pagecontent">
 
                     <div class="row pageintro">

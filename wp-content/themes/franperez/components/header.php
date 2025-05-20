@@ -4,12 +4,6 @@
     <!--- Meta Tags ================================================== -->
     <?php include_once get_template_directory() . '/components/metatags.php'; ?>
 
-    <!--- JS ================================================== -->
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
-
     <!-- CSS ================================================== -->
      <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/styles.css">
     

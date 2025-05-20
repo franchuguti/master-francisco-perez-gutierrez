@@ -3,14 +3,6 @@
 /* Template Name: Home */  
 ?>
 <body id="top">
-    <!-- preloader================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-fade">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
     <!-- page wrap================================================== -->
     <div id="page" class="s-pagewrap ss-home">
         <!-- # Contenido Principal ================================================== -->
