@@ -27,7 +27,7 @@ include 'includes/template-generator.php';
 // Generador de metaetiquetas
 //include 'includes/metas-seo.php';
 // Quitar mierdas varias de Wordpress
-include 'includes/temp.php';
+//include 'includes/temp.php';
 // Creación de Custom post tipes
 // include 'includes/custom-post-type.php';
 // Poder duplicar post
