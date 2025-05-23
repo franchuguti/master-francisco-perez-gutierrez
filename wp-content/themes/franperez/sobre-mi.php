@@ -29,11 +29,11 @@
 
                             <h2>Cómo he llegado hasta aquí</h2>
                             <p>
-                            Eaque temporibus culpa perferendis expedita assumenda mollitia magnam. Lorem ipsum dolor sit amet consectetur adipisicing elit
-                            facilis voluptates voluptatum animi numquam quas ea praesentium quaerat maxime sunt odit inventore itaque est et autem sequi nulla. 
-                            Distinctio obcaecati nesciunt asperiores dolorum tenetur voluptates, nemo alias doloremque. Quos cumque ipsum laudantium odio vero 
-                            aut odit nostrum aliquam? Nostrum in facilis, minus fuga quasi voluptas explicabo possimus incidunt, expedita tempora eius rem nobis sequi. 
-                            Doloribus esse sint suscipit quam nisi blanditiis voluptate explicabo.
+                            Desde siempre me ha interesado la tecnología, lo visual y el comportamiento humano. 
+                            Esa mezcla me llevó a estudiar un Máster en Fotografía Publicitaria y de Moda, y a mudarme a Londres en 2016 para trabajar en campañas creativas junto a fotógrafos y marcas.
+                            Allí descubrí el diseño UX/UI y su capacidad para conectar diseño, psicología y funcionalidad. 
+                            Decidí formarme en esta disciplina con un Grado en UX/UI Design en Londres y, más adelante, completé mi perfil con un Máster en SEO Técnico de Carlos Sanchez Donate - Asdrubal Academy.
+                            Hoy combino ambos mundos —diseño centrado en el usuario y optimización técnica— para ayudar a negocios a mejorar su presencia digital con sentido, estrategia y resultados.
                             </p>
 
                             <h2 class="u-add-bottom">Mis principios y mi forma de trabajar</h2>

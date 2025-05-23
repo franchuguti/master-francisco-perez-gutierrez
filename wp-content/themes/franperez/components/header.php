@@ -37,7 +37,7 @@
                     <li><a href="/contacto">Contacto</a></li>
                 </ul> <!-- s-header__menu-links -->
                 <div class="s-header__contact">
-                    <a href="c/contacto" class="btn btn--primary s-header__contact-btn">Trabajemos juntos</a>                        
+                    <a href="/contacto" class="btn btn--primary s-header__contact-btn">Trabajemos juntos</a>                        
                 </div> 
             </nav> 
         </div> 
