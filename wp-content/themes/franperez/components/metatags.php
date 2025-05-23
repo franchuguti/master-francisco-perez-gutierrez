@@ -25,18 +25,18 @@ if (get_field('twitter_title' , $term)){
 elseif (get_field('og_title' , $term)) {the_field( 'og_title' , $term);}
 else{the_field('title' , $term);}?>">
 
-<meta name="desciption" content="<?php the_field( 'metadesciption' ,$term ); ?>">
+<meta name="description" content="<?php the_field( 'metadescription' ,$term ); ?>">
 
-<meta name="og:desciption" content="<?php 
+<meta name="og:description" content="<?php 
 if (get_field('og_description' , $term)){
     the_field( 'og_description' , $term );
-} else {the_field( 'metadesciption' , $term);} ?>">
+} else {the_field( 'metadescription' , $term);} ?>">
 
-<meta name="twitter:desciption" content="<?php 
+<meta name="twitter:description" content="<?php 
 if (get_field('twitter_description' , $term)){
     the_field('twitter_description' , $term);} 
 elseif (get_field('og_description' , $term)) {the_field( 'og_description' , $term);}
-else{the_field('metadesciption' , $term);}?>">
+else{the_field('metadescription' , $term);}?>">
 
 <link rel="canonical" href="<?php if ( get_field( 'canonical', $term ) ){the_field( 'canonical', $term);} else{echo $url_sin_string;}?>"/>
 
