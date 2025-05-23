@@ -21,7 +21,7 @@
                         </div> <!-- s-intro__content-text -->
                         <div class="s-intro__content-media"> 
                             <div class="s-intro__content-media-inner">                               
-                                <img src="/wp-content/themes/franperez/images/Francisco-perez-portrait.webp" alt="Retrato ed Francisco Perez">
+                                <img src="/wp-content/themes/franperez/images/Francisco-perez-portrait.webp" alt="Retrato ed Francisco Perez" title="Retrato ed Francisco Perez">
                                 <div class="lines">                               
                                     <span></span>                                  
                                 </div>
@@ -34,7 +34,7 @@
             <section id="about" class="s-about target-section">
                 <div class="row s-about__content width-sixteen-col">
                     <div class="column grid-block grid-section-split">
-                        <img src="/wp-content/themes/franperez/images/geometric_shape.svg" alt="" class="s-about__content-imgbg">
+                        <img src="/wp-content/themes/franperez/images/geometric_shape.svg" alt="Geometric shapes" class="s-about__content-imgbg" title="Geometric shapes">
                         <div class="section-header grid-section-split__header">
                             <div class="text-pretitle">Sobre mi</div>                           
                             <h2 class="text-display-title">
@@ -95,11 +95,11 @@
                                         <h3 class="list-items__item-title">Auditoría SEO Técnica</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        Detecto de forma minuciosa los cuellos de botella técnicos que impiden que tu web rinda al máximo en Google. 
-                                        Mediante herramientas especializadas y mi experiencia en arquitectura web, realizo un análisis profundo de la 
-                                        salud técnica de tu sitio para establecer un plan de acción claro y eficaz.
-                                        </p>
+                                        <ul class="list-services">
+                                            <li>Análisis de rastreo e indexación para detectar errores que impiden la visibilidad en buscadores.</li>
+                                            <li>Identificación de problemas como enlaces rotos, redirecciones mal implementadas, thin content o páginas huérfanas./li>
+                                            <li>Entrega de un informe detallado y priorizado con recomendaciones técnicas accionables.</li>
+                                        </ul>
                                     </div>
                                 </div> <!-- list-item -->
                                 <div class="grid-list-items__item list-items__item">
@@ -107,11 +107,11 @@
                                         <h3 class="list-items__item-title">Optimización de Velocidad y Core Web Vitals</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        La velocidad de carga y la experiencia del usuario son factores clave tanto para SEO como para la conversión. 
-                                        Me encargo de optimizar tu sitio para que cumpla con los estándares de Google en cuanto a rendimiento, 
-                                        asegurando una navegación fluida, rápida y efectiva.
-                                        </p>
+                                        <ul class="list-services">
+                                            <li>Diagnóstico técnico de Core Web Vitals y PageSpeed Insights.</li>
+                                            <li>Optimización de recursos como imágenes, scripts, fuentes, caché del navegador y lazy loading.</li>
+                                            <li>Implementación de buenas prácticas como preconexión, minificación de código y carga diferida.</li>
+                                        </ul>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                                 <div class="grid-list-items__item list-items__item">
@@ -119,11 +119,11 @@
                                         <h3 class="list-items__item-title">Arquitectura Web y Estructura de URLs</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        Diseñar una arquitectura sólida y escalable es clave para que tu sitio crezca sin perder el control SEO. 
-                                        Trabajo contigo para organizar la estructura de tu web con una lógica jerárquica, orientada tanto al 
-                                        usuario como a los motores de búsqueda.
-                                        </p>
+                                        <ul class="list-services">
+                                            <li>Definición de una arquitectura SEO-friendly que mejora la rastreabilidad y reduce la canibalización.</li>
+                                            <li>Estructuración clara de URLs, breadcrumbs, categorías y filtros para una navegación eficiente.</li>
+                                            <li>Gestión avanzada de contenido duplicado, paginaciones y facetas con parámetros.</li>
+                                        </ul>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                                 <div class="grid-list-items__item list-items__item">
@@ -131,10 +131,11 @@
                                         <h3 class="list-items__item-title">Diseño UX/UI Centrado en SEO</h3>
                                     </div>
                                     <div class="grid-list-items__text list-items__item-text">
-                                        <p>
-                                        Combino diseño y posicionamiento para maximizar la usabilidad y 
-                                        conversión sin perder visibilidad en buscadores. Diseño web intuitivas y visualmente atractivas, como por ejemplo esta.
-                                        </p>
+                                        <ul class="list-services">
+                                            <li>Creación de interfaces atractivas, minimalistas y centradas en el usuario.</li>
+                                            <li>Estructura visual y de navegación optimizada para SEO y experiencia de uso.</li>
+                                            <li>Implementación de buenas prácticas de accesibilidad, mobile first y velocidad web.</li>
+                                        </ul>
                                     </div>
                                 </div> <!-- list-expertise__item -->
                             </div> <!-- grid-list-items -->

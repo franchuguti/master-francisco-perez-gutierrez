@@ -21,7 +21,7 @@
                             <h1 class="text-display-title">Transformo visitas en experiencias reales</h1>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
-                            <img src="/wp-content/themes/franperez/images/sobre-mi.webp" alt="Retrato ed Francisco Perez">
+                            <img src="/wp-content/themes/franperez/images/sobre-mi.webp" alt="Retrato ed Francisco Perez" title="Retrato ed Francisco Perez">
                         </div>                       
                     </div> <!-- end pageintro -->   
                     <div class="row width-narrower pagemain">

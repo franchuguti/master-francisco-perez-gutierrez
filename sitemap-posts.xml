@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="https://ejemplo.test/wp-content/plugins/Anibal-main/css/sitemap/stylesheet.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ejemplo.test/articulo/diferencias-ux-ui/</loc>
+    <lastmod>2025-05-23</lastmod>
+  </url>
+  <url>
+    <loc>https://ejemplo.test/articulo/seo-y-ux-combinados/</loc>
+    <lastmod>2025-05-23</lastmod>
+  </url>
+</urlset>

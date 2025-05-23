@@ -21,7 +21,7 @@
                             <h2 class="text-display-title">Llevemos tu negocio al siguiente nivel.</h2>
                         </div>
                         <div class="column xl-6 lg-12 u-flexitem-x-right">
-                            <img src="/wp-content/themes/franperez/images/thumbs/contact/contacto-fran-perez.webp" alt="Imagen de una ilustracion de SEO">
+                            <img src="/wp-content/themes/franperez/images/thumbs/contact/contacto-fran-perez.webp" alt="Imagen de una ilustracion de SEO" title="Imagen de una ilustracion de SEO">
                         </div>                       
                     </div> <!-- pageintro -->                      <!-- pagemedia --> 
                     <div class="row width-narrower pagemain">

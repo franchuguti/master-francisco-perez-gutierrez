@@ -23,7 +23,7 @@
             <div class="s-header__block">
                 <div class="s-header__logo">
                      <a class="logo" href="/">
-                        <img src="/wp-content/themes/franperez/images/francisco-perez-logo.svg" alt="Logotipo Francisco Perez SEO">
+                        <img src="/wp-content/themes/franperez/images/francisco-perez-logo.svg" alt="Logotipo Francisco Perez SEO" title="Logotipo Francisco Perez SEO">
                     </a>
                 </div>
                 <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
@@ -32,7 +32,7 @@
                 <ul class="s-header__menu-links">
                     <li><a href="/servicios">Servicios</a></li>
                     <li><a href="/blog">Blog</a></li>
-                    <li><a href="/visual-feed">Visual Feed</a></li>
+                   <!--  <li><a href="/visual-feed">Visual Feed</a></li>-->
                     <li><a href="/sobre-mi">Sobre mi</a></li>
                     <li><a href="/contacto">Contacto</a></li>
                 </ul> <!-- s-header__menu-links -->

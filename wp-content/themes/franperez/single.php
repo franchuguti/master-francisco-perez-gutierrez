@@ -36,7 +36,7 @@
                 </div>
             </div> <!-- end entry__header --> 
             <div class="s-pagecontent entry__content">
-                <div class="row entry__media">
+                <div class="row entry__primary width-narrower">
                     <div class="column xl-12">
                         <figure class="featured-image">
                             <?php $imagenuno = get_field( 'imagenuno' ); ?>
@@ -58,7 +58,7 @@
                                     <figure class="featured-image">
                                         <?php $imagendos = get_field( 'imagendos' ); ?>
                                         <?php if ( $imagendos ) : ?>
-                                            <img src="<?php echo esc_url( $imagendos['url'] ); ?>" alt="<?php echo esc_attr( $imagendos['alt'] ); ?>" />
+                                            <img src="<?php echo esc_url( $imagendos['url'] ); ?>" alt="<?php echo esc_attr( $imagendos['alt'] ); ?>" loading="lazy" />
                                         <?php endif; ?>
                                     </figure>
                                 </div>
