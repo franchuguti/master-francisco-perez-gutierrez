@@ -31,7 +31,7 @@
             <nav class="s-header__nav">
                 <ul class="s-header__menu-links">
                     <li><a href="/servicios">Servicios</a></li>
-                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/wp-content/themes//franperez/blog.php">Blog</a></li>
                    <!--  <li><a href="/visual-feed">Visual Feed</a></li>-->
                     <li><a href="/sobre-mi">Sobre mi</a></li>
                     <li><a href="/contacto">Contacto</a></li>
